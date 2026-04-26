@@ -90,3 +90,45 @@ Tokyo Metro Yurakucho Line: 24
 - If `--origin-json` is not supplied, the script computes an origin from subway data bounds. This is good for subway-only preview, but not exact overlay with a building STL.
 - For final overlay, pass the same origin JSON used by the building model.
 
+## Map-aligned origin
+
+For map-data alignment, use:
+
+```text
+origin_epsg6677_zero.json
+```
+
+This fixes the STL origin to EPSG:6677 zero:
+
+```text
+stl_x = x_epsg6677 * scale
+stl_y = y_epsg6677 * scale
+stl_z = z_m * scale * vertical_exaggeration
+```
+
+The Tokyo 23 wards map-origin model was generated with:
+
+```bash
+/root/.venvs/tokyo-stl-models/bin/python subway_n02_rough_model_standalone.py \
+  --n02-zip data/n02/N02-24_GML.zip \
+  --normalized-out-dir normalized_subway_n02_tokyo23_map_origin \
+  --origin-json origin_epsg6677_zero.json \
+  --out output/subway_n02_tokyo23_map_origin_with_shafts_round.stl \
+  --tube-out output/subway_n02_tokyo23_map_origin_all_lines_round.stl \
+  --shaft-out output/subway_n02_tokyo23_map_origin_station_shafts_round.stl \
+  --by-line-dir output/subway_n02_tokyo23_map_origin_by_line_round \
+  --west 139.56 \
+  --east 139.93 \
+  --south 35.52 \
+  --north 35.82 \
+  --clip-mode bbox \
+  --scale 0.0005 \
+  --tube-radius-m 10.0 \
+  --shaft-radius-m 16.0 \
+  --tube-sides 16 \
+  --shaft-sides 16 \
+  --min-point-spacing-m 50.0 \
+  --vertical-exaggeration 2.0 \
+  --station-shafts \
+  --split-by-line
+```
