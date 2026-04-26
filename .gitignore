@@ -1,0 +1,27 @@
+# Generated meshes and exports
+*.stl
+*.obj
+*.ply
+*.3mf
+
+# Downloaded and extracted PLATEAU data
+*.zip
+data/*
+!data/.gitkeep
+output/*
+!output/.gitkeep
+
+# CAD/editor temporary files
+*.tmp
+*.bak
+*.autosave
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python local environment
+.venv/
+__pycache__/
+*.pyc

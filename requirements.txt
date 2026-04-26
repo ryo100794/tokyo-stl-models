@@ -1,0 +1,7 @@
+lxml
+numpy
+pyproj
+requests
+shapely
+tqdm
+trimesh
