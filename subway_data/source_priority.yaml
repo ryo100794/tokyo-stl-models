@@ -1,0 +1,11 @@
+position_priority:
+- manual_csv
+- gtfs
+- n02
+- projected_to_line
+depth_priority:
+- official
+- literature
+- secondary
+- estimated
+- unknown

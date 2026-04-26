@@ -1,0 +1,183 @@
+routes:
+- canonical_operator: Tokyo Metro
+  canonical_line: Ginza Line
+  default_depth_m: 12.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Ginza Line
+    - Tokyo Metro Ginza Line
+    - Ginza
+    - G
+- canonical_operator: Tokyo Metro
+  canonical_line: Marunouchi Line
+  default_depth_m: 18.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Marunouchi Line
+    - Tokyo Metro Marunouchi Line
+    - Marunouchi
+    - M
+- canonical_operator: Tokyo Metro
+  canonical_line: Hibiya Line
+  default_depth_m: 18.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Hibiya Line
+    - Tokyo Metro Hibiya Line
+    - Hibiya
+    - H
+- canonical_operator: Tokyo Metro
+  canonical_line: Tozai Line
+  default_depth_m: 20.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Tozai Line
+    - Tokyo Metro Tozai Line
+    - Tozai
+    - T
+- canonical_operator: Tokyo Metro
+  canonical_line: Chiyoda Line
+  default_depth_m: 23.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Chiyoda Line
+    - Tokyo Metro Chiyoda Line
+    - Chiyoda
+    - C
+- canonical_operator: Tokyo Metro
+  canonical_line: Yurakucho Line
+  default_depth_m: 25.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Yurakucho Line
+    - Tokyo Metro Yurakucho Line
+    - Yurakucho
+    - Y
+- canonical_operator: Tokyo Metro
+  canonical_line: Hanzomon Line
+  default_depth_m: 28.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Hanzomon Line
+    - Tokyo Metro Hanzomon Line
+    - Hanzomon
+    - Z
+- canonical_operator: Tokyo Metro
+  canonical_line: Namboku Line
+  default_depth_m: 28.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Namboku Line
+    - Tokyo Metro Namboku Line
+    - Namboku
+    - N
+- canonical_operator: Tokyo Metro
+  canonical_line: Fukutoshin Line
+  default_depth_m: 30.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Tokyo Metro
+    - Tokyo Subway
+    - Tokyo Metro Co Ltd
+    line:
+    - Fukutoshin Line
+    - Tokyo Metro Fukutoshin Line
+    - Fukutoshin
+    - F
+- canonical_operator: Toei Subway
+  canonical_line: Asakusa Line
+  default_depth_m: 20.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Toei Subway
+    - Tokyo Metropolitan Bureau of Transportation
+    - Toei
+    line:
+    - Asakusa Line
+    - Toei Asakusa Line
+    - Asakusa
+    - A
+- canonical_operator: Toei Subway
+  canonical_line: Mita Line
+  default_depth_m: 24.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Toei Subway
+    - Tokyo Metropolitan Bureau of Transportation
+    - Toei
+    line:
+    - Mita Line
+    - Toei Mita Line
+    - Mita
+    - I
+- canonical_operator: Toei Subway
+  canonical_line: Shinjuku Line
+  default_depth_m: 25.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Toei Subway
+    - Tokyo Metropolitan Bureau of Transportation
+    - Toei
+    line:
+    - Shinjuku Line
+    - Toei Shinjuku Line
+    - Shinjuku
+    - S
+- canonical_operator: Toei Subway
+  canonical_line: Oedo Line
+  default_depth_m: 35.0
+  tube_radius: 1.0
+  aliases:
+    operator:
+    - Toei Subway
+    - Tokyo Metropolitan Bureau of Transportation
+    - Toei
+    line:
+    - Oedo Line
+    - Toei Oedo Line
+    - Oedo
+    - E

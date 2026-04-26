@@ -10,6 +10,8 @@ data/*
 !data/.gitkeep
 output/*
 !output/.gitkeep
+normalized_subway/
+*.ply
 
 # CAD/editor temporary files
 *.tmp

@@ -687,6 +687,11 @@ def add_common_bbox_args(parser: argparse.ArgumentParser) -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
+    from subway_pipeline import command_subway_init
+    from subway_pipeline import command_subway_normalize
+    from subway_pipeline import command_subway_report
+    from subway_pipeline import command_subway_rough_stl
+
     parser = argparse.ArgumentParser(description="Convert PLATEAU CityGML buildings to STL.")
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -713,6 +718,49 @@ def build_parser() -> argparse.ArgumentParser:
     p_stl.add_argument("--in-memory", action="store_true")
     p_stl.add_argument("--repair", action="store_true")
     p_stl.set_defaults(func=command_stl)
+
+    p_subway_init = sub.add_parser("subway-init", help="create subway data templates")
+    p_subway_init.add_argument("--out-dir", required=True)
+    p_subway_init.add_argument("--sample", action=argparse.BooleanOptionalAction, default=True)
+    p_subway_init.set_defaults(func=command_subway_init)
+
+    p_subway_norm = sub.add_parser("subway-normalize", help="normalize subway source data")
+    p_subway_norm.add_argument("--railway-root", default=None)
+    p_subway_norm.add_argument("--gtfs-dir", action="append", default=[])
+    p_subway_norm.add_argument("--lines-yaml", required=True)
+    p_subway_norm.add_argument("--depth-csv", required=True)
+    p_subway_norm.add_argument("--aliases-csv", default=None)
+    p_subway_norm.add_argument("--out-dir", required=True)
+    p_subway_norm.add_argument("--west", type=float, default=139.655)
+    p_subway_norm.add_argument("--east", type=float, default=139.735)
+    p_subway_norm.add_argument("--south", type=float, default=35.640)
+    p_subway_norm.add_argument("--north", type=float, default=35.715)
+    p_subway_norm.add_argument("--clip-mode", choices=("bbox", "all"), default="bbox")
+    p_subway_norm.set_defaults(func=command_subway_normalize)
+
+    p_subway_stl = sub.add_parser("subway-rough-stl", help="create rough subway STL")
+    p_subway_stl.add_argument("--normalized-dir", required=True)
+    p_subway_stl.add_argument("--origin-json", default=None)
+    p_subway_stl.add_argument("--out", required=True)
+    p_subway_stl.add_argument("--tube-out", default=None)
+    p_subway_stl.add_argument("--shaft-out", default=None)
+    p_subway_stl.add_argument("--by-line-dir", default="output/subway_rough_by_line")
+    p_subway_stl.add_argument("--scale", type=float, default=0.0005)
+    p_subway_stl.add_argument("--tube-radius", type=float, default=1.0)
+    p_subway_stl.add_argument("--shaft-radius", type=float, default=1.5)
+    p_subway_stl.add_argument("--tube-sides", type=int, default=8)
+    p_subway_stl.add_argument("--shaft-sides", type=int, default=8)
+    p_subway_stl.add_argument("--vertical-exaggeration", type=float, default=2.0)
+    p_subway_stl.add_argument("--z-offset", type=float, default=0.0)
+    p_subway_stl.add_argument("--station-shafts", action="store_true")
+    p_subway_stl.add_argument("--split-by-line", action="store_true")
+    p_subway_stl.add_argument("--debug-points", default=None)
+    p_subway_stl.set_defaults(func=command_subway_rough_stl)
+
+    p_subway_report = sub.add_parser("subway-report", help="create subway data quality report")
+    p_subway_report.add_argument("--normalized-dir", required=True)
+    p_subway_report.add_argument("--out", required=True)
+    p_subway_report.set_defaults(func=command_subway_report)
 
     return parser
 

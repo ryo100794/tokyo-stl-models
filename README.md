@@ -137,3 +137,78 @@ ZIPのURLで失敗する:
 
 - `--scale`を調整してください。
 - スライサー側の単位解釈も確認してください。
+
+## 地下鉄確認用モデル
+
+東京メトロ9路線と都営地下鉄4路線の統合データ生成、地図マッチ用GeoJSON/CSV出力、粗い地下鉄STL出力にも対応しています。
+
+初期テンプレートを作成します。
+
+```bash
+python plateau_citygml_to_stl.py subway-init --out-dir subway_data
+```
+
+テンプレートには確認用の概略サンプル駅が入っています。実用時は、国土数値情報N02、GTFS/GTFS-JP、確認済み深度CSVで置き換えてください。
+
+正規化データを作成します。
+
+```bash
+python plateau_citygml_to_stl.py subway-normalize \
+  --railway-root N02-2025 \
+  --gtfs-dir gtfs_tokyo_metro \
+  --gtfs-dir gtfs_toei \
+  --lines-yaml subway_data/subway_lines.yaml \
+  --depth-csv subway_data/subway_depth.csv \
+  --aliases-csv subway_data/station_aliases.csv \
+  --out-dir normalized_subway \
+  --west 139.655 \
+  --east 139.735 \
+  --south 35.640 \
+  --north 35.715 \
+  --clip-mode bbox
+```
+
+地下鉄だけの粗い確認用STLを作成します。
+
+```bash
+python plateau_citygml_to_stl.py subway-rough-stl \
+  --normalized-dir normalized_subway \
+  --out output/subway_rough_with_shafts.stl \
+  --tube-out output/subway_rough_all_lines.stl \
+  --shaft-out output/subway_station_shafts.stl \
+  --scale 0.0005 \
+  --tube-radius 1.0 \
+  --shaft-radius 1.5 \
+  --tube-sides 8 \
+  --shaft-sides 8 \
+  --vertical-exaggeration 2.0 \
+  --z-offset 0.0 \
+  --station-shafts \
+  --split-by-line \
+  --by-line-dir output/subway_rough_by_line \
+  --debug-points output/subway_debug_points.ply
+```
+
+PLATEAU建物STLと重ねる場合は、建物STL生成時と同じ`origin_json`を指定してください。`origin_json`がない場合、地下鉄データの範囲から自動originを作るため、地下鉄単体の確認には使えますが、建物STLとは原点が一致しません。
+
+```bash
+python plateau_citygml_to_stl.py subway-rough-stl \
+  --normalized-dir normalized_subway \
+  --origin-json origin.json \
+  --out output/subway_rough_with_shafts.stl \
+  --scale 0.0005 \
+  --station-shafts
+```
+
+出力される地図マッチ用データは以下です。
+
+- `normalized_subway/normalized_subway_stations.geojson`
+- `normalized_subway/normalized_subway_lines.geojson`
+- `normalized_subway/normalized_subway_segments.geojson`
+- `normalized_subway/normalized_subway_stations_epsg6677.csv`
+- `normalized_subway/normalized_subway_track_points_epsg6677.csv`
+- `normalized_subway/subway_data_quality_report.md`
+
+`depth_m`は地表から駅・線路相当位置までの深さです。DEMなしでは`surface_z_m=0.0`、`station_z_m=-depth_m`として扱います。立坑は駅位置確認用で、実際の換気塔、避難立坑、駅出入口の正確な位置を表しません。粗いSTLは地図マッチと可視化用であり、正確なトンネル中心線、連続縦断勾配、施工図面レベルの地下構造物は再現しません。
+
+確認はBlender、MeshLab、PrusaSlicer、Bambu Studioなどで行ってください。

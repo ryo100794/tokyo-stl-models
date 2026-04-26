@@ -1,6 +1,8 @@
 lxml
 numpy
+pandas
 pyproj
+pyyaml
 requests
 shapely
 tqdm
