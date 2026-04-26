@@ -4,6 +4,8 @@ Project PLATEAUの東京都23区CityGMLを使い、指定bbox内の建物ポリ�
 
 初期版は、建物CityGML内の`gml:posList`をストリーミングで読み、リングを三角形ファンでメッシュ化します。LOD1/LOD2の厳密な分類には依存しません。
 
+別のCodexや作業者へ引き継ぐ場合は、`HANDOFF.md`も参照してください。
+
 ## セットアップ
 
 Windows PowerShell:
