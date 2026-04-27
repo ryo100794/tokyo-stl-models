@@ -636,7 +636,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--shaft-sides", type=int, default=8)
     parser.add_argument("--min-point-spacing-m", type=float, default=30.0)
     parser.add_argument("--stitch-tolerance-m", type=float, default=5.0)
-    parser.add_argument("--vertical-exaggeration", type=float, default=2.0)
+    parser.add_argument("--vertical-exaggeration", type=float, default=50.0)
     parser.add_argument("--z-offset", type=float, default=0.0)
     parser.add_argument("--station-shafts", action="store_true")
     parser.add_argument("--junction-boxes", action="store_true")

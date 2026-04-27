@@ -16,13 +16,13 @@ This standalone script builds each subway path as one connected tube mesh:
 ```bash
 /root/.venvs/tokyo-stl-models/bin/python subway_n02_welded_tube_model.py \
   --n02-zip data/n02/N02-24_GML.zip \
-  --normalized-out-dir normalized_subway_n02_tokyo23_welded_z10_r3 \
+  --normalized-out-dir normalized_subway_n02_tokyo23_welded_z50_r3 \
   --origin-json origin_epsg6677_zero.json \
-  --out output/subway_n02_tokyo23_welded_z10_r3_with_shafts.stl \
-  --tube-out output/subway_n02_tokyo23_welded_z10_r3_all_lines.stl \
-  --shaft-out output/subway_n02_tokyo23_welded_z10_r3_station_shafts.stl \
-  --junction-box-out output/subway_n02_tokyo23_welded_z10_r3_junction_boxes.stl \
-  --by-line-dir output/subway_n02_tokyo23_welded_z10_r3_by_line \
+  --out output/subway_n02_tokyo23_welded_z50_r3_with_shafts_boxes_thin.stl \
+  --tube-out output/subway_n02_tokyo23_welded_z50_r3_all_lines.stl \
+  --shaft-out output/subway_n02_tokyo23_welded_z50_r3_station_shafts.stl \
+  --junction-box-out output/subway_n02_tokyo23_welded_z50_r3_junction_boxes_thin.stl \
+  --by-line-dir output/subway_n02_tokyo23_welded_z50_r3_by_line \
   --west 139.56 \
   --east 139.93 \
   --south 35.52 \
@@ -31,12 +31,15 @@ This standalone script builds each subway path as one connected tube mesh:
   --scale 0.0005 \
   --tube-radius-m 30.0 \
   --shaft-radius-m 48.0 \
-  --junction-box-size-m 80.0 \
+  --junction-box-size-m 0 \
+  --junction-box-length-m 220.0 \
+  --junction-box-width-m 150.0 \
+  --junction-box-height-m 40.0 \
   --tube-sides 16 \
   --shaft-sides 16 \
   --min-point-spacing-m 50.0 \
   --stitch-tolerance-m 8.0 \
-  --vertical-exaggeration 10.0 \
+  --vertical-exaggeration 50.0 \
   --station-shafts \
   --junction-boxes \
   --split-by-line
@@ -59,10 +62,10 @@ Each stitched tube path was checked as watertight individually. The combined STL
 Use this output when inspecting tube continuity:
 
 ```text
-output/subway_n02_tokyo23_welded_z10_r3_with_shafts_boxes.stl
-output/subway_n02_tokyo23_welded_z10_r3_all_lines.stl
-output/subway_n02_tokyo23_welded_z10_r3_junction_boxes.stl
-output/subway_n02_tokyo23_welded_z10_r3_by_line/*.stl
+output/subway_n02_tokyo23_welded_z50_r3_with_shafts_boxes_thin.stl
+output/subway_n02_tokyo23_welded_z50_r3_all_lines.stl
+output/subway_n02_tokyo23_welded_z50_r3_junction_boxes_thin.stl
+output/subway_n02_tokyo23_welded_z50_r3_by_line/*.stl
 ```
 
 ## Junction boxes
@@ -87,6 +90,8 @@ The junction box height is not multiplied by `vertical_exaggeration`; it stays l
 Current oriented-box output:
 
 ```text
-output/subway_n02_tokyo23_welded_z10_r3_with_shafts_boxes_thin.stl
-output/subway_n02_tokyo23_welded_z10_r3_junction_boxes_thin.stl
+output/subway_n02_tokyo23_welded_z50_r3_with_shafts_boxes_thin.stl
+output/subway_n02_tokyo23_welded_z50_r3_junction_boxes_thin.stl
 ```
+
+The active subway-only model uses `vertical_exaggeration=50.0`. Yamanote overlay STL files are separate and are not included in this subway output.
