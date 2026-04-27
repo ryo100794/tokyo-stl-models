@@ -23,7 +23,7 @@ N02 does not store the full operational Yamanote loop only as `Yamanote Line`. T
   --north 35.82 \
   --clip-mode bbox \
   --scale 0.0005 \
-  --z-m 18.0 \
+  --use-estimated-elevation \
   --vertical-exaggeration 20.0 \
   --tube-radius-m 24.0 \
   --station-radius-m 45.0 \
@@ -48,6 +48,23 @@ output/subway_yamanote_n02_tokyo23_combined.stl
 yamanote line parts: 1
 stitched paths: 1
 stations: 30
+z range m: 2.00 to 37.00
 ```
 
-The Yamanote overlay uses `z_m=18.0`, so with `vertical_exaggeration=20.0` and `scale=0.0005`, the rail is placed around model Z `0.18`. The subway model remains underground with negative Z values.
+The Yamanote overlay uses an estimated station elevation profile by default. N02 has no rail height or terrain Z values, so the built-in profile is an approximate visual alignment profile, not surveyed track elevation.
+
+With `vertical_exaggeration=20.0` and `scale=0.0005`, a 1 m elevation difference becomes `0.01` model units. The current estimated station profile ranges from 2 m to 37 m, so the Yamanote rail is visibly sloped above the underground subway model.
+
+To provide checked elevations, pass a CSV with:
+
+```text
+station,z_m,source,note
+```
+
+and run with:
+
+```bash
+--elevation-csv yamanote_elevation.csv
+```
+
+Use `--no-use-estimated-elevation --z-m 18.0` to restore the old fixed-height behavior.

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import math
 import zipfile
@@ -66,6 +67,38 @@ SOUTHEAST_STATIONS = {
     "\u6709\u697d\u753a",
 }
 NORTHEAST_STATIONS = set(YAMANOTE_STATIONS[:9])
+YAMANOTE_ESTIMATED_ELEVATION_M = {
+    "\u6771\u4eac": 3.0,
+    "\u795e\u7530": 4.0,
+    "\u79cb\u8449\u539f": 4.0,
+    "\u5fa1\u5f92\u753a": 5.0,
+    "\u4e0a\u91ce": 8.0,
+    "\u9daf\u8c37": 13.0,
+    "\u65e5\u66ae\u91cc": 16.0,
+    "\u897f\u65e5\u66ae\u91cc": 14.0,
+    "\u7530\u7aef": 20.0,
+    "\u99d2\u8fbc": 23.0,
+    "\u5de3\u9d28": 25.0,
+    "\u5927\u585a": 28.0,
+    "\u6c60\u888b": 31.0,
+    "\u76ee\u767d": 34.0,
+    "\u9ad8\u7530\u99ac\u5834": 30.0,
+    "\u65b0\u5927\u4e45\u4fdd": 32.0,
+    "\u65b0\u5bbf": 37.0,
+    "\u4ee3\u3005\u6728": 35.0,
+    "\u539f\u5bbf": 28.0,
+    "\u6e0b\u8c37": 18.0,
+    "\u6075\u6bd4\u5bff": 20.0,
+    "\u76ee\u9ed2": 28.0,
+    "\u4e94\u53cd\u7530": 11.0,
+    "\u5927\u5d0e": 7.0,
+    "\u54c1\u5ddd": 5.0,
+    "\u9ad8\u8f2a\u30b2\u30fc\u30c8\u30a6\u30a7\u30a4": 6.0,
+    "\u7530\u753a": 3.0,
+    "\u6d5c\u677e\u753a": 2.0,
+    "\u65b0\u6a4b": 3.0,
+    "\u6709\u697d\u753a": 3.0,
+}
 
 
 @dataclass
@@ -99,6 +132,23 @@ def load_origin(path: Path, scale: float) -> Origin:
         origin_z=float(data.get("origin_z", 0.0)),
         scale=float(data.get("scale", scale)),
     )
+
+
+def load_elevation_csv(path: str | None) -> dict[str, dict[str, str]]:
+    if not path:
+        return {}
+    csv_path = Path(path)
+    if not csv_path.exists():
+        raise FileNotFoundError(f"elevation CSV not found: {csv_path}")
+    with csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        out = {}
+        for row in reader:
+            station = row.get("station") or row.get("canonical_station")
+            if not station:
+                continue
+            out[station] = row
+        return out
 
 
 def in_bbox(coord: list[float], args: argparse.Namespace) -> bool:
@@ -150,6 +200,7 @@ def choose_station(station: str, candidates: list[dict[str, Any]]) -> dict[str, 
 
 def load_yamanote(args: argparse.Namespace) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     path = ensure_n02_zip(Path(args.n02_zip))
+    elevation_rows = load_elevation_csv(args.elevation_csv)
     station_data = load_geojson_from_zip(path, "UTF-8/N02-24_Station.geojson")
     by_station: dict[str, list[dict[str, Any]]] = {name: [] for name in YAMANOTE_STATIONS}
     for feature in station_data.get("features", []):
@@ -181,12 +232,25 @@ def load_yamanote(args: argparse.Namespace) -> tuple[list[dict[str, Any]], list[
         if row is None:
             missing.append(station)
             continue
+        elevation_row = elevation_rows.get(station, {})
+        if elevation_row:
+            row["z_m"] = float(elevation_row.get("z_m", args.z_m))
+            row["z_source"] = elevation_row.get("source", "csv")
+            row["z_note"] = elevation_row.get("note", "")
+        elif args.use_estimated_elevation:
+            row["z_m"] = YAMANOTE_ESTIMATED_ELEVATION_M.get(station, args.z_m)
+            row["z_source"] = "estimated_profile"
+            row["z_note"] = "estimated station elevation profile"
+        else:
+            row["z_m"] = args.z_m
+            row["z_source"] = "fixed"
+            row["z_note"] = "fixed z_m"
         stations.append(row)
     if missing:
         missing_text = ", ".join(missing)
         raise RuntimeError(f"missing Yamanote stations in N02 data: {missing_text}")
-    line_coords = [[row["lon"], row["lat"]] for row in stations]
-    line_coords.append([stations[0]["lon"], stations[0]["lat"]])
+    line_coords = [[row["lon"], row["lat"], row["z_m"]] for row in stations]
+    line_coords.append([stations[0]["lon"], stations[0]["lat"], stations[0]["z_m"]])
     lines = [{"coords": line_coords, "line": "Yamanote Line", "operator": "JR East"}]
     return lines, stations
 
@@ -206,7 +270,7 @@ def dedupe_stations(stations: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def add_xy(lines: list[dict[str, Any]], stations: list[dict[str, Any]]) -> None:
     transformer = Transformer.from_crs(WGS84, TOKYO_METERS, always_xy=True)
     for line in lines:
-        line["xy"] = [list(transformer.transform(lon, lat)) for lon, lat in line["coords"]]
+        line["xy"] = [[*transformer.transform(coord[0], coord[1]), coord[2]] for coord in line["coords"]]
     for row in stations:
         row["xy"] = list(transformer.transform(row["lon"], row["lat"]))
 
@@ -221,6 +285,12 @@ def model_point(x: float, y: float, z_m: float, origin: Origin, args: argparse.N
 
 def dist_xy(a: list[float], b: list[float]) -> float:
     return math.hypot(a[0] - b[0], a[1] - b[1])
+
+
+def point_z_m(point: list[float], fallback: float) -> float:
+    if len(point) >= 3:
+        return float(point[2])
+    return fallback
 
 
 def simplify(points: list[list[float]], min_spacing: float) -> list[list[float]]:
@@ -348,7 +418,7 @@ def make_station_markers(stations: list[dict[str, Any]], origin: Origin, args: a
     radius = args.station_radius_m * origin.scale
     for row in stations:
         x, y = row["xy"]
-        center = model_point(x, y, args.z_m, origin, args)
+        center = model_point(x, y, row["z_m"], origin, args)
         mesh = trimesh.creation.icosphere(subdivisions=1, radius=radius)
         mesh.apply_translation(center)
         meshes.append(mesh)
@@ -378,7 +448,10 @@ def build(args: argparse.Namespace) -> int:
     paths = stitch_lines(lines, args.stitch_tolerance_m)
     tube_meshes = []
     for path in paths:
-        points = [model_point(x, y, args.z_m, origin, args) for x, y in simplify(path, args.min_point_spacing_m)]
+        points = [
+            model_point(point[0], point[1], point_z_m(point, args.z_m), origin, args)
+            for point in simplify(path, args.min_point_spacing_m)
+        ]
         if len(points) >= 2:
             tube_meshes.append(make_tube(points, args.tube_radius_m * origin.scale, args.tube_sides))
     tube_mesh = concatenate(tube_meshes)
@@ -395,6 +468,7 @@ def build(args: argparse.Namespace) -> int:
     print(f"yamanote line parts: {len(lines)}")
     print(f"stitched paths: {len(paths)}")
     print(f"stations: {len(stations)}")
+    print(f"z range m: {min(row['z_m'] for row in stations):.2f} to {max(row['z_m'] for row in stations):.2f}")
     print(f"output: {args.out}")
     if args.subway_stl:
         print(f"combined: {args.combined_out}")
@@ -417,6 +491,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--clip-mode", choices=("bbox", "all"), default="bbox")
     parser.add_argument("--scale", type=float, default=0.0005)
     parser.add_argument("--z-m", type=float, default=18.0)
+    parser.add_argument("--elevation-csv", default="")
+    parser.add_argument("--use-estimated-elevation", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--vertical-exaggeration", type=float, default=20.0)
     parser.add_argument("--z-offset", type=float, default=0.0)
     parser.add_argument("--tube-radius-m", type=float, default=24.0)
