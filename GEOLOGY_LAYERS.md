@@ -19,7 +19,8 @@ The current default data is an approximate Tokyo 23 wards profile. It is intende
   --grid-x 64 \
   --grid-y 52 \
   --scale 0.0005 \
-  --vertical-exaggeration 50.0
+  --vertical-exaggeration 50.0 \
+  --explode-offset-model 0.35
 ```
 
 ## Outputs
@@ -27,6 +28,9 @@ The current default data is an approximate Tokyo 23 wards profile. It is intende
 ```text
 output/geology_tokyo23_z50/geology_boundaries_combined.stl
 output/geology_tokyo23_z50/geology_layers_combined.stl
+output/geology_tokyo23_z50/geology_boundaries_exploded.stl
+output/geology_tokyo23_z50/geology_layers_exploded.stl
+output/geology_tokyo23_z50/geology_boundary_markers_exploded.stl
 output/geology_tokyo23_z50/geology_boundary_surface.stl
 output/geology_tokyo23_z50/geology_boundary_base_fill.stl
 output/geology_tokyo23_z50/geology_boundary_base_alluvium.stl
@@ -73,3 +77,13 @@ The script uses inverse-distance interpolation from CSV points and falls back to
 The default model is not a surveyed geological model. It is a separate STL scaffold for checking how geological boundary surfaces and layer volumes can be displayed with the subway model.
 
 Use GSJ Urban Geological Map boundary surfaces or checked borehole-derived data before treating the shape as geology.
+
+If the combined layer STL looks like one solid block in a single-color viewer, use:
+
+```text
+geology_layers_exploded.stl
+geology_boundaries_exploded.stl
+geology_boundary_markers_exploded.stl
+```
+
+These files offset each boundary or layer diagonally in model space so the layer order can be inspected. They are for checking the layer stack, not for direct geographic overlay.

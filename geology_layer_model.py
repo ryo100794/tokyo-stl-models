@@ -238,6 +238,45 @@ def export_mesh(mesh: trimesh.Trimesh | None, path: Path) -> None:
     mesh.export(path)
 
 
+def shifted_mesh(mesh: trimesh.Trimesh, offset_xy: float, index: int) -> trimesh.Trimesh:
+    out = mesh.copy()
+    shift = offset_xy * index
+    out.apply_translation([shift, shift, 0.0])
+    return out
+
+
+def make_marker_mesh(
+    x_grid: np.ndarray,
+    y_grid: np.ndarray,
+    z_by_name: dict[str, np.ndarray],
+    origin: Origin,
+    args: argparse.Namespace,
+) -> trimesh.Trimesh | None:
+    meshes = []
+    radius = args.marker_radius_m * origin.scale
+    row_step = max(1, args.marker_step_y)
+    col_step = max(1, args.marker_step_x)
+    for boundary_index, (name, _base_z) in enumerate(DEFAULT_BOUNDARIES):
+        z_grid = z_by_name[name]
+        for row in range(0, z_grid.shape[0], row_step):
+            for col in range(0, z_grid.shape[1], col_step):
+                center = model_point(
+                    float(x_grid[row, col]),
+                    float(y_grid[row, col]),
+                    float(z_grid[row, col]),
+                    origin,
+                    args,
+                )
+                center[0] += boundary_index * args.explode_offset_model
+                center[1] += boundary_index * args.explode_offset_model
+                marker = trimesh.creation.icosphere(subdivisions=0, radius=radius)
+                marker.apply_translation(center)
+                meshes.append(marker)
+    if not meshes:
+        return None
+    return trimesh.util.concatenate(meshes)
+
+
 def write_boundary_csv(path: Path, z_by_name: dict[str, np.ndarray], args: argparse.Namespace) -> None:
     lon_grid, lat_grid, _x_grid, _y_grid = make_grid(args)
     names = [name for name, _base in DEFAULT_BOUNDARIES]
@@ -259,24 +298,32 @@ def build(args: argparse.Namespace) -> int:
     y_grid = z_by_name["_y"]
     boundary_meshes = []
     layer_meshes = []
+    exploded_boundary_meshes = []
+    exploded_layer_meshes = []
 
-    for name, _base_z in DEFAULT_BOUNDARIES:
+    for boundary_index, (name, _base_z) in enumerate(DEFAULT_BOUNDARIES):
         mesh = make_surface_mesh(x_grid, y_grid, z_by_name[name], origin, args)
         boundary_meshes.append(mesh)
+        exploded_boundary_meshes.append(shifted_mesh(mesh, args.explode_offset_model, boundary_index))
         export_mesh(mesh, Path(args.out_dir) / f"geology_boundary_{name}.stl")
 
-    for layer_name, top_name, bottom_name in LAYER_PAIRS:
+    for layer_index, (layer_name, top_name, bottom_name) in enumerate(LAYER_PAIRS):
         mesh = make_layer_mesh(x_grid, y_grid, z_by_name[top_name], z_by_name[bottom_name], origin, args)
         layer_meshes.append(mesh)
+        exploded_layer_meshes.append(shifted_mesh(mesh, args.explode_offset_model, layer_index))
         export_mesh(mesh, Path(args.out_dir) / f"geology_layer_{layer_name}.stl")
 
     export_mesh(trimesh.util.concatenate(boundary_meshes), Path(args.out_dir) / args.boundaries_out)
     export_mesh(trimesh.util.concatenate(layer_meshes), Path(args.out_dir) / args.layers_out)
+    export_mesh(trimesh.util.concatenate(exploded_boundary_meshes), Path(args.out_dir) / args.exploded_boundaries_out)
+    export_mesh(trimesh.util.concatenate(exploded_layer_meshes), Path(args.out_dir) / args.exploded_layers_out)
+    export_mesh(make_marker_mesh(x_grid, y_grid, z_by_name, origin, args), Path(args.out_dir) / args.markers_out)
     write_boundary_csv(Path(args.out_dir) / args.sample_csv_out, z_by_name, args)
 
     print(f"grid: {args.grid_x} x {args.grid_y}")
     print(f"boundaries: {len(boundary_meshes)}")
     print(f"layers: {len(layer_meshes)}")
+    print(f"explode_offset_model: {args.explode_offset_model}")
     print(f"vertical_exaggeration: {args.vertical_exaggeration}")
     print(f"output_dir: {args.out_dir}")
     return 0
@@ -289,6 +336,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--surface-csv", default="")
     parser.add_argument("--boundaries-out", default="geology_boundaries_combined.stl")
     parser.add_argument("--layers-out", default="geology_layers_combined.stl")
+    parser.add_argument("--exploded-boundaries-out", default="geology_boundaries_exploded.stl")
+    parser.add_argument("--exploded-layers-out", default="geology_layers_exploded.stl")
+    parser.add_argument("--markers-out", default="geology_boundary_markers_exploded.stl")
     parser.add_argument("--sample-csv-out", default="geology_boundary_samples.csv")
     parser.add_argument("--west", type=float, default=139.56)
     parser.add_argument("--east", type=float, default=139.93)
@@ -299,6 +349,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--scale", type=float, default=0.0005)
     parser.add_argument("--vertical-exaggeration", type=float, default=50.0)
     parser.add_argument("--z-offset", type=float, default=0.0)
+    parser.add_argument("--explode-offset-model", type=float, default=0.35)
+    parser.add_argument("--marker-radius-m", type=float, default=18.0)
+    parser.add_argument("--marker-step-x", type=int, default=5)
+    parser.add_argument("--marker-step-y", type=int, default=5)
     return parser
 
 
