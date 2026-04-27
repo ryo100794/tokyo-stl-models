@@ -2,7 +2,9 @@
 
 This note describes `yamanote_n02_overlay.py`.
 
-The script extracts JR East Yamanote Line geometry and stations from N02 railway data, using the same EPSG:6677 origin and scale as the subway model.
+The script builds a JR East Yamanote operational loop from N02 railway station data, using the same EPSG:6677 origin and scale as the subway model.
+
+N02 does not store the full operational Yamanote loop only as `Yamanote Line`. The western arc is listed as Yamanote, while the east and southeast arcs appear under Tohoku and Tokaido railway names in the source data. The script therefore uses the 30 operational Yamanote station sequence and picks station coordinates from those three N02 source lines.
 
 ## Command Used
 
@@ -43,10 +45,9 @@ output/subway_yamanote_n02_tokyo23_combined.stl
 ## Current Result
 
 ```text
-yamanote line parts: 50
-stitched paths: 4
-stations: 20
+yamanote line parts: 1
+stitched paths: 1
+stations: 30
 ```
 
 The Yamanote overlay uses `z_m=18.0`, so with `vertical_exaggeration=20.0` and `scale=0.0005`, the rail is placed around model Z `0.18`. The subway model remains underground with negative Z values.
-

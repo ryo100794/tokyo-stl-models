@@ -18,6 +18,54 @@ from pyproj import Transformer
 WGS84 = "EPSG:4326"
 TOKYO_METERS = "EPSG:6677"
 N02_URL = "https://nlftp.mlit.go.jp/ksj/gml/data/N02/N02-24/N02-24_GML.zip"
+JR_EAST = "\u6771\u65e5\u672c\u65c5\u5ba2\u9244\u9053"
+ROUTE_YAMANOTE = "\u5c71\u624b\u7dda"
+ROUTE_TOHOKU = "\u6771\u5317\u7dda"
+ROUTE_TOKAIDO = "\u6771\u6d77\u9053\u7dda"
+YAMANOTE_STATIONS = [
+    "\u6771\u4eac",
+    "\u795e\u7530",
+    "\u79cb\u8449\u539f",
+    "\u5fa1\u5f92\u753a",
+    "\u4e0a\u91ce",
+    "\u9daf\u8c37",
+    "\u65e5\u66ae\u91cc",
+    "\u897f\u65e5\u66ae\u91cc",
+    "\u7530\u7aef",
+    "\u99d2\u8fbc",
+    "\u5de3\u9d28",
+    "\u5927\u585a",
+    "\u6c60\u888b",
+    "\u76ee\u767d",
+    "\u9ad8\u7530\u99ac\u5834",
+    "\u65b0\u5927\u4e45\u4fdd",
+    "\u65b0\u5bbf",
+    "\u4ee3\u3005\u6728",
+    "\u539f\u5bbf",
+    "\u6e0b\u8c37",
+    "\u6075\u6bd4\u5bff",
+    "\u76ee\u9ed2",
+    "\u4e94\u53cd\u7530",
+    "\u5927\u5d0e",
+    "\u54c1\u5ddd",
+    "\u9ad8\u8f2a\u30b2\u30fc\u30c8\u30a6\u30a7\u30a4",
+    "\u7530\u753a",
+    "\u6d5c\u677e\u753a",
+    "\u65b0\u6a4b",
+    "\u6709\u697d\u753a",
+]
+YAMANOTE_STATION_SET = set(YAMANOTE_STATIONS)
+YAMANOTE_ROUTES = {ROUTE_YAMANOTE, ROUTE_TOHOKU, ROUTE_TOKAIDO}
+SOUTHEAST_STATIONS = {
+    "\u6771\u4eac",
+    "\u54c1\u5ddd",
+    "\u9ad8\u8f2a\u30b2\u30fc\u30c8\u30a6\u30a7\u30a4",
+    "\u7530\u753a",
+    "\u6d5c\u677e\u753a",
+    "\u65b0\u6a4b",
+    "\u6709\u697d\u753a",
+}
+NORTHEAST_STATIONS = set(YAMANOTE_STATIONS[:9])
 
 
 @dataclass
@@ -59,44 +107,88 @@ def in_bbox(coord: list[float], args: argparse.Namespace) -> bool:
     return args.west <= lon <= args.east and args.south <= lat <= args.north
 
 
+def coord_for_feature(feature: dict[str, Any]) -> list[float] | None:
+    coords = (feature.get("geometry") or {}).get("coordinates") or []
+    if not coords:
+        return None
+    if (feature.get("geometry") or {}).get("type") == "LineString":
+        return coords[len(coords) // 2]
+    return coords
+
+
+def station_route_preference(station: str) -> list[str]:
+    if station in SOUTHEAST_STATIONS:
+        return [ROUTE_TOKAIDO, ROUTE_TOHOKU, ROUTE_YAMANOTE]
+    if station in NORTHEAST_STATIONS:
+        return [ROUTE_TOHOKU, ROUTE_YAMANOTE, ROUTE_TOKAIDO]
+    return [ROUTE_YAMANOTE, ROUTE_TOHOKU, ROUTE_TOKAIDO]
+
+
+def average_candidate(candidates: list[dict[str, Any]]) -> dict[str, Any]:
+    lon = sum(row["lon"] for row in candidates) / len(candidates)
+    lat = sum(row["lat"] for row in candidates) / len(candidates)
+    first = candidates[0]
+    return {
+        "station": first["station"],
+        "station_id": first["station_id"],
+        "lon": lon,
+        "lat": lat,
+        "source_line": first["source_line"],
+        "source_count": len(candidates),
+    }
+
+
+def choose_station(station: str, candidates: list[dict[str, Any]]) -> dict[str, Any] | None:
+    if not candidates:
+        return None
+    for route in station_route_preference(station):
+        rows = [row for row in candidates if row["source_line"] == route]
+        if rows:
+            return average_candidate(rows)
+    return average_candidate(candidates)
+
+
 def load_yamanote(args: argparse.Namespace) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     path = ensure_n02_zip(Path(args.n02_zip))
-    line_data = load_geojson_from_zip(path, "UTF-8/N02-24_RailroadSection.geojson")
     station_data = load_geojson_from_zip(path, "UTF-8/N02-24_Station.geojson")
-    lines = []
-    stations = []
-    for feature in line_data.get("features", []):
-        props = feature.get("properties", {})
-        if props.get("N02_003") != "山手線" or props.get("N02_004") != "東日本旅客鉄道":
-            continue
-        coords = (feature.get("geometry") or {}).get("coordinates") or []
-        if len(coords) < 2:
-            continue
-        if args.clip_mode != "all" and not any(in_bbox(coord, args) for coord in coords):
-            continue
-        lines.append({"coords": coords, "line": "Yamanote Line", "operator": "JR East"})
+    by_station: dict[str, list[dict[str, Any]]] = {name: [] for name in YAMANOTE_STATIONS}
     for feature in station_data.get("features", []):
         props = feature.get("properties", {})
-        if props.get("N02_003") != "山手線" or props.get("N02_004") != "東日本旅客鉄道":
+        station = props.get("N02_005", "")
+        route = props.get("N02_003", "")
+        if props.get("N02_004") != JR_EAST:
             continue
-        coords = (feature.get("geometry") or {}).get("coordinates") or []
-        if not coords:
+        if station not in YAMANOTE_STATION_SET or route not in YAMANOTE_ROUTES:
             continue
-        if (feature.get("geometry") or {}).get("type") == "LineString":
-            coord = coords[len(coords) // 2]
-        else:
-            coord = coords
+        coord = coord_for_feature(feature)
+        if coord is None:
+            continue
         if args.clip_mode != "all" and not in_bbox(coord, args):
             continue
-        stations.append(
+        by_station[station].append(
             {
-                "station": props.get("N02_005", ""),
+                "station": station,
                 "station_id": props.get("N02_005c", "") or props.get("N02_005g", ""),
                 "lon": float(coord[0]),
                 "lat": float(coord[1]),
+                "source_line": route,
             }
         )
-    return lines, dedupe_stations(stations)
+    stations = []
+    missing = []
+    for station in YAMANOTE_STATIONS:
+        row = choose_station(station, by_station.get(station, []))
+        if row is None:
+            missing.append(station)
+            continue
+        stations.append(row)
+    if missing:
+        missing_text = ", ".join(missing)
+        raise RuntimeError(f"missing Yamanote stations in N02 data: {missing_text}")
+    line_coords = [[row["lon"], row["lat"]] for row in stations]
+    line_coords.append([stations[0]["lon"], stations[0]["lat"]])
+    lines = [{"coords": line_coords, "line": "Yamanote Line", "operator": "JR East"}]
+    return lines, stations
 
 
 def dedupe_stations(stations: list[dict[str, Any]]) -> list[dict[str, Any]]:
