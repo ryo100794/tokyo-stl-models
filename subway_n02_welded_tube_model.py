@@ -276,6 +276,14 @@ def make_cylinder(p1: list[float], p2: list[float], radius: float, sides: int) -
     return trimesh.creation.cylinder(radius=radius, sections=sides, segment=[p1, p2])
 
 
+def make_box_at(center: list[float], size: float) -> Any:
+    import trimesh
+
+    mesh = trimesh.creation.box(extents=[size, size, size])
+    mesh.apply_translation(center)
+    return mesh
+
+
 def vector_sub(a: list[float], b: list[float]) -> list[float]:
     return [a[0] - b[0], a[1] - b[1], a[2] - b[2]]
 
@@ -482,6 +490,7 @@ def build(args: argparse.Namespace) -> int:
     shaft_radius = args.shaft_radius_m * origin.scale
     tube_meshes = []
     shaft_meshes = []
+    junction_meshes = []
     by_line: dict[tuple[str, str], list[Any]] = defaultdict(list)
 
     mesh_lines = stitch_line_parts(lines, args.stitch_tolerance_m)
@@ -501,12 +510,17 @@ def build(args: argparse.Namespace) -> int:
             mesh = make_cylinder(p1, p2, shaft_radius, args.shaft_sides)
             if mesh is not None:
                 shaft_meshes.append(mesh)
+            if args.junction_boxes:
+                junction_meshes.append(make_box_at(p1, args.junction_box_size_m * origin.scale))
 
     tube_mesh = concatenate(tube_meshes)
     shaft_mesh = concatenate(shaft_meshes)
-    combined = concatenate([mesh for mesh in [tube_mesh, shaft_mesh] if mesh is not None])
+    junction_mesh = concatenate(junction_meshes)
+    combined = concatenate([mesh for mesh in [tube_mesh, shaft_mesh, junction_mesh] if mesh is not None])
     export_mesh(tube_mesh, Path(args.tube_out))
     export_mesh(shaft_mesh, Path(args.shaft_out))
+    if args.junction_box_out:
+        export_mesh(junction_mesh, Path(args.junction_box_out))
     export_mesh(combined, Path(args.out))
     if args.split_by_line:
         out_dir = Path(args.by_line_dir)
@@ -522,6 +536,7 @@ def build(args: argparse.Namespace) -> int:
     print(f"n02 stations: {len(stations)}")
     print(f"tube meshes: {len(tube_meshes)}")
     print(f"shafts: {len(shaft_meshes)}")
+    print(f"junction boxes: {len(junction_meshes)}")
     for name in sorted(counts):
         print(f"{name}: {counts[name]}")
     print(f"tube_radius_model: {tube_radius}")
@@ -537,6 +552,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--out", default="output/subway_n02_rough_with_shafts.stl")
     parser.add_argument("--tube-out", default="output/subway_n02_rough_all_lines.stl")
     parser.add_argument("--shaft-out", default="output/subway_n02_station_shafts.stl")
+    parser.add_argument("--junction-box-out", default=None)
     parser.add_argument("--by-line-dir", default="output/subway_n02_by_line")
     parser.add_argument("--west", type=float, default=139.655)
     parser.add_argument("--east", type=float, default=139.735)
@@ -546,6 +562,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--scale", type=float, default=0.0005)
     parser.add_argument("--tube-radius-m", type=float, default=10.0)
     parser.add_argument("--shaft-radius-m", type=float, default=16.0)
+    parser.add_argument("--junction-box-size-m", type=float, default=80.0)
     parser.add_argument("--tube-sides", type=int, default=8)
     parser.add_argument("--shaft-sides", type=int, default=8)
     parser.add_argument("--min-point-spacing-m", type=float, default=30.0)
@@ -553,6 +570,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--vertical-exaggeration", type=float, default=2.0)
     parser.add_argument("--z-offset", type=float, default=0.0)
     parser.add_argument("--station-shafts", action="store_true")
+    parser.add_argument("--junction-boxes", action="store_true")
     parser.add_argument("--split-by-line", action="store_true")
     return parser
 
