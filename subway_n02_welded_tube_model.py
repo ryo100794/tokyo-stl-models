@@ -210,6 +210,40 @@ def xy_distance(a: list[float], b: list[float]) -> float:
     return math.hypot(a[0] - b[0], a[1] - b[1])
 
 
+def segment_projection_xy(point: list[float], a: list[float], b: list[float]) -> tuple[float, float, float]:
+    abx = b[0] - a[0]
+    aby = b[1] - a[1]
+    apx = point[0] - a[0]
+    apy = point[1] - a[1]
+    denom = abx * abx + aby * aby
+    if denom <= 0.0:
+        return xy_distance(point, a), a[0], a[1]
+    t = max(0.0, min(1.0, (apx * abx + apy * aby) / denom))
+    x = a[0] + abx * t
+    y = a[1] + aby * t
+    return math.hypot(point[0] - x, point[1] - y), x, y
+
+
+def nearest_line_yaw(point_xy: list[float], lines: list[dict[str, Any]], fallback_yaw: float = 0.0) -> float:
+    best_dist = math.inf
+    best_yaw = fallback_yaw
+    for line in lines:
+        xy = line.get("xy", [])
+        for idx in range(len(xy) - 1):
+            a = xy[idx]
+            b = xy[idx + 1]
+            dist, _x, _y = segment_projection_xy(point_xy, a, b)
+            if dist >= best_dist:
+                continue
+            dx = b[0] - a[0]
+            dy = b[1] - a[1]
+            if dx == 0.0 and dy == 0.0:
+                continue
+            best_dist = dist
+            best_yaw = math.atan2(dy, dx)
+    return best_yaw
+
+
 def stitch_line_parts(lines: list[dict[str, Any]], tolerance_m: float) -> list[dict[str, Any]]:
     if tolerance_m <= 0.0:
         return lines
@@ -281,6 +315,25 @@ def make_box_at(center: list[float], size: float) -> Any:
 
     mesh = trimesh.creation.box(extents=[size, size, size])
     mesh.apply_translation(center)
+    return mesh
+
+
+def make_oriented_box_at(center: list[float], yaw: float, length: float, width: float, height: float) -> Any:
+    import numpy as np
+    import trimesh
+
+    mesh = trimesh.creation.box(extents=[length, width, height])
+    c = math.cos(yaw)
+    s = math.sin(yaw)
+    transform = np.array(
+        [
+            [c, -s, 0.0, center[0]],
+            [s, c, 0.0, center[1]],
+            [0.0, 0.0, 1.0, center[2]],
+            [0.0, 0.0, 0.0, 1.0],
+        ]
+    )
+    mesh.apply_transform(transform)
     return mesh
 
 
@@ -511,7 +564,20 @@ def build(args: argparse.Namespace) -> int:
             if mesh is not None:
                 shaft_meshes.append(mesh)
             if args.junction_boxes:
-                junction_meshes.append(make_box_at(p1, args.junction_box_size_m * origin.scale))
+                yaw = nearest_line_yaw([float(row["x_epsg6677"]), float(row["y_epsg6677"])], mesh_lines)
+                if args.junction_box_size_m > 0.0:
+                    box_size = args.junction_box_size_m * origin.scale
+                    junction_meshes.append(make_oriented_box_at(p1, yaw, box_size, box_size, box_size))
+                else:
+                    junction_meshes.append(
+                        make_oriented_box_at(
+                            p1,
+                            yaw,
+                            args.junction_box_length_m * origin.scale,
+                            args.junction_box_width_m * origin.scale,
+                            args.junction_box_height_m * origin.scale * args.vertical_exaggeration,
+                        )
+                    )
 
     tube_mesh = concatenate(tube_meshes)
     shaft_mesh = concatenate(shaft_meshes)
@@ -563,6 +629,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--tube-radius-m", type=float, default=10.0)
     parser.add_argument("--shaft-radius-m", type=float, default=16.0)
     parser.add_argument("--junction-box-size-m", type=float, default=80.0)
+    parser.add_argument("--junction-box-length-m", type=float, default=180.0)
+    parser.add_argument("--junction-box-width-m", type=float, default=140.0)
+    parser.add_argument("--junction-box-height-m", type=float, default=80.0)
     parser.add_argument("--tube-sides", type=int, default=8)
     parser.add_argument("--shaft-sides", type=int, default=8)
     parser.add_argument("--min-point-spacing-m", type=float, default=30.0)
