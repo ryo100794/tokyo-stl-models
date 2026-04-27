@@ -77,14 +77,16 @@ For shaft radius 48 m, prefer oriented boxes larger than the shaft diameter:
 --junction-box-size-m 0 \
 --junction-box-length-m 220.0 \
 --junction-box-width-m 150.0 \
---junction-box-height-m 120.0
+--junction-box-height-m 40.0
 ```
 
 When `--junction-box-size-m 0` is used, the script creates a rectangular box and rotates it in the horizontal plane to match the nearest subway tube segment.
 
+The junction box height is not multiplied by `vertical_exaggeration`; it stays local to the tube/shaft contact area.
+
 Current oriented-box output:
 
 ```text
-output/subway_n02_tokyo23_welded_z10_r3_with_shafts_boxes_oriented.stl
-output/subway_n02_tokyo23_welded_z10_r3_junction_boxes_oriented.stl
+output/subway_n02_tokyo23_welded_z10_r3_with_shafts_boxes_thin.stl
+output/subway_n02_tokyo23_welded_z10_r3_junction_boxes_thin.stl
 ```

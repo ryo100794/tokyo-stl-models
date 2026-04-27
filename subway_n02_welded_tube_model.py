@@ -575,7 +575,7 @@ def build(args: argparse.Namespace) -> int:
                             yaw,
                             args.junction_box_length_m * origin.scale,
                             args.junction_box_width_m * origin.scale,
-                            args.junction_box_height_m * origin.scale * args.vertical_exaggeration,
+                            args.junction_box_height_m * origin.scale,
                         )
                     )
 
@@ -631,7 +631,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--junction-box-size-m", type=float, default=80.0)
     parser.add_argument("--junction-box-length-m", type=float, default=180.0)
     parser.add_argument("--junction-box-width-m", type=float, default=140.0)
-    parser.add_argument("--junction-box-height-m", type=float, default=80.0)
+    parser.add_argument("--junction-box-height-m", type=float, default=40.0)
     parser.add_argument("--tube-sides", type=int, default=8)
     parser.add_argument("--shaft-sides", type=int, default=8)
     parser.add_argument("--min-point-spacing-m", type=float, default=30.0)
