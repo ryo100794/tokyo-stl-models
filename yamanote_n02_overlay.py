@@ -386,29 +386,9 @@ def frame(tan: list[float]) -> tuple[list[float], list[float]]:
 
 
 def make_tube(points: list[list[float]], radius: float, sides: int) -> Any:
-    import numpy as np
-    import trimesh
-
-    vertices = []
-    faces = []
-    for idx, point in enumerate(points):
-        tan = tangent(points, idx)
-        n, b = frame(tan)
-        for side in range(sides):
-            angle = 2.0 * math.pi * side / sides
-            offset = add(scale_vec(n, math.cos(angle) * radius), scale_vec(b, math.sin(angle) * radius))
-            vertices.append(add(point, offset))
-    for ring in range(len(points) - 1):
-        base_a = ring * sides
-        base_b = (ring + 1) * sides
-        for side in range(sides):
-            a0 = base_a + side
-            a1 = base_a + ((side + 1) % sides)
-            b0 = base_b + side
-            b1 = base_b + ((side + 1) % sides)
-            faces.append([a0, b0, b1])
-            faces.append([a0, b1, a1])
-    return trimesh.Trimesh(vertices=np.asarray(vertices), faces=np.asarray(faces), process=False)
+    """Use the shared, consistently wound sweep, including welded loop seams."""
+    from subway_n02_welded_tube_model import make_welded_tube
+    return make_welded_tube(points, radius, sides, closed=None)
 
 
 def make_station_markers(stations: list[dict[str, Any]], origin: Origin, args: argparse.Namespace) -> Any:

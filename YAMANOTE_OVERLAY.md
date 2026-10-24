@@ -2,6 +2,13 @@
 
 This note describes `yamanote_n02_overlay.py`.
 
+The tube builder is shared with `subway_n02_welded_tube_model.py`; keep both
+files in the same checkout. The shared implementation fixes cap winding,
+parallel-transports cross sections, and closes loops with shared indices.
+This does not make the estimated elevation profile surveyed data. Legacy
+overlay commands still require explicit matching vertical-exaggeration and
+Z-offset arguments in addition to the shared origin JSON.
+
 The script builds a JR East Yamanote operational loop from N02 railway station data, using the same EPSG:6677 origin and scale as the subway model.
 
 N02 does not store the full operational Yamanote loop only as `Yamanote Line`. The western arc is listed as Yamanote, while the east and southeast arcs appear under Tohoku and Tokaido railway names in the source data. The script therefore uses the 30 operational Yamanote station sequence and picks station coordinates from those three N02 source lines.

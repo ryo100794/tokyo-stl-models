@@ -4,6 +4,11 @@
 *.ply
 *.3mf
 
+# Explicitly requested R14 deliverables; bulk source datasets remain ignored.
+!artifacts/penholder_R14/models/*.3mf
+!artifacts/penholder_R14/models/*.stl
+penholder_r14/cpu_mesh_raster
+
 # Downloaded and extracted PLATEAU data
 *.zip
 data/*

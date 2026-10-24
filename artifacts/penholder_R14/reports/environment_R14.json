@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "trimesh": "5.1.1",
+    "manifold3d": "3.5.4",
+    "pyproj": "3.8.0",
+    "shapely": "2.2.0",
+    "fast-simplification": "0.2.0",
+    "rtree": "1.4.1",
+    "networkx": "3.5",
+    "vtk": "9.3.1",
+    "Pillow": "12.3.0",
+    "lxml": "6.1.1",
+    "pandas": "2.2.3",
+    "pyyaml": "6.0.3",
+    "requests": "2.34.2",
+    "tqdm": "4.70.1"
+  }
+}

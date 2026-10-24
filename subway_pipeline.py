@@ -635,11 +635,33 @@ def load_n02_lines(railway_root: str | None, routes: list[dict[str, Any]], bbox:
 
 
 def match_feature_route(props: dict[str, Any], alias_index: dict[tuple[str, str], tuple[str, str]]) -> tuple[str, str] | None:
-    values = [normalize_key(value) for value in props.values()]
-    for (_alias_op, alias_line), canon in alias_index.items():
-        if alias_line and any(alias_line in value for value in values):
-            return canon
-    return None
+    """Match whole aliases in designated route fields, never arbitrary substrings.
+
+    A known operator disambiguates short route codes. Unknown/conflicting
+    operator fields and ambiguous line aliases deliberately remain unresolved.
+    N02 Japanese aliases must be supplied in the route configuration just like
+    other provider aliases; an unrelated property is never guessed to be a line.
+    """
+    operator_keys = {"operator", "operator_name", "canonical_operator", "agency_name", "n02_004"}
+    line_keys = {"line", "line_name", "canonical_line", "route_name", "route_long_name", "route_short_name", "n02_003"}
+    operators = {normalize_key(value) for key, value in props.items()
+                 if str(key).lower() in operator_keys and normalize_key(value)}
+    lines = {normalize_key(value) for key, value in props.items()
+             if str(key).lower() in line_keys and normalize_key(value)}
+    candidates = set()
+    for line in lines:
+        line_matches = {canon for (operator_alias, line_alias), canon in alias_index.items()
+                        if line_alias == line and (not operators or operator_alias in operators)}
+        candidates.update(line_matches)
+    if operators:
+        recognized_operators = {operator_alias for operator_alias, _ in alias_index}
+        if not operators.issubset(recognized_operators):
+            return None
+        canonical_operators = {canon[0] for (operator_alias, _), canon in alias_index.items()
+                               if operator_alias in operators}
+        if len(canonical_operators) != 1:
+            return None
+    return next(iter(candidates)) if len(candidates) == 1 else None
 
 
 def geometry_to_lines(geom: dict[str, Any]) -> list[list[list[float]]]:
@@ -659,15 +681,12 @@ def coord_in_bbox(coord: list[float], bbox: dict[str, float]) -> bool:
 
 
 def merged_confidence(rows: list[dict[str, Any]]) -> str:
-    best = "unknown"
-    best_rank = 99
-    for row in rows:
-        conf = row.get("confidence") or "unknown"
-        rank = CONFIDENCE_RANK.get(conf, 99)
-        if rank < best_rank:
-            best = conf
-            best_rank = rank
-    return best
+    """Combined evidence can be no stronger than its least certain input."""
+    if not rows:
+        return "unknown"
+    confidences = [normalize_key(row.get("confidence")) for row in rows]
+    confidences = [conf if conf in CONFIDENCE_RANK else "unknown" for conf in confidences]
+    return max(confidences, key=CONFIDENCE_RANK.__getitem__)
 
 
 def build_segments(stations: list[dict[str, Any]], sample_step_m: float = 250.0) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:

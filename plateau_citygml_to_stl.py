@@ -14,8 +14,10 @@ from typing import Iterator, Optional
 
 import requests
 from lxml import etree
-from pyproj import Transformer
+from pyproj import CRS, Transformer
 from tqdm import tqdm
+
+from model_coordinates import ModelCoordinates
 
 
 POSLIST_TAG = "{*}posList"
@@ -206,7 +208,8 @@ def classify_xy(a: float, b: float) -> str:
     return "plane"
 
 
-def parse_poslist_text(text: str, attr_dim: Optional[str], transforms: TransformSet) -> Optional[Ring]:
+def parse_poslist_text(text: str, attr_dim: Optional[str], transforms: TransformSet,
+                       srs_name: Optional[str] = None) -> Optional[Ring]:
     parts = text.split()
     if len(parts) < 6:
         return None
@@ -227,6 +230,14 @@ def parse_poslist_text(text: str, attr_dim: Optional[str], transforms: Transform
 
     first = coords[0]
     mode = classify_xy(first[0], first[1])
+    if srs_name:
+        # EPSG:6677's native GML axis order is northing, easting. The public
+        # model API and always_xy pyproj calls instead use easting, northing.
+        try:
+            if CRS.from_user_input(srs_name).to_epsg() == 6677:
+                mode = "north_east"
+        except Exception as exc:
+            raise ValueError(f"Unrecognized declared CityGML CRS: {srs_name}") from exc
     points_m: list[tuple[float, float, float]] = []
     lon_lat_items: list[tuple[float, float]] = []
 
@@ -243,6 +254,9 @@ def parse_poslist_text(text: str, attr_dim: Optional[str], transforms: Transform
             lon = a
             lat = b
             x, y = transforms.ll_to_m.transform(lon, lat)
+        elif mode == "north_east":
+            x, y = b, a
+            lon, lat = transforms.m_to_ll.transform(x, y)
         else:
             x = a
             y = b
@@ -299,7 +313,18 @@ def iter_rings(path: Path, transforms: TransformSet, lod: str = "any") -> Iterat
     for _event, elem in context:
         if elem_matches_lod(elem, lod):
             text = elem.text or ""
-            ring = parse_poslist_text(text, elem.get("srsDimension"), transforms)
+            parent = elem
+            srs_name, dimension = None, None
+            while parent is not None:
+                srs_name = srs_name or parent.get("srsName")
+                dimension = dimension or parent.get("srsDimension")
+                parent = parent.getparent()
+            if srs_name is None:
+                envelope = elem.getroottree().getroot().find("./{*}boundedBy/{*}Envelope")
+                if envelope is not None:
+                    srs_name = envelope.get("srsName")
+                    dimension = dimension or envelope.get("srsDimension")
+            ring = parse_poslist_text(text, dimension, transforms, srs_name)
             if ring is not None:
                 yield ring
         elem.clear()
@@ -369,6 +394,29 @@ def scaled_bounds(bounds: Bounds, center: tuple[float, float, float], scale: flo
             for z in (bounds.min_z, bounds.max_z):
                 out.update(scale_point((x, y, z), center, scale))
     return out
+
+
+def coordinates_for_bounds(args: argparse.Namespace, bounds: Bounds) -> ModelCoordinates:
+    """Use one explicit origin across batches, or retain legacy auto-centering."""
+    if getattr(args, "origin_json", None):
+        coordinates = ModelCoordinates.read(args.origin_json, mm_per_m=args.scale,
+            vertical_exaggeration=getattr(args, "vertical_exaggeration", 1.0),
+            z_offset_mm=getattr(args, "z_offset", 0.0))
+        if CRS.from_user_input(coordinates.crs).to_epsg() != 6677:
+            raise ValueError("PLATEAU output origin must use EPSG:6677 projected metres")
+        return coordinates
+    return ModelCoordinates(*bounds.center(), mm_per_m=args.scale,
+        vertical_exaggeration=getattr(args, "vertical_exaggeration", 1.0),
+        z_offset_mm=getattr(args, "z_offset", 0.0))
+
+
+def transformed_bounds(bounds: Bounds, coordinates: ModelCoordinates) -> Bounds:
+    result = Bounds()
+    for x in (bounds.min_x, bounds.max_x):
+        for y in (bounds.min_y, bounds.max_y):
+            for z in (bounds.min_z, bounds.max_z):
+                result.update(coordinates.point((x, y, z)))
+    return result
 
 
 def base_plate_triangles() -> list[tuple[int, int, int]]:
@@ -459,8 +507,10 @@ def write_streaming_stl(
     scale: float,
     base_thickness: float,
     lod: str,
+    coordinates: Optional[ModelCoordinates] = None,
 ) -> tuple[int, int]:
     center = bounds.center()
+    coordinates = coordinates or ModelCoordinates(*center, mm_per_m=scale)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     base_faces = 12 if base_thickness > 0.0 else 0
     total_faces = face_count + base_faces
@@ -477,7 +527,7 @@ def write_streaming_stl(
                 for ring in iter_rings(path, transforms, lod):
                     if not bbox.contains(ring.centroid_lon, ring.centroid_lat):
                         continue
-                    points = [scale_point(point, center, scale) for point in ring.points_m]
+                    points = [coordinates.point(point) for point in ring.points_m]
                     for idx in range(1, len(points) - 1):
                         write_binary_stl_triangle(fh, points[0], points[idx], points[idx + 1])
             except Exception as exc:
@@ -485,7 +535,7 @@ def write_streaming_stl(
                 continue
 
         if base_thickness > 0.0:
-            sb = scaled_bounds(bounds, center, scale)
+            sb = transformed_bounds(bounds, coordinates)
             base_vertices = make_base_plate_vertices(sb, base_thickness)
             for tri in base_plate_triangles():
                 write_binary_stl_triangle(fh, base_vertices[tri[0]], base_vertices[tri[1]], base_vertices[tri[2]])
@@ -498,12 +548,14 @@ def scaled_mesh_data(
     vertices_m: list[tuple[float, float, float]],
     faces: list[tuple[int, int, int]],
     scale: float,
+    coordinates: Optional[ModelCoordinates] = None,
 ) -> tuple[np.ndarray, np.ndarray]:
     import numpy as np
 
     vertices = np.asarray(vertices_m, dtype=np.float64)
     center = (vertices.min(axis=0) + vertices.max(axis=0)) * 0.5
-    scaled = (vertices - center) * scale
+    coordinates = coordinates or ModelCoordinates(*center, mm_per_m=scale)
+    scaled = coordinates.points(vertices)
     return scaled, np.asarray(faces, dtype=np.int64)
 
 
@@ -565,8 +617,8 @@ def add_base_plate(
 def maybe_repair(mesh) -> None:
     import trimesh
 
-    mesh.remove_duplicate_faces()
-    mesh.remove_degenerate_faces()
+    mesh.update_faces(mesh.unique_faces())
+    mesh.update_faces(mesh.nondegenerate_faces())
     mesh.remove_unreferenced_vertices()
     trimesh.repair.fix_normals(mesh)
     try:
@@ -614,7 +666,11 @@ def build_stl_in_memory(args: argparse.Namespace) -> Stats:
             "Check west/east/south/north, try a larger bbox, or verify the source CRS detection."
         )
 
-    vertices, faces = scaled_mesh_data(all_vertices_m, all_faces, args.scale)
+    bounds = Bounds()
+    for point in all_vertices_m:
+        bounds.update(point)
+    coordinates = coordinates_for_bounds(args, bounds)
+    vertices, faces = scaled_mesh_data(all_vertices_m, all_faces, args.scale, coordinates)
     vertices, faces = add_base_plate(vertices, faces, args.base_thickness)
 
     mesh = trimesh.Trimesh(vertices=vertices, faces=faces, process=False)
@@ -623,6 +679,8 @@ def build_stl_in_memory(args: argparse.Namespace) -> Stats:
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     mesh.export(out_path)
+    if getattr(args, "origin_out", None):
+        coordinates.write(args.origin_out)
 
     stats.vertices = int(len(mesh.vertices))
     stats.faces = int(len(mesh.faces))
@@ -646,6 +704,7 @@ def build_stl(args: argparse.Namespace) -> Stats:
             "Check west/east/south/north, try a larger bbox, or verify the source CRS detection."
         )
 
+    coordinates = coordinates_for_bounds(args, bounds)
     base_vertices, base_faces = write_streaming_stl(
         files=files,
         out_path=out_path,
@@ -656,7 +715,10 @@ def build_stl(args: argparse.Namespace) -> Stats:
         scale=args.scale,
         base_thickness=args.base_thickness,
         lod=args.lod,
+        coordinates=coordinates,
     )
+    if getattr(args, "origin_out", None):
+        coordinates.write(args.origin_out)
     stats.vertices += base_vertices
     stats.faces += base_faces
     return stats
@@ -709,7 +771,13 @@ def build_parser() -> argparse.ArgumentParser:
     p_stl.add_argument("--root", required=True)
     p_stl.add_argument("--out", required=True)
     add_common_bbox_args(p_stl)
-    p_stl.add_argument("--scale", type=float, default=0.001)
+    p_stl.add_argument("--scale", "--mm-per-m", dest="scale", type=float, default=0.001,
+                       help="millimetres per source metre; 1:120000 uses 0.008333333333333333")
+    p_stl.add_argument("--origin-json", help="fixed ENU projected-metre/model-mm transform")
+    p_stl.add_argument("--origin-out", "--export-origin", dest="origin_out",
+                       help="write the exact transform used for later batches")
+    p_stl.add_argument("--vertical-exaggeration", type=float, default=1.0)
+    p_stl.add_argument("--z-offset", type=float, default=0.0, help="model millimetres")
     p_stl.add_argument("--base-thickness", type=float, default=0.0)
     p_stl.add_argument("--max-files", type=int, default=None)
     p_stl.add_argument("--file-offset", type=int, default=0)
@@ -770,6 +838,8 @@ def main(argv: Optional[list[str]] = None) -> int:
     args = parser.parse_args(argv)
     if getattr(args, "scale", 1.0) <= 0.0:
         parser.error("--scale must be greater than zero")
+    if getattr(args, "vertical_exaggeration", 1.0) <= 0.0:
+        parser.error("--vertical-exaggeration must be greater than zero")
     if getattr(args, "base_thickness", 0.0) < 0.0:
         parser.error("--base-thickness must be zero or greater")
     return int(args.func(args))

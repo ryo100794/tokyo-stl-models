@@ -1,5 +1,23 @@
 # Codex Handoff
 
+## R14 integration updates, 2026-10-24
+
+The user requested the R14 integration results in both Google Drive and this
+repository. `model_coordinates.py` now provides explicit metre-to-model-mm
+transforms. The building converter accepts `--origin-json`, `--origin-out`
+(`--export-origin`), and `--mm-per-m`. Streaming and in-memory conversions use
+the same transform and normalize declared EPSG:6677 native axis order.
+
+The shared tube API now preserves winding and indexed loop closure, and adds
+an open-bore hollow tube API. Yamanote imports this implementation. Route
+classification uses complete aliases; quality aggregation retains the weakest
+input, including unknown quality. Run the regression suite in `tests/`.
+
+The generated R14 artifacts are an explicit exception to the historical
+generated-mesh policy below. Downloaded bulk PLATEAU data remain excluded.
+The historical local datasets and results below refer to an earlier machine;
+they are not assertions that those files are present in every checkout.
+
 This repository contains a Python CLI for converting Project PLATEAU CityGML building data to STL.
 
 ## Repository
@@ -256,4 +274,8 @@ shafts: 26
 output: output/subway_rough_with_shafts.stl
 ```
 
-Important: no PLATEAU building origin JSON exists yet in this repo. Without `--origin-json`, the subway STL command uses an automatic origin from subway data bounds. That is fine for subway-only preview, but not for exact overlay with building STL. Add origin export to the building STL command or provide an external origin JSON before final overlay.
+The building CLI now exports origin JSON using `--origin-out`. Without
+`--origin-json`, the subway STL command still derives an automatic origin from
+its own data bounds. For overlay, use the same origin and horizontal scale;
+also pass matching `--vertical-exaggeration` and `--z-offset` to the legacy
+subway and Yamanote commands, which do not inherit those two values from JSON.

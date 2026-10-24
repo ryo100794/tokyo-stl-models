@@ -1,0 +1,26 @@
+test_cli_aliases (test_model_coordinates.ModelCoordinatesTests.test_cli_aliases) ... ok
+test_contradictory_or_invalid_units_rejected (test_model_coordinates.ModelCoordinatesTests.test_contradictory_or_invalid_units_rejected) ... ok
+test_declared_epsg6677_native_axes_are_normalized (test_model_coordinates.ModelCoordinatesTests.test_declared_epsg6677_native_axes_are_normalized) ... ok
+test_explicit_units_and_vertical_scale (test_model_coordinates.ModelCoordinatesTests.test_explicit_units_and_vertical_scale) ... ok
+test_legacy_auto_center_is_retained (test_model_coordinates.ModelCoordinatesTests.test_legacy_auto_center_is_retained) ... ok
+test_legacy_origin_and_roundtrip_json (test_model_coordinates.ModelCoordinatesTests.test_legacy_origin_and_roundtrip_json) ... ok
+test_roundtrip_and_vector_transform (test_model_coordinates.ModelCoordinatesTests.test_roundtrip_and_vector_transform) ... ok
+test_stream_memory_and_separate_tiles_share_origin (test_model_coordinates.ModelCoordinatesTests.test_stream_memory_and_separate_tiles_share_origin) ... ok
+test_confidence_is_weakest_including_unknown (test_upstream_regressions.RouteTests.test_confidence_is_weakest_including_unknown) ... ok
+test_route_codes_are_full_typed_field_matches (test_upstream_regressions.RouteTests.test_route_codes_are_full_typed_field_matches) ... ok
+test_shinjuku_is_not_hibiya (test_upstream_regressions.RouteTests.test_shinjuku_is_not_hibiya) ... ok
+test_bent_solid_winding (test_upstream_regressions.SweepTests.test_bent_solid_winding) ... ok
+test_closed_hollow (test_upstream_regressions.SweepTests.test_closed_hollow) ... ok
+test_duplicate_points_and_degenerate_route (test_upstream_regressions.SweepTests.test_duplicate_points_and_degenerate_route) ... ok
+test_frames_do_not_flip_near_vertical (test_upstream_regressions.SweepTests.test_frames_do_not_flip_near_vertical) ... ok
+test_invalid_parameters_rejected (test_upstream_regressions.SweepTests.test_invalid_parameters_rejected) ... ok
+test_nonplanar_loop (test_upstream_regressions.SweepTests.test_nonplanar_loop) ... ok
+test_open_hollow_has_annular_rims_and_no_bore_disc (test_upstream_regressions.SweepTests.test_open_hollow_has_annular_rims_and_no_bore_disc) ... ok
+test_repeated_endpoint_loop_has_indexed_seam (test_upstream_regressions.SweepTests.test_repeated_endpoint_loop_has_indexed_seam) ... ok
+test_straight_solid_winding_and_polygon_volume (test_upstream_regressions.SweepTests.test_straight_solid_winding_and_polygon_volume) ... ok
+test_yamanote_uses_shared_closed_sweep (test_upstream_regressions.SweepTests.test_yamanote_uses_shared_closed_sweep) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.822s
+
+OK

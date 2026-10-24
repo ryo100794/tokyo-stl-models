@@ -394,54 +394,161 @@ def frame_for_tangent(tangent: list[float]) -> tuple[list[float], list[float]]:
     return normal, binormal
 
 
-def make_welded_tube(points: list[list[float]], radius: float, sides: int) -> Any | None:
-    if len(points) < 2:
+def _sweep_frames(points: list[list[float]], closed: bool | None):
+    """Return clean float64 points and rotation-minimizing ring frames.
+
+    Closed paths omit the repeated endpoint. Their residual frame rotation is
+    spread by arc length, avoiding a single twisted closing seam. This builds
+    topology; a radius-versus-curvature check is still required by the caller.
+    """
+    import numpy as np
+
+    p = np.asarray(points, dtype=np.float64)
+    if p.size == 0:
         return None
+    if p.ndim != 2 or p.shape[1] != 3 or not np.isfinite(p).all():
+        raise ValueError("points must be finite three-dimensional coordinates")
+    p = p[np.r_[True, np.linalg.norm(np.diff(p, axis=0), axis=1) > 1e-12]]
+    if len(p) < 2:
+        return None
+    duplicate_end = np.linalg.norm(p[-1] - p[0]) <= 1e-10
+    closed = duplicate_end if closed is None else bool(closed)
+    if closed and duplicate_end:
+        p = p[:-1]
+    if len(p) < (3 if closed else 2):
+        return None
+
+    def unit(v):
+        return v / np.linalg.norm(v)
+
+    edges = np.roll(p, -1, axis=0) - p if closed else np.diff(p, axis=0)
+    directions = edges / np.linalg.norm(edges, axis=1)[:, None]
+    tangents = np.empty_like(p)
+    for i in range(len(p)):
+        if not closed and i == 0:
+            tangents[i] = directions[0]
+        elif not closed and i == len(p) - 1:
+            tangents[i] = directions[-1]
+        else:
+            before, after = directions[(i - 1) % len(directions)], directions[i % len(directions)]
+            mixed = before + after
+            tangents[i] = unit(mixed) if np.linalg.norm(mixed) > 1e-12 else after
+
+    def rotate(v, axis, angle):
+        return (v * math.cos(angle) + np.cross(axis, v) * math.sin(angle)
+                + axis * np.dot(axis, v) * (1. - math.cos(angle)))
+
+    def transport(v, old_tangent, new_tangent):
+        axis = np.cross(old_tangent, new_tangent)
+        sine, cosine = np.linalg.norm(axis), float(np.clip(old_tangent @ new_tangent, -1., 1.))
+        if sine > 1e-12:
+            v = rotate(v, axis / sine, math.atan2(sine, cosine))
+        # An exact reversal has no unique minimal frame. Keep its normal and
+        # reverse the binormal; callers must handle self-overlapping cusps.
+        v = v - new_tangent * (v @ new_tangent)
+        if np.linalg.norm(v) < 1e-12:
+            v = np.cross(new_tangent, np.eye(3)[np.argmin(np.abs(new_tangent))])
+        return unit(v)
+
+    normals = np.empty_like(p)
+    helper = np.eye(3)[np.argmin(np.abs(tangents[0]))]
+    normals[0] = unit(np.cross(tangents[0], helper))
+    for i in range(1, len(p)):
+        normals[i] = transport(normals[i - 1], tangents[i - 1], tangents[i])
+    if closed:
+        closure_normal = transport(normals[-1], tangents[-1], tangents[0])
+        residual = math.atan2(float(tangents[0] @ np.cross(closure_normal, normals[0])),
+                              float(np.clip(closure_normal @ normals[0], -1., 1.)))
+        lengths = np.linalg.norm(edges, axis=1)
+        fractions = np.r_[0., np.cumsum(lengths[:-1])] / lengths.sum()
+        for i, fraction in enumerate(fractions):
+            normals[i] = rotate(normals[i], tangents[i], residual * fraction)
+    binormals = np.cross(tangents, normals)
+    return p, normals, binormals, closed
+
+
+def _ring_mesh_data(points, radius, sides, closed):
+    import numpy as np
+
+    if not math.isfinite(radius) or radius <= 0:
+        raise ValueError("radius must be positive and finite")
+    if isinstance(sides, bool) or int(sides) != sides or sides < 3:
+        raise ValueError("sides must be an integer of at least three")
+    sides = int(sides)
+    framed = _sweep_frames(points, closed)
+    if framed is None:
+        return None
+    p, normals, binormals, closed = framed
+    angles = np.arange(sides) * (2. * math.pi / sides)
+    radial = (normals[:, None, :] * np.cos(angles)[None, :, None]
+              + binormals[:, None, :] * np.sin(angles)[None, :, None])
+    vertices = (p[:, None, :] + radius * radial).reshape(-1, 3)
+    faces = []
+    for ring in range(len(p) if closed else len(p) - 1):
+        a, b = ring * sides, ((ring + 1) % len(p)) * sides
+        for i in range(sides):
+            j = (i + 1) % sides
+            faces.extend([[a + i, a + j, b + j], [a + i, b + j, b + i]])
+    return p, vertices, faces, closed, radial
+
+
+def make_welded_tube(points: list[list[float]], radius: float, sides: int,
+                     closed: bool | None = None) -> Any | None:
+    """Build one consistently oriented, capped solid or a welded closed loop.
+
+    ``closed=None`` recognizes a repeated endpoint; ``closed=False`` retains an
+    intentionally open route. Radius is expressed in the same units as points.
+    No branch stitching or self-intersection repair is performed here.
+    """
     import numpy as np
     import trimesh
 
-    clean_points = [points[0]]
-    for point in points[1:]:
-        if norm(vector_sub(point, clean_points[-1])) > 0.0:
-            clean_points.append(point)
-    if len(clean_points) < 2:
+    result = _ring_mesh_data(points, radius, sides, closed)
+    if result is None:
         return None
+    p, vertices, faces, closed, _ = result
+    sides = int(sides)
+    if not closed:
+        first_center, last_center = len(vertices), len(vertices) + 1
+        vertices = np.vstack([vertices, p[0], p[-1]])
+        last = (len(p) - 1) * sides
+        for i in range(sides):
+            j = (i + 1) % sides
+            faces.extend([[first_center, j, i], [last_center, last + i, last + j]])
+    return trimesh.Trimesh(vertices=vertices, faces=np.asarray(faces, dtype=np.int64), process=False)
 
-    vertices = []
-    faces = []
-    for index, point in enumerate(clean_points):
-        tangent = tangent_at(clean_points, index)
-        normal, binormal = frame_for_tangent(tangent)
-        for side in range(sides):
-            angle = 2.0 * math.pi * side / sides
-            offset = vector_add(
-                vector_scale(normal, math.cos(angle) * radius),
-                vector_scale(binormal, math.sin(angle) * radius),
-            )
-            vertices.append(vector_add(point, offset))
 
-    for ring in range(len(clean_points) - 1):
-        base_a = ring * sides
-        base_b = (ring + 1) * sides
-        for side in range(sides):
-            a0 = base_a + side
-            a1 = base_a + ((side + 1) % sides)
-            b0 = base_b + side
-            b1 = base_b + ((side + 1) % sides)
-            faces.append([a0, b0, b1])
-            faces.append([a0, b1, a1])
+def make_hollow_tube(points: list[list[float]], outer_radius: float,
+                     inner_radius: float, sides: int, closed: bool = False) -> Any | None:
+    """Build a tube wall with an open bore, connected by annular end rims.
 
-    start_center = len(vertices)
-    vertices.append(clean_points[0])
-    end_center = len(vertices)
-    vertices.append(clean_points[-1])
-    for side in range(sides):
-        next_side = (side + 1) % sides
-        faces.append([start_center, next_side, side])
-        end_base = (len(clean_points) - 1) * sides
-        faces.append([end_center, end_base + side, end_base + next_side])
+    Closed loops have outer and inner skins. Open paths have annular rims only;
+    no face is placed across either bore. Self-overlap at tight turns must be
+    checked independently before this mesh is used as a manufacturing part.
+    """
+    import numpy as np
+    import trimesh
 
-    return trimesh.Trimesh(vertices=np.asarray(vertices), faces=np.asarray(faces), process=False)
+    if not math.isfinite(inner_radius) or not 0 < inner_radius < outer_radius:
+        raise ValueError("require 0 < inner_radius < outer_radius")
+    result = _ring_mesh_data(points, outer_radius, sides, closed)
+    if result is None:
+        return None
+    p, outer, side_faces, closed, radial = result
+    sides = int(sides)
+    inner = (p[:, None, :] + inner_radius * radial).reshape(-1, 3)
+    count = len(outer)
+    outer_faces = np.asarray(side_faces, dtype=np.int64)
+    inner_faces = outer_faces[:, [0, 2, 1]] + count
+    rims = []
+    if not closed:
+        for base, start in [(0, True), ((len(p) - 1) * sides, False)]:
+            for i in range(sides):
+                j = (i + 1) % sides
+                oi, oj, ii, ij = base + i, base + j, count + base + i, count + base + j
+                rims.extend([[oi, ij, oj], [oi, ii, ij]] if start else [[oi, oj, ij], [oi, ij, ii]])
+    faces = np.vstack([outer_faces, inner_faces, np.asarray(rims, dtype=np.int64).reshape(-1, 3)])
+    return trimesh.Trimesh(vertices=np.vstack([outer, inner]), faces=faces, process=False)
 
 
 def concatenate(meshes: list[Any]) -> Any:

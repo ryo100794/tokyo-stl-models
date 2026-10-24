@@ -2,6 +2,19 @@
 
 This note describes `subway_n02_welded_tube_model.py`.
 
+## R14 API corrections
+
+`make_welded_tube(points, radius, sides, closed=None)` now produces consistently
+oriented solid tubes and shared-index closed loops. Cross sections use parallel
+transport; closed loops distribute residual frame twist around the circuit.
+
+`make_hollow_tube(points, outer_radius, inner_radius, sides, closed=False)` adds
+inner walls and annular end rims. Open bores have no end-cap discs across them.
+This API does not guarantee that arbitrary tight bends avoid self-intersection.
+The R14 manufacturing pipeline checks geometry separately and uses rounded
+capsule unions where a ring sweep is unsuitable. It subtracts the same lumen
+from overlapping supports and landscape parts.
+
 The earlier N02 rough model used one cylinder per line segment. That can show visible gaps at bends and joins because adjacent cylinders are not welded.
 
 This standalone script builds each subway path as one connected tube mesh:
