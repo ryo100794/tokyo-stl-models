@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "revision": "R14",
+  "checkpoint": "repaired_20261109",
+  "phase": "R14 recovery checkpoint; whole-body and junction refinements in progress; NOT a print release",
+  "description_ja": "一体本体と流路接合部の修正途中に固定した保存点です。印刷用完成版ではありません。",
+  "snapshot_at_utc": "2026-11-08T16:12:17.560843+00:00",
+  "manifest_created_at_utc": "2026-11-08T16:21:04.169556+00:00",
+  "github_repository": "ryo100794/tokyo-stl-models",
+  "github_branch": "recovery/r14-20261109",
+  "github_expected_parent_commit": "e67a2183d829d66694d341bce5756d023a2b9ebc",
+  "drive_checkpoint_folder": {
+    "success": true,
+    "id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+    "url": "https://drive.google.com/drive/folders/19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+    "title": "repaired_20261109",
+    "parent_id": "1TSPRhuc0nJAkRzTAYNQNfKD_EujRb-3E"
+  },
+  "drive_reports_folder": {
+    "success": true,
+    "id": "1JFc1XoxBYQ4SiT2jzWNaC2r6qFo6k5eM",
+    "url": "https://drive.google.com/drive/folders/1JFc1XoxBYQ4SiT2jzWNaC2r6qFo6k5eM",
+    "title": "reports",
+    "parent_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq"
+  },
+  "print_release": false,
+  "whole_body_complete": false,
+  "whole_body_mesh_included": false,
+  "physical_print_and_flow_tests_performed": false,
+  "generator_source_included_in_this_commit": false,
+  "generator_source_status": "Generation owner continues code and junction refinements; final source and output provenance will be added in a later checkpoint. Existing code history is preserved.",
+  "pending_work": [
+    "Complete whole-body generation and validation.",
+    "Refine thin internal junction wedges; generation owner reported five rail lines need refinement after this snapshot.",
+    "Finalize generator source and validate the resulting final meshes.",
+    "Printer-specific support/slicing and physical SLA/flow testing remain unperformed."
+  ],
+  "qualification_limitations": [
+    "material wall-thickness certification",
+    "fluid connectivity or leak-tightness",
+    "successful SLA printing",
+    "support adequacy",
+    "successful physical flow",
+    "strength or pressure rating"
+  ],
+  "verification": {
+    "model_count": 15,
+    "new_rail_drive_upload_count": 14,
+    "existing_coupon_drive_reference_count": 1,
+    "aggregate_report_count": 2,
+    "all_15_mesh_hashes_match_independent_report": true,
+    "all_14_rail_hashes_match_export_report": true,
+    "all_17_github_blob_hashes_match_local_files": true,
+    "all_17_drive_raw_readbacks_match_local_bytes": true,
+    "github_binary_raw_readback_after_commit": "pending; parent agent will verify via read-only git fetch",
+    "no_geometry_tests_rerun_by_storage_agent": true
+  },
+  "R13_modified": false,
+  "main_modified": false,
+  "existing_Drive_model_originals_modified": false,
+  "files": [
+    {
+      "relative_path": "models/flow_coupon_R14.stl",
+      "github_path": "artifacts/penholder_R14/models/flow_coupon_R14.stl",
+      "bytes": 3962284,
+      "sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+      "git_blob_sha": "ccdbe950bd222e4017f208c2a8d26010ca037888",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1C9NOaU9izodZBleKwPwa8-BBI3LnfMsO",
+        "url": "https://drive.google.com/file/d/1C9NOaU9izodZBleKwPwa8-BBI3LnfMsO/view?usp=drivesdk",
+        "storage": "existing_original_reused",
+        "parent_folder_id": "1TSPRhuc0nJAkRzTAYNQNfKD_EujRb-3E",
+        "readback_bytes": 3962284,
+        "readback_sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:53.727476+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/0",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L01.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L01.stl",
+      "bytes": 1557884,
+      "sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+      "git_blob_sha": "c2f33bd8fd7c334ca16bd86a22d3034feec44133",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1KrofQ8xUcvqsE2D6jLRPm_aa79ZPNXER",
+        "url": "https://drive.google.com/file/d/1KrofQ8xUcvqsE2D6jLRPm_aa79ZPNXER/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 1557884,
+        "readback_sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:53.484881+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/1",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/0",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L02.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L02.stl",
+      "bytes": 2313084,
+      "sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+      "git_blob_sha": "ad308876d56861ed05dcf50f28d787ef59e3f0b8",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "14yTCxxv7unLHuLNELDvPp8__uhkBOCLV",
+        "url": "https://drive.google.com/file/d/14yTCxxv7unLHuLNELDvPp8__uhkBOCLV/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 2313084,
+        "readback_sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:53.653227+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/2",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/1",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L03.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L03.stl",
+      "bytes": 1944184,
+      "sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+      "git_blob_sha": "35fadf9fb0c72c583a658287cea27031a5d10967",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1d9ZfxfCFqnsH3gc97HQzaY0WokuC37Es",
+        "url": "https://drive.google.com/file/d/1d9ZfxfCFqnsH3gc97HQzaY0WokuC37Es/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 1944184,
+        "readback_sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:53.670646+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/3",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/2",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L04.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L04.stl",
+      "bytes": 1705484,
+      "sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+      "git_blob_sha": "57af1e47cea039d1f1a581fd6957ff273ff3bb2f",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1IHECe78V5E3TNVL_4WrTA68CmokXDwnr",
+        "url": "https://drive.google.com/file/d/1IHECe78V5E3TNVL_4WrTA68CmokXDwnr/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 1705484,
+        "readback_sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:53.828054+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/4",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/3",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L05.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L05.stl",
+      "bytes": 2102984,
+      "sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+      "git_blob_sha": "23ae2d18f03760c1d2ad35c6ccf46be033383653",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1wjhTdD8diZsD-EYuaSn_UpM4QbMR8OWX",
+        "url": "https://drive.google.com/file/d/1wjhTdD8diZsD-EYuaSn_UpM4QbMR8OWX/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 2102984,
+        "readback_sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:53.951867+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/5",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/4",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L06.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L06.stl",
+      "bytes": 2261784,
+      "sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+      "git_blob_sha": "ad43f9c75535d4f5a5e3d0b2bc9855bed8933da6",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "15D0iO4TvOo3pDlDoSqwWCsswF1EO28Xo",
+        "url": "https://drive.google.com/file/d/15D0iO4TvOo3pDlDoSqwWCsswF1EO28Xo/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 2261784,
+        "readback_sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.206540+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/6",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/5",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L07.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L07.stl",
+      "bytes": 1913984,
+      "sha256": "1c0a7ed974323c31bc1f6120ae56f8cea70af6120f5e13316a1c00d395824131",
+      "git_blob_sha": "e306ca5508f4e8d21105f7b48562bc40234dcd23",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1pRw5AhC6mwj4gY19qY2H4ztOkJmMzEgC",
+        "url": "https://drive.google.com/file/d/1pRw5AhC6mwj4gY19qY2H4ztOkJmMzEgC/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 1913984,
+        "readback_sha256": "1c0a7ed974323c31bc1f6120ae56f8cea70af6120f5e13316a1c00d395824131",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.245771+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/7",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/6",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L08.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L08.stl",
+      "bytes": 2311284,
+      "sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+      "git_blob_sha": "91ec28af5e7a3b22cebb41079da7ba9014aa673b",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "18c30aHeBjYa2ucjij4bL44Wq2TRpJzfE",
+        "url": "https://drive.google.com/file/d/18c30aHeBjYa2ucjij4bL44Wq2TRpJzfE/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 2311284,
+        "readback_sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.281302+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/8",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/7",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L09.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L09.stl",
+      "bytes": 1042284,
+      "sha256": "be89e2048e0ff891b9e31b6d66f02846fae355c8af06d062dd84aa69176e2562",
+      "git_blob_sha": "5f0c5f26cab837b8e04f8606f2a4a6b6e35c871a",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1kUwpnOasGQkS6ngf13yzdnxD1KUKjJ9m",
+        "url": "https://drive.google.com/file/d/1kUwpnOasGQkS6ngf13yzdnxD1KUKjJ9m/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 1042284,
+        "readback_sha256": "be89e2048e0ff891b9e31b6d66f02846fae355c8af06d062dd84aa69176e2562",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.295256+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/9",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/8",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L10.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L10.stl",
+      "bytes": 1206984,
+      "sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+      "git_blob_sha": "371a359b522757497cd48ac44c06da82183c1c90",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1qWW9OvGADEUbzMLuuLJt2SzG0AXAuZ9a",
+        "url": "https://drive.google.com/file/d/1qWW9OvGADEUbzMLuuLJt2SzG0AXAuZ9a/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 1206984,
+        "readback_sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.675487+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/10",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/9",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L11.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L11.stl",
+      "bytes": 1516984,
+      "sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+      "git_blob_sha": "79b485a9b49519e37be4c401aec292d531abcd47",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1Rp3ikaSQcT1mZxsPR7Z4wFgnMJL7hBIP",
+        "url": "https://drive.google.com/file/d/1Rp3ikaSQcT1mZxsPR7Z4wFgnMJL7hBIP/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 1516984,
+        "readback_sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.608306+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/11",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/10",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L12.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L12.stl",
+      "bytes": 1508684,
+      "sha256": "22821b470cd3eff0bc6c1ccf47423a2ced022492c742b71256a8e8fe88f646e5",
+      "git_blob_sha": "70d19d224784b671663b9a7029ec5f18b042d1e2",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1o0UAADo3wdf6Tl5Ru-3rgaxa7vtmIQNw",
+        "url": "https://drive.google.com/file/d/1o0UAADo3wdf6Tl5Ru-3rgaxa7vtmIQNw/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 1508684,
+        "readback_sha256": "22821b470cd3eff0bc6c1ccf47423a2ced022492c742b71256a8e8fe88f646e5",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.613077+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/12",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/11",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L13.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L13.stl",
+      "bytes": 3201584,
+      "sha256": "f51764a5af44608f9ea13121c2acfa214779627f2c4ca34a5f14d2aafe35294d",
+      "git_blob_sha": "0a27290355788cf107da003b87a41f9d11e6a421",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "14SiSW4vD4WdSt4N3BnmNkl52xEg1tur5",
+        "url": "https://drive.google.com/file/d/14SiSW4vD4WdSt4N3BnmNkl52xEg1tur5/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 3201584,
+        "readback_sha256": "f51764a5af44608f9ea13121c2acfa214779627f2c4ca34a5f14d2aafe35294d",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.689587+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/13",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/12",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "models/rail_R14_L14.stl",
+      "github_path": "artifacts/penholder_R14/models/rail_R14_L14.stl",
+      "bytes": 3750184,
+      "sha256": "e2a56a216fc579b84c96688648c50a5de6e77e027c1aeb57bfe49801bf2b1d22",
+      "git_blob_sha": "5e1ecaf587028226ae1348c9665fabb972a808f2",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1U9M_2IJ0JQyjdoqGC_cMyWR5--Hb7KsR",
+        "url": "https://drive.google.com/file/d/1U9M_2IJ0JQyjdoqGC_cMyWR5--Hb7KsR/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "19uUqzMTL2y-khHtOwOt8uShe6ZMviWWq",
+        "readback_bytes": 3750184,
+        "readback_sha256": "e2a56a216fc579b84c96688648c50a5de6e77e027c1aeb57bfe49801bf2b1d22",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:55.076094+00:00"
+      },
+      "print_release": false,
+      "independent_validation_reference": {
+        "report_path": "reports/independent_parts/independent_saved_meshes_report.json",
+        "json_pointer": "/tests/14",
+        "mesh_sha256_matched": true
+      },
+      "export_validation_reference": {
+        "report_path": "reports/repaired_part_exports_R14.json",
+        "json_pointer": "/13",
+        "mesh_sha256_matched": true
+      }
+    },
+    {
+      "relative_path": "reports/repaired_part_exports_R14.json",
+      "github_path": "artifacts/penholder_R14/reports/repaired_part_exports_R14.json",
+      "bytes": 29808,
+      "sha256": "daa62b0d7c7e9873f3adfc88a895224cfcdbcb0461403b89d9920d16e0871d16",
+      "git_blob_sha": "1112fadd16d08f33e50d26693374265a66eab7d4",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "13rT31i5_nUQaPFFERYixAxMw5nTVz2zJ",
+        "url": "https://drive.google.com/file/d/13rT31i5_nUQaPFFERYixAxMw5nTVz2zJ/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "1JFc1XoxBYQ4SiT2jzWNaC2r6qFo6k5eM",
+        "readback_bytes": 29808,
+        "readback_sha256": "daa62b0d7c7e9873f3adfc88a895224cfcdbcb0461403b89d9920d16e0871d16",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.799653+00:00"
+      },
+      "print_release": false
+    },
+    {
+      "relative_path": "reports/independent_parts/independent_saved_meshes_report.json",
+      "github_path": "artifacts/penholder_R14/reports/independent_parts/independent_saved_meshes_report.json",
+      "bytes": 45485,
+      "sha256": "ce83f32efc444cf3e3ef1b436a8a2f70b41494f394d3003e384c5947cf2dbf47",
+      "git_blob_sha": "74429447eecc97f751fd9b8073a7bb48d480a46b",
+      "github_blob_sha_verified": true,
+      "drive": {
+        "id": "1CyjZE3YQx9HeEvYMc7xL-GDQzyeHeJyk",
+        "url": "https://drive.google.com/file/d/1CyjZE3YQx9HeEvYMc7xL-GDQzyeHeJyk/view?usp=drivesdk",
+        "storage": "new_checkpoint_copy",
+        "parent_folder_id": "1JFc1XoxBYQ4SiT2jzWNaC2r6qFo6k5eM",
+        "readback_bytes": 45485,
+        "readback_sha256": "ce83f32efc444cf3e3ef1b436a8a2f70b41494f394d3003e384c5947cf2dbf47",
+        "exact_bytes_match": true,
+        "verified_at_utc": "2026-11-08T16:19:54.799533+00:00"
+      },
+      "print_release": false
+    }
+  ],
+  "self_listing": "This correspondence file is excluded from its own file list and hashes to avoid recursive checksum dependencies."
+}

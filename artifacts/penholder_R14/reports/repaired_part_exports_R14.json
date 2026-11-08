@@ -1,0 +1,1052 @@
+[
+  {
+    "file": "rail_R14_L01.stl",
+    "sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+    "bytes": 1557884,
+    "topology": {
+      "vertices": 15574,
+      "triangles": 31156,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 617.6975487103314,
+      "bounds_mm": [
+        [
+          -51.69036102294922,
+          -23.134674072265625,
+          35.9991340637207
+        ],
+        [
+          26.97342872619629,
+          30.939125061035156,
+          61.19107437133789
+        ]
+      ],
+      "dimensions_mm": [
+        78.66378974914551,
+        54.07379913330078,
+        25.191940307617188
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 15575,
+          "triangles": 31158,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 617.6975487933364
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 1,
+          "merged_vertex_count": 1,
+          "maximum_vertex_displacement_mm": 2.3103547648742228e-05,
+          "collapsed_faces": 2,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 15574,
+          "triangles": 31156,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 617.6975487103314
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L01",
+    "name_ja": "銀座線",
+    "seconds": 1.2988333702087402
+  },
+  {
+    "file": "rail_R14_L02.stl",
+    "sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+    "bytes": 2313084,
+    "topology": {
+      "vertices": 23122,
+      "triangles": 46260,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 1105.8882316474408,
+      "bounds_mm": [
+        [
+          -113.7706298828125,
+          -41.253177642822266,
+          32.80616760253906
+        ],
+        [
+          3.0432162284851074,
+          17.089418411254883,
+          59.99457931518555
+        ]
+      ],
+      "dimensions_mm": [
+        116.81384611129761,
+        58.34259605407715,
+        27.188411712646484
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 23122,
+          "triangles": 46260,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 1105.8882316474408
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 0,
+          "merged_vertex_count": 0,
+          "maximum_vertex_displacement_mm": 0.0,
+          "collapsed_faces": 0,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 23122,
+          "triangles": 46260,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 1105.8882316474408
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L02",
+    "name_ja": "丸ノ内線",
+    "seconds": 1.621429681777954
+  },
+  {
+    "file": "rail_R14_L03.stl",
+    "sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+    "bytes": 1944184,
+    "topology": {
+      "vertices": 19435,
+      "triangles": 38882,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 845.3945186547994,
+      "bounds_mm": [
+        [
+          -52.31691360473633,
+          -61.02251434326172,
+          41.77442932128906
+        ],
+        [
+          33.43439483642578,
+          43.99161148071289,
+          66.08634948730469
+        ]
+      ],
+      "dimensions_mm": [
+        85.75130844116211,
+        105.01412582397461,
+        24.311920166015625
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 19437,
+          "triangles": 38886,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 845.3945186497382
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 2,
+          "merged_vertex_count": 2,
+          "maximum_vertex_displacement_mm": 2.1716058890230945e-05,
+          "collapsed_faces": 4,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 19435,
+          "triangles": 38882,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 845.3945186547994
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L03",
+    "name_ja": "日比谷線",
+    "seconds": 1.34440016746521
+  },
+  {
+    "file": "rail_R14_L04.stl",
+    "sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+    "bytes": 1705484,
+    "topology": {
+      "vertices": 17048,
+      "triangles": 34108,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 883.2430045906339,
+      "bounds_mm": [
+        [
+          -77.74052429199219,
+          -23.90126609802246,
+          30.315229415893555
+        ],
+        [
+          95.4782943725586,
+          25.403274536132812,
+          68.04122161865234
+        ]
+      ],
+      "dimensions_mm": [
+        173.21881866455078,
+        49.30454063415527,
+        37.72599220275879
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 17050,
+          "triangles": 34112,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 883.2430045096968
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 2,
+          "merged_vertex_count": 2,
+          "maximum_vertex_displacement_mm": 8.58306884765625e-06,
+          "collapsed_faces": 4,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 17048,
+          "triangles": 34108,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 883.2430045906339
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L04",
+    "name_ja": "東西線",
+    "seconds": 1.1050918102264404
+  },
+  {
+    "file": "rail_R14_L05.stl",
+    "sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+    "bytes": 2102984,
+    "topology": {
+      "vertices": 21025,
+      "triangles": 42058,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 1017.5329042873649,
+      "bounds_mm": [
+        [
+          -69.22147369384766,
+          -84.31505584716797,
+          32.441097259521484
+        ],
+        [
+          51.81246566772461,
+          25.609251022338867,
+          70.91007995605469
+        ]
+      ],
+      "dimensions_mm": [
+        121.03393936157227,
+        109.92430686950684,
+        38.4689826965332
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 21042,
+          "triangles": 42168,
+          "watertight": false,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 72,
+          "zero_area_triangles": 76,
+          "volume_mm3": 1017.5329048610074
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 17,
+          "merged_vertex_count": 17,
+          "maximum_vertex_displacement_mm": 1.121898124664375e-05,
+          "collapsed_faces": 110,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 21025,
+          "triangles": 42058,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 1017.5329042873649
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L05",
+    "name_ja": "千代田線",
+    "seconds": 1.3508923053741455
+  },
+  {
+    "file": "rail_R14_L06.stl",
+    "sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+    "bytes": 2261784,
+    "topology": {
+      "vertices": 22609,
+      "triangles": 45234,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 1107.652129247706,
+      "bounds_mm": [
+        [
+          -107.9407730102539,
+          -88.22491455078125,
+          40.954429626464844
+        ],
+        [
+          50.953025817871094,
+          43.2258415222168,
+          72.87477111816406
+        ]
+      ],
+      "dimensions_mm": [
+        158.893798828125,
+        131.45075607299805,
+        31.92034149169922
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 22609,
+          "triangles": 45240,
+          "watertight": false,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 6,
+          "zero_area_triangles": 6,
+          "volume_mm3": 1107.6521292477057
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 0,
+          "merged_vertex_count": 0,
+          "maximum_vertex_displacement_mm": 0.0,
+          "collapsed_faces": 6,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 22609,
+          "triangles": 45234,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 1107.652129247706
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L06",
+    "name_ja": "有楽町線",
+    "seconds": 1.3580687046051025
+  },
+  {
+    "file": "rail_R14_L07.stl",
+    "sha256": "1c0a7ed974323c31bc1f6120ae56f8cea70af6120f5e13316a1c00d395824131",
+    "bytes": 1913984,
+    "topology": {
+      "vertices": 19133,
+      "triangles": 38278,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 828.9618751108255,
+      "bounds_mm": [
+        [
+          -53.258365631103516,
+          -22.498409271240234,
+          40.89887619018555
+        ],
+        [
+          39.463233947753906,
+          29.265995025634766,
+          74.23472595214844
+        ]
+      ],
+      "dimensions_mm": [
+        92.72159957885742,
+        51.764404296875,
+        33.33584976196289
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 19133,
+          "triangles": 38278,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 828.9618751108255
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 0,
+          "merged_vertex_count": 0,
+          "maximum_vertex_displacement_mm": 0.0,
+          "collapsed_faces": 0,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 19133,
+          "triangles": 38278,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 828.9618751108255
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L07",
+    "name_ja": "半蔵門線",
+    "seconds": 1.110227108001709
+  },
+  {
+    "file": "rail_R14_L08.stl",
+    "sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+    "bytes": 2311284,
+    "topology": {
+      "vertices": 23106,
+      "triangles": 46224,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 976.0845479122148,
+      "bounds_mm": [
+        [
+          -39.132442474365234,
+          -89.3960952758789,
+          48.0655403137207
+        ],
+        [
+          -3.9253721237182617,
+          55.564701080322266,
+          74.19105529785156
+        ]
+      ],
+      "dimensions_mm": [
+        35.20707035064697,
+        144.96079635620117,
+        26.12551498413086
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 23106,
+          "triangles": 46224,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 976.0845479122148
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 0,
+          "merged_vertex_count": 0,
+          "maximum_vertex_displacement_mm": 0.0,
+          "collapsed_faces": 0,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 23106,
+          "triangles": 46224,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 976.0845479122148
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L08",
+    "name_ja": "南北線",
+    "seconds": 1.3695387840270996
+  },
+  {
+    "file": "rail_R14_L09.stl",
+    "sha256": "be89e2048e0ff891b9e31b6d66f02846fae355c8af06d062dd84aa69176e2562",
+    "bytes": 1042284,
+    "topology": {
+      "vertices": 10414,
+      "triangles": 20844,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 597.1254546090801,
+      "bounds_mm": [
+        [
+          -68.65603637695312,
+          -52.01505661010742,
+          41.21464920043945
+        ],
+        [
+          -34.29519271850586,
+          32.640071868896484,
+          69.66474151611328
+        ]
+      ],
+      "dimensions_mm": [
+        34.360843658447266,
+        84.6551284790039,
+        28.450092315673828
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 10420,
+          "triangles": 20904,
+          "watertight": false,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 48,
+          "zero_area_triangles": 48,
+          "volume_mm3": 597.1254546798758
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 6,
+          "merged_vertex_count": 6,
+          "maximum_vertex_displacement_mm": 4.76837158203125e-07,
+          "collapsed_faces": 60,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 10414,
+          "triangles": 20844,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 597.1254546090801
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L09",
+    "name_ja": "副都心線",
+    "seconds": 0.6008849143981934
+  },
+  {
+    "file": "rail_R14_L10.stl",
+    "sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+    "bytes": 1206984,
+    "topology": {
+      "vertices": 12065,
+      "triangles": 24138,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 719.4636423704252,
+      "bounds_mm": [
+        [
+          -47.28225326538086,
+          -23.174922943115234,
+          47.621097564697266
+        ],
+        [
+          39.656761169433594,
+          98.18136596679688,
+          63.49052047729492
+        ]
+      ],
+      "dimensions_mm": [
+        86.93901443481445,
+        121.35628890991211,
+        15.869422912597656
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 12065,
+          "triangles": 24138,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 719.4636423704252
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 0,
+          "merged_vertex_count": 0,
+          "maximum_vertex_displacement_mm": 0.0,
+          "collapsed_faces": 0,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 12065,
+          "triangles": 24138,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 719.4636423704252
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L10",
+    "name_ja": "浅草線",
+    "seconds": 0.7027626037597656
+  },
+  {
+    "file": "rail_R14_L11.stl",
+    "sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+    "bytes": 1516984,
+    "topology": {
+      "vertices": 15165,
+      "triangles": 30338,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 883.9003019846755,
+      "bounds_mm": [
+        [
+          -94.77596282958984,
+          -97.7747573852539,
+          43.70058822631836
+        ],
+        [
+          0.31946250796318054,
+          43.970787048339844,
+          67.64918518066406
+        ]
+      ],
+      "dimensions_mm": [
+        95.09542533755302,
+        141.74554443359375,
+        23.948596954345703
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 15167,
+          "triangles": 30342,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 883.9003020762619
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 3,
+          "merged_vertex_count": 2,
+          "maximum_vertex_displacement_mm": 1.1444091796875e-05,
+          "collapsed_faces": 4,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 15165,
+          "triangles": 30338,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 883.9003019846755
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L11",
+    "name_ja": "三田線",
+    "seconds": 0.8996195793151855
+  },
+  {
+    "file": "rail_R14_L12.stl",
+    "sha256": "22821b470cd3eff0bc6c1ccf47423a2ced022492c742b71256a8e8fe88f646e5",
+    "bytes": 1508684,
+    "topology": {
+      "vertices": 15080,
+      "triangles": 30172,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 900.8788148982029,
+      "bounds_mm": [
+        [
+          -54.71485900878906,
+          -23.13766098022461,
+          44.078182220458984
+        ],
+        [
+          113.3326187133789,
+          8.500441551208496,
+          68.07471466064453
+        ]
+      ],
+      "dimensions_mm": [
+        168.04747772216797,
+        31.638102531433105,
+        23.996532440185547
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 15093,
+          "triangles": 30216,
+          "watertight": false,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 18,
+          "zero_area_triangles": 18,
+          "volume_mm3": 900.8788131554697
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 13,
+          "merged_vertex_count": 13,
+          "maximum_vertex_displacement_mm": 9.344061823971473e-06,
+          "collapsed_faces": 44,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 15080,
+          "triangles": 30172,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 900.8788148982029
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L12",
+    "name_ja": "新宿線",
+    "seconds": 0.9258148670196533
+  },
+  {
+    "file": "rail_R14_L13.stl",
+    "sha256": "f51764a5af44608f9ea13121c2acfa214779627f2c4ca34a5f14d2aafe35294d",
+    "bytes": 3201584,
+    "topology": {
+      "vertices": 32007,
+      "triangles": 64030,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 1578.0698128201104,
+      "bounds_mm": [
+        [
+          -106.30593872070312,
+          -65.56378173828125,
+          39.19869613647461
+        ],
+        [
+          26.662189483642578,
+          34.093387603759766,
+          71.51665496826172
+        ]
+      ],
+      "dimensions_mm": [
+        132.9681282043457,
+        99.65716934204102,
+        32.31795883178711
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 32019,
+          "triangles": 64080,
+          "watertight": false,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 26,
+          "zero_area_triangles": 26,
+          "volume_mm3": 1578.0698128703352
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 13,
+          "merged_vertex_count": 12,
+          "maximum_vertex_displacement_mm": 1.206313194339134e-05,
+          "collapsed_faces": 50,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 32007,
+          "triangles": 64030,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 1578.0698128201104
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L13",
+    "name_ja": "大江戸線",
+    "seconds": 2.441784620285034
+  },
+  {
+    "file": "rail_R14_L14.stl",
+    "sha256": "e2a56a216fc579b84c96688648c50a5de6e77e027c1aeb57bfe49801bf2b1d22",
+    "bytes": 3750184,
+    "topology": {
+      "vertices": 37491,
+      "triangles": 75002,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertex_links": 0,
+      "zero_area_triangles": 0,
+      "duplicate_faces": 0,
+      "volume_mm3": 1238.4313871783743,
+      "bounds_mm": [
+        [
+          -51.362064361572266,
+          -48.4454460144043,
+          29.833513259887695
+        ],
+        [
+          12.104484558105469,
+          68.35211181640625,
+          54.14778518676758
+        ]
+      ],
+      "dimensions_mm": [
+        63.466548919677734,
+        116.79755783081055,
+        24.314271926879883
+      ]
+    },
+    "export_attempts": [
+      {
+        "simplification_tolerance_mm": 0.001,
+        "before": {
+          "vertices": 37492,
+          "triangles": 75004,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 1238.4313871529805
+        },
+        "weld": {
+          "weld_tolerance_mm": 5e-05,
+          "near_vertex_pairs": 1,
+          "merged_vertex_count": 1,
+          "maximum_vertex_displacement_mm": 7.62939453125e-06,
+          "collapsed_faces": 2,
+          "coincident_faces_removed": 0,
+          "hole_filling_performed": false
+        },
+        "after": {
+          "vertices": 37491,
+          "triangles": 75002,
+          "watertight": true,
+          "winding_consistent": true,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "zero_area_triangles": 0,
+          "volume_mm3": 1238.4313871783743
+        }
+      }
+    ],
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L14",
+    "name_ja": "山手線",
+    "seconds": 2.51121187210083
+  }
+]
