@@ -1,0 +1,38 @@
+# R14回収監査
+
+既存SHA256SUMS.txtの50項目を独立照合した結果、開始時は41項目一致、9項目未回収、不一致0でした。総合検証記録のdocumentsから8項目を元のSHA-256とバイト数まで一致する形で復元し、残るsource_archive_members_R14.jsonをGoogle Driveの既知のファイルIDから直接取得しました。監査用の復元フォルダを重ねた状態では50項目すべて一致し、不一致と未回収は0です。
+
+総合検証記録に含まれる29文書もすべて元のSHA-256およびバイト数に一致する形で抽出しました。生成コードZIPの18メンバーは、メンバー対応表、ZIP内のバイト列、既存の展開済みソースの三者で一致しました。
+
+FILE_INVENTORY_R14.jsonの38項目は、元の回収フォルダ単体では35一致・3未回収でした。前段で原本9項目を回収した後は36一致・2未回収となり、今回の本体候補の回収後は38一致・0未回収・0不一致となりました。SHA256SUMS.txtに含まれない不合格本体候補のSTLと3MFも、Driveから取得したバイト列のサイズとSHA-256を照合しました。STLは親担当が取得した既存ファイルを再照合し、3MFはこの担当が既知のDriveファイルIDから直接取得しました。両候補のNOT_FOR_PRINT判定は維持しています。
+
+これらは2026-10-25の既存記録の回収です。今回、新たな形状検証や印刷判定は実施していません。一体本体の不良、流路閉塞、13路線の壁厚失敗または不確定という既存の残件は、この回収によって解決したことにはなりません。
+
+元の回収フォルダとGit作業ツリーは変更していません。復元した9項目はこの監査フォルダ内のrecovered/、全29文書はarchival_documents/にあります。不合格本体候補の2項目は親フォルダのrecovered_candidates/にあります。追加した原本11項目の元パス、回収先、ハッシュと出典をoriginal_path_mapping_R14.jsonに対応付け、元の相対パスを使ったハッシュ一覧をRECOVERY_ADDED_SHA256SUMS.txtに保存しました。
+
+## 開始時に不足していた9項目
+
+|相対パス|回収方法|SHA-256|
+|---|---|---|
+|reports/delivered_mesh_topology_R14.json|総合検証記録から完全復元|3b1b7c503569841dd0d5dbbbffece29042a8e3a7ee9cc6f25af247e5f65fd238|
+|reports/environment_R14.json|総合検証記録から完全復元|30bc013a793a88604158f12e1d56dea16bc3d4d5b8a5a728520b26ecf38d6154|
+|reports/environment_rebuild_R14.json|総合検証記録から完全復元|812ab596e2ccff4dd43f7d4786993a89190949e3ee824c7f7a1a1275f9572997|
+|reports/individual_passages_R14.json|総合検証記録から完全復元|ff9c92e54edaf3b0ac5bb8c665177c5e7580d4f459985ca508dd3217385cb851|
+|reports/lumen_connectivity_R14.json|総合検証記録から完全復元|ab7551b2e944d07c9e6341cece09366dfffec9c238b2c23a6dddfc292f069bb9|
+|reports/regression_tests_R14_current.txt|総合検証記録から完全復元|93483c13a16e030e68392206ec6f4dbed84888bfd63132c25befcaf1e0032377|
+|reports/self_intersections_R14.json|総合検証記録から完全復元|5356c41a34cfa8022b1aeaafc68417e12b120db09584dc1f65ff617be4d100f8|
+|reports/upstream_regression_tests_R14.txt|総合検証記録から完全復元|c9580d357ca872b1389d4f66c593c5d11bf22c55241d6aaba68168c36f05222c|
+|source/source_archive_members_R14.json|Google Driveから直接取得|6d694d5e063346bdc57e4980486500d6221633ee58c1471100f9eaf0cad45044|
+
+## 追加した本体候補
+
+|元の相対パス|回収先|バイト数|SHA-256|
+|---|---|---:|---|
+|models/candidates/whole_body_R14_NOT_FOR_PRINT.3mf|/workspace/scratch/e1b7a5798e07/recovered_candidates/whole_body_R14_NOT_FOR_PRINT.3mf|29957397|b44d4be435bbeb6eb055851ba66c0a3cf42e7047bfdd99b97f676c980ec0c88e|
+|models/candidates/whole_body_R14_NOT_FOR_PRINT.stl|/workspace/scratch/e1b7a5798e07/recovered_candidates/whole_body_R14_NOT_FOR_PRINT.stl|80000084|b2ccb778e45ec40206c302946bd117de1a7f92248f3dfcf5b0f6091fa5eb8391|
+
+## 監査の再実行
+
+同じ回収入力を参照してaudit_recovery.pyを実行できます。Google Driveから取得したsource_archive_members_R14.jsonはrecovered/source/に、本体候補は親フォルダのrecovered_candidates/に置いてから実行してください。
+
+全件の対応関係、元のファイルID、ハッシュ、復元時のJSON書式、既存判定の範囲はrecovery_audit_R14.jsonに記録しています。

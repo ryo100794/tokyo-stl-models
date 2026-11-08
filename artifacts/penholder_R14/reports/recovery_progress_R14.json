@@ -1,0 +1,57 @@
+{
+  "updated_jst": "2026-11-09",
+  "source_branch": "recovery/r14-20261109",
+  "baseline_commit": "b60b5a795810125ce72772c0e87b7bc9f0005e04",
+  "baseline_main": "a2a69ccf2100feaef2a2e39bbced695c9f4e70a4",
+  "R13_modified": false,
+  "original_sha256_manifest": {
+    "matched": 50,
+    "mismatched": 0,
+    "missing": 0
+  },
+  "generation_status": "Float64 rails, base and whole-body Boolean rebuilt from unchanged recovered inputs. STL serialization corrections and independent qualification in progress.",
+  "print_release": false,
+  "physical_print_and_flow_performed": false,
+  "next_steps": [
+    "Resolve STL numeric seams and check all saved geometry.",
+    "Resolve wall-check ambiguities and real thin walls.",
+    "Validate one-piece installed passages, ports, separation, self intersections and print orientation.",
+    "Store linked artifacts and SHA256 manifests in GitHub and R14 Drive."
+  ],
+  "updated_at_utc": "2026-11-08T15:59:48.914815+00:00",
+  "original_file_inventory": {
+    "matched": 38,
+    "mismatched": 0,
+    "missing": 0,
+    "entry_count": 38,
+    "whole_body_candidates_recovered": 2,
+    "candidate_print_qualification": "NOT_FOR_PRINT"
+  },
+  "recovery_evidence": {
+    "newly_recovered_original_files": 11,
+    "embedded_archival_documents_exactly_recovered": 29,
+    "source_archive_members_matched": 18,
+    "audit_report": "artifacts/penholder_R14/reports/recovery_audit_R14.json",
+    "original_path_map": "artifacts/penholder_R14/reports/original_path_mapping_R14.json",
+    "added_original_sha256_manifest": "artifacts/penholder_R14/reports/RECOVERY_ADDED_SHA256SUMS.txt",
+    "new_geometry_validation_performed_by_recovery_audit": false,
+    "archival_validation_date_JST": "2026-10-25"
+  },
+  "recovery_audit_drive_save": {
+    "drive_file_id": "1WfjeBzsuoc27Bqln0_y4IRKvExNP_Tex",
+    "drive_file_url": "https://drive.google.com/file/d/1WfjeBzsuoc27Bqln0_y4IRKvExNP_Tex/view?usp=drivesdk",
+    "drive_name": "recovery_audit_R14_20261109.json",
+    "metadata_size_bytes": 139648,
+    "readback_size_bytes": 139648,
+    "readback_sha256": "d88d031147c999f8d2f6b60b4a215d5f011626fc8305e06c9d536d8fa3420375",
+    "local_sha256": "d88d031147c999f8d2f6b60b4a215d5f011626fc8305e06c9d536d8fa3420375",
+    "exact_bytes_match": true,
+    "metadata_sha256_exposed_by_connector": false,
+    "hash_verification_method": "SHA-256 computed from raw post-update download; metadata endpoint exposes size but omits checksum fields",
+    "modified_time": "2026-11-08T15:59:23.428Z",
+    "parent_ids": [
+      "1efNiY5kfUSGokZkCCAUJj2zZxn5XRhYz"
+    ],
+    "verified_at_utc": "2026-11-08T15:59:48.913220+00:00"
+  }
+}
