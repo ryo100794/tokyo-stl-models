@@ -1,0 +1,1028 @@
+{
+  "commit": "68d566810decf714831e364e75faef9d81baf8cb",
+  "verified_git_files": 143,
+  "all_git_file_hashes_match": true,
+  "files": [
+    {
+      "path": "artifacts/penholder_R14/README_R14_ja.md",
+      "bytes": 12883,
+      "sha256": "8854ed102b3e00a7e24478efc6a07dedda448f078db60fb951b9895bd152430e",
+      "git_blob_sha": "c78964669c8097ba4ae34670809b75161298ae71",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/ARCHIVE_PARTS_R14.json",
+      "bytes": 3788,
+      "sha256": "819f3c1107861d68498dab5c1576c398d3a57453296c4797cbe07bf3860954c2",
+      "git_blob_sha": "233a234ff2d69aa537d890578c7215198feaac13",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part001",
+      "bytes": 3145728,
+      "sha256": "99aad02619581cbed8b6f878067b26ba551d81fa975d4c6880a810ae012da0db",
+      "git_blob_sha": "825f716f47351bb2fde3985de78364197f2d5d70",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part002",
+      "bytes": 3145728,
+      "sha256": "a6a0e5bb2d556b40f111753822b3ff997eb18ba9adbb623eaaa7d0f47efab457",
+      "git_blob_sha": "61188554d78d175a3e676d861333dea4cd582850",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part003",
+      "bytes": 3145728,
+      "sha256": "a3d8ece1895b00791cec405a04a38288a895b6209e8ee89f9544221142f38648",
+      "git_blob_sha": "0a209d3468b6b2c14a92f792f89deaf052119f3a",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part004",
+      "bytes": 3145728,
+      "sha256": "2c0e4ef5bbb4ea91990ce6c586476bb3b89b8c2147e42f7533ad8a005f71e5e1",
+      "git_blob_sha": "6b79e059eadaf6306353351ed628d49452458c9f",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part005",
+      "bytes": 3145728,
+      "sha256": "0d0eb36404003d3fee40f18a18932dd52bb4b0711967dcfdea4ade83baccd6f7",
+      "git_blob_sha": "36213ba3a97ee1f15cac4f8ddc8676c0d75cf5da",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part006",
+      "bytes": 3145728,
+      "sha256": "eaccac0ceddbcfef6523152c1feea9bcc3e51fd532accbb9e43d1651f11b1591",
+      "git_blob_sha": "fdfd7ad13f40cfb859e3c7f32eb65e01e2eadfa7",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part007",
+      "bytes": 3145728,
+      "sha256": "3851a13dc0fe19411fd5a9ecc7e7707cd36c1cb477e71d1cc455210cff384c15",
+      "git_blob_sha": "294d698f147420b9bc8dfc4667b6ca88235a3a2e",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part008",
+      "bytes": 3145728,
+      "sha256": "64c14d2d302382d25b2c4a2afa520cf2fd627aea8b722200d95d1e210de31082",
+      "git_blob_sha": "b7deb93d6624e583730299bcf39b3c0fccefe278",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part009",
+      "bytes": 3145728,
+      "sha256": "c8b57911d97429c7dda0fd498375c7b38e609ecef04f778e0b9a67527387f50f",
+      "git_blob_sha": "ed5bde4b7996879ce336f837ebe4a90e5c44e0b0",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part010",
+      "bytes": 3145728,
+      "sha256": "60536039710f56900be1d65781c607f73b8ec305ec0a2d2115ee41ace6282484",
+      "git_blob_sha": "d594e05686b887a3472d1be7188ff9b0c453d482",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part011",
+      "bytes": 3145728,
+      "sha256": "b9c0be44dfde7df3ef6fea9121d95a7cec62461d7e7951d0c8bc318336be893b",
+      "git_blob_sha": "b531202e7508180d49241ddadb9632cf85f01d47",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part012",
+      "bytes": 3145728,
+      "sha256": "de192faaf7bed09335fc5c337a6b77a81f67d29ba574b947bdf1e39be0bcd6f9",
+      "git_blob_sha": "90483143a3088be44d53bcf0d26ca345a8720850",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part013",
+      "bytes": 3145728,
+      "sha256": "efe6adebb4735109db121286d58bc0a44114f6bdc968c68b36f87a52b8c8100b",
+      "git_blob_sha": "1ebdcd567007dc90922f8aff23a84b4e24e5b574",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part014",
+      "bytes": 3145728,
+      "sha256": "d7a03c8541476732d806fd9ae0c28e11f1f3040d283debe14def1a88aa426cfc",
+      "git_blob_sha": "8c57a70236ef6db1caeeed408fa24530aeb116a6",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part015",
+      "bytes": 3145728,
+      "sha256": "84468e33cd5fcc23c11d894dfe6be46dfdb8222e591bbc8583e14cb604b747a1",
+      "git_blob_sha": "58140744a3a9fbb046f7044e2525bb00039d3e4b",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part016",
+      "bytes": 3145728,
+      "sha256": "9956cb5954c66f16eb56f888ef71965c6b41e46c1332dbb7a9479cdce4df2305",
+      "git_blob_sha": "1df988f0634505831dc91d5224a11b0b9de2e1e7",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part017",
+      "bytes": 3145728,
+      "sha256": "3cb8866e6e3eba6c3b63b3d1a5c44e71de68ae77a2340bc7c5835a50df5046f0",
+      "git_blob_sha": "7016c06967e350bd3fc030f5cf8ffc9f40f1074a",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part018",
+      "bytes": 3145728,
+      "sha256": "71ce2b698467f930d9088697c13e56f258ca6463b8521110a43b756783bedd3b",
+      "git_blob_sha": "8639e4c95f1b24e58e18b845be9ba38adde88eb4",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part019",
+      "bytes": 3145728,
+      "sha256": "ec5ec7cfbc39345beec9a80fc7acf33290b1431cebe827018f1f9afc48a79420",
+      "git_blob_sha": "ab47ec0d2faed3672615f728cd00d44c719aa53f",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part020",
+      "bytes": 3145728,
+      "sha256": "8aa31d3db32ebc0200364f690fea96eda250820e2321d2e3c1b450d91eee996d",
+      "git_blob_sha": "5adbcf5afa57513f25c894ba0f0d502d5e96c732",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/body_R14_exact.zip.parts/body_R14_exact.zip.part021",
+      "bytes": 382038,
+      "sha256": "f167faa8df44c0808b4a0a98510ff6b5e047ec58a91a12a2b3a26b82fe6dbee5",
+      "git_blob_sha": "78a5d5e78512d7e6b84e021aa18f07746e8ec5fb",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/generation_source_R14_repaired.zip",
+      "bytes": 119651,
+      "sha256": "92c5c7f0e4157897d6834af815f6d53d7ca6d434b3ebe21ed8b351a436293890",
+      "git_blob_sha": "2879c9e694c541f2e11d0a00a5668d11acbfdf69",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/ARCHIVE_PARTS_R14.json",
+      "bytes": 3224,
+      "sha256": "d682b54ab1e152a517025692bbf1eaa1c0cd7fe7f09eb679f07ba3c0b594e2d1",
+      "git_blob_sha": "d09fadb8a66059070bb20201ca7f207c40e3d06a",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part001",
+      "bytes": 3145728,
+      "sha256": "15baf4d1690390852956561deb39deae8bf70163fee570a3da9240a8166ba0b8",
+      "git_blob_sha": "cc1149b7744b3792dbc83306b6f8db5a6a1df5b7",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part002",
+      "bytes": 3145728,
+      "sha256": "351f842c4d7f9796d92cb79925dbc2a449c9165f67ec444d6461672083b783b8",
+      "git_blob_sha": "f54d0c2472228f51626cd843328c4e90cb796cba",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part003",
+      "bytes": 3145728,
+      "sha256": "06a995dfae9d8b7058b5d9bb5ec58ef3177693d96d64a7f517781c98011da128",
+      "git_blob_sha": "f22a2e10d41e017ca73a6014e799b1ad25d8ea4d",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part004",
+      "bytes": 3145728,
+      "sha256": "551dd1bfcb58cfecdfb0b8377dae870394d32a17339f20f5e65e006949875d74",
+      "git_blob_sha": "0d216bec078f2c5c142b20402592cde7623f9b32",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part005",
+      "bytes": 3145728,
+      "sha256": "054da8c1533051263cf76b93ed78482ba08fd8e7d06b6af53d1c92ae9b404543",
+      "git_blob_sha": "202e62503b2c017ad0272836f92ac4d060f61188",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part006",
+      "bytes": 3145728,
+      "sha256": "4f03c8541a8d5f96849851cdff9979fa49ec81e0fe7bbdeb3b88d71531e01dc1",
+      "git_blob_sha": "c4a6c2b4cdaba1fe7473e5e4acbdd9d9e20abf76",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part007",
+      "bytes": 3145728,
+      "sha256": "763f67914b8454c18ff25440b2a0f758ec67cf99756ff2f73e1196a648c0a420",
+      "git_blob_sha": "678f26bee6c8e942be808600e3dcf0cf36e4d7ee",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part008",
+      "bytes": 3145728,
+      "sha256": "4f1c77a3c0ce9715db6e9c4dd0bf2902214b79d692a6a8d6bc00943a6ce2c0cd",
+      "git_blob_sha": "50ed738d43262a31f403cc4f1059e9a51f92c87a",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part009",
+      "bytes": 3145728,
+      "sha256": "46f78802905636996935f1af011b876b07c5126247059b4507c6a80cd8d22e31",
+      "git_blob_sha": "a89f41c0831267503a88533df6c4ebdceea6a3cd",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part010",
+      "bytes": 3145728,
+      "sha256": "c5e30ce01e2b84bb8c214bdc945dd0c61a4484f637763a2dc7beffb2ce36b52b",
+      "git_blob_sha": "19e57d55b5008ba36410b923387db67a4b21c608",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part011",
+      "bytes": 3145728,
+      "sha256": "3ee435f9ef60234123252909daa02d7209f9ffaf17df2cd26f7b90775063f9b5",
+      "git_blob_sha": "97784e018719f7aea2f4c32a0bc4613e6c52a5aa",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part012",
+      "bytes": 3145728,
+      "sha256": "907a18ad61641a8db2d526601ff1d33c32494b7a1dc89fe42155d622b4ad55af",
+      "git_blob_sha": "7122a15280f1dd3752005e1ea69f2ec0261cefc5",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part013",
+      "bytes": 3145728,
+      "sha256": "bd74f8d3b93df332566bab54f7c23d6807263a7a0878f7b17f780ac0c8c2128c",
+      "git_blob_sha": "0bf62fd0c9b9a5af2aea943e99486df40e0eae49",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part014",
+      "bytes": 3145728,
+      "sha256": "88b30a5d42353eb46b529f38b9fc4acd7d14e8ee21485ab531588b73193e562b",
+      "git_blob_sha": "84da52d0d4bc7c852e6aa3aea724b8edd8429f5d",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part015",
+      "bytes": 3145728,
+      "sha256": "815a0da4ad2f79409e142f2bdbc5813f6767e6645af221c4bc4f5fe090162c88",
+      "git_blob_sha": "623289b4ca48484eb054fcc3486872ffa0746fba",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/reproduction_inputs_R14_exact.zip.parts/reproduction_inputs_R14_exact.zip.part016",
+      "bytes": 1964319,
+      "sha256": "d87287848e3a8742c89bba899d69105d24b269969470fe75fc96a62600b47e97",
+      "git_blob_sha": "d507bd39021e42b89c1709873528b87598311ddf",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/archives/validation_and_previews_R14_exact.zip",
+      "bytes": 2439616,
+      "sha256": "5859134e7be48a17fb5e00db8bf881c348fafb2002695c5655a13c1cc36bf0e8",
+      "git_blob_sha": "53f298c9ad2e1e36e37b7c09f4411b4226423622",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/flow_coupon_R14.stl",
+      "bytes": 3962284,
+      "sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+      "git_blob_sha": "ccdbe950bd222e4017f208c2a8d26010ca037888",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L01.stl",
+      "bytes": 1557884,
+      "sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+      "git_blob_sha": "c2f33bd8fd7c334ca16bd86a22d3034feec44133",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L02.stl",
+      "bytes": 2313084,
+      "sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+      "git_blob_sha": "ad308876d56861ed05dcf50f28d787ef59e3f0b8",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L03.stl",
+      "bytes": 1944184,
+      "sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+      "git_blob_sha": "35fadf9fb0c72c583a658287cea27031a5d10967",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L04.stl",
+      "bytes": 1705484,
+      "sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+      "git_blob_sha": "57af1e47cea039d1f1a581fd6957ff273ff3bb2f",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L05.stl",
+      "bytes": 2102984,
+      "sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+      "git_blob_sha": "23ae2d18f03760c1d2ad35c6ccf46be033383653",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L06.stl",
+      "bytes": 2261784,
+      "sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+      "git_blob_sha": "ad43f9c75535d4f5a5e3d0b2bc9855bed8933da6",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L07.stl",
+      "bytes": 1931884,
+      "sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+      "git_blob_sha": "a1aa49626bf66f7d0aaeb172cfd278ee0ca1f3f7",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L08.stl",
+      "bytes": 2311284,
+      "sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+      "git_blob_sha": "91ec28af5e7a3b22cebb41079da7ba9014aa673b",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L09.stl",
+      "bytes": 1115584,
+      "sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+      "git_blob_sha": "51a21219da692557a052b272559d5123a2654bd1",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L10.stl",
+      "bytes": 1206984,
+      "sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+      "git_blob_sha": "371a359b522757497cd48ac44c06da82183c1c90",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L11.stl",
+      "bytes": 1516984,
+      "sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+      "git_blob_sha": "79b485a9b49519e37be4c401aec292d531abcd47",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L12.stl",
+      "bytes": 1552584,
+      "sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+      "git_blob_sha": "21f8ed3a2ce589530f28cf9516a4a83cf14c01b4",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L13.stl",
+      "bytes": 3266484,
+      "sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+      "git_blob_sha": "ff33e611e41a3330fb5174d17b4577bf29a5ac65",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/models/rail_R14_L14.stl",
+      "bytes": 3791284,
+      "sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+      "git_blob_sha": "bd3ad209149a50aeb3b521005eb825d0da8c1e44",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/previews/L12_cusp_section_before_after.png",
+      "bytes": 255493,
+      "sha256": "53656f4133a083ccbc5348b49037d79a3ebc77b29cbac0cc0bd44a6e065d24fa",
+      "git_blob_sha": "9062cb4bf40b907dd44bdc689672d887060c42bf",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/previews/R14_flow_coupon.png",
+      "bytes": 222794,
+      "sha256": "7bfd179d42f472a991743ba5fe3d595ad51881a33e0d1da70d744679160ea2bb",
+      "git_blob_sha": "17f831cf0dfe6c9bd977289d6e36968401c9877a",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/previews/R14_overview.png",
+      "bytes": 1057721,
+      "sha256": "b1f6059e3cfc6b6b25e3c0ddcde2013b74448c4e483f291f8b5ef0d823a94e9d",
+      "git_blob_sha": "0bb3ea325f381dc75cde43f55fd4e87f08522a4a",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/previews/R14_railways.png",
+      "bytes": 300711,
+      "sha256": "619e283b12c07ba9052253c38b8e7921d061a48ed703dab58084359cc65e090f",
+      "git_blob_sha": "f1a9368e15089465e4473d0dc9b1c45811810d8b",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/FILE_CORRESPONDENCE_R14_repaired_20261109.json",
+      "bytes": 191517,
+      "sha256": "8e04d1fd22d724343e1e7693caebd22c070c78ce6bb9ad4323ae813b14b27202",
+      "git_blob_sha": "0e630fe93a450a5c043d63487f87fb80194b1a29",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/FINAL_PUBLICATION_SHA256SUMS_R14.txt",
+      "bytes": 18793,
+      "sha256": "4079c7d016ab9e062932e6b7e60de5e16dd21cf5eec130e0c27214f2252c6a33",
+      "git_blob_sha": "0fceb1b8ce3dbbf09297bafff1ecf08edd495eca",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/body_archive_receipt_R14.json",
+      "bytes": 939,
+      "sha256": "9dcc72fccd5d6e3f0c646b985a1a93d76b495fd458795697a7accc9740e5c560",
+      "git_blob_sha": "9a39ffa6ddd67a74814b67853f58cd907cf3dafd",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/body_reproduction_R14.json",
+      "bytes": 1520,
+      "sha256": "daa62d988ea92bf7ed70ab4c790bae65d10dfe6489a6b967ced68992fc786fd8",
+      "git_blob_sha": "982a17806fe8fae6db77eef6abda58cf04587c18",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/final15_exact/final15_exact_intersection_summary_R14.json",
+      "bytes": 13108,
+      "sha256": "f54fae60ce449129bfb50f623727d385475f0219efcbea67c0fa49de93a46b59",
+      "git_blob_sha": "3f3f969277b86ccaa7250509c65ce8019def5f7d",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/final_validation_integration_R14.json",
+      "bytes": 9482,
+      "sha256": "5a9618ce07247d8705d360fd615916fd18e710d71d8d0c9a2576be7b8d15a6f5",
+      "git_blob_sha": "08ceb259dc60cab8a01aec579b70c0616d1308b8",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/flow_coupon_saved_geometry_R14.json",
+      "bytes": 11901,
+      "sha256": "55932a82df8c2f2503f81ea799aef8158ead43c330939872dba2ea893901eed9",
+      "git_blob_sha": "d4c7747b383e84055e64da2617a4fcb4cd370187",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/README_independent_body_JA.txt",
+      "bytes": 2861,
+      "sha256": "4a561bd48558a5254e73691db21103eec5275b19ad209be7ac982d8ca1cc5a91",
+      "git_blob_sha": "3d9fb770c78be5b2090ca4b064761e7da08b225d",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/analytic_predicate_tests_R14.json",
+      "bytes": 213,
+      "sha256": "78d936d0605cab274f5c5cfb9027ad3d7ff4d57799f79e93d7101cb6178e6896",
+      "git_blob_sha": "beb814fe58ef2b1213dcb09f6b2259bea61c7126",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/body_component_extraction_R14.json",
+      "bytes": 173955,
+      "sha256": "4c157fc22707c23309134cce07c585b41f8c3ebf72c626e5392f533cc38913ad",
+      "git_blob_sha": "79f22c5a31ac59fb46d7112bb910509df8da05ae",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/body_exact_intersections_R14.json",
+      "bytes": 1940,
+      "sha256": "951c7ac2750e63a4f2ef08c801c5b1e5565ddf20e0e44f80c8c64e726a053cd0",
+      "git_blob_sha": "8e04bf0735729d6818754bef0b880a3843a2dbb5",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/body_final_microseam_correction_R14.json",
+      "bytes": 2413,
+      "sha256": "1453e84a7bc4bd4307760ed91d090bdd5fdce763f4ecbdab29df1a9312f9235e",
+      "git_blob_sha": "6bc56f9642a888bdfe62998ae645faf45cd46415",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/body_lowest_plane_contact_screen_R14.json",
+      "bytes": 1186,
+      "sha256": "b0a449d11416a70211db5f8faca44954beb7812071b4b5ee6baf539e108a6931",
+      "git_blob_sha": "e647d0427c751cf61a5c99bfc838d83b720303d4",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/body_secondary_core_separation_basis_R14.json",
+      "bytes": 168432,
+      "sha256": "d160da128102e6892f6e62bcecb807abdd6658dcc362b9153c8b034917e11600",
+      "git_blob_sha": "6ef17892dfa412448b29a4207591ad2ec89150ca",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/body_secondary_core_separation_reuse_R14.json",
+      "bytes": 4924,
+      "sha256": "257ce7f4d92288299de8b8fae4129548fb4457e86fa23ba1aeeff3b4436249d2",
+      "git_blob_sha": "e47063ae40f6a0f541c6ce28f47ece710361e32c",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/body_secondary_nesting_R14.json",
+      "bytes": 154836,
+      "sha256": "56d73d1f0096fb29f3b41b6d48dfa4f7430d9fefe7d0f6a4091113e6d2947030",
+      "git_blob_sha": "8034574b6a0d493ef3593eb606675ebe527f37ac",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/bvh_completeness_tests_R14.json",
+      "bytes": 1301,
+      "sha256": "f11138d38b55a8c1718cd1b62aeb7d988334bd008695157daf0f060c9c742707",
+      "git_blob_sha": "d6c33e02f987ee6bb5559586b50dfb5fc9e9c4c6",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/final_evidence_manifest_R14.json",
+      "bytes": 3352,
+      "sha256": "ff51baea812422a9f6ca27a6c09377e8de32e5657c61c3f9e46b6a697777ce90",
+      "git_blob_sha": "1ca21d6cae56e65963a1fdbb809beb579fd561ba",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/independent_body_evidence_summary_R14.json",
+      "bytes": 5412,
+      "sha256": "e1ea47a0ce87bef049e828224987e5d8764a261b6b695c51569fbfbfbd92fb48",
+      "git_blob_sha": "885b79466a1eb0b5bfe2721b2a8f5ed36456e929",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/independent_validation_source_manifest_R14.json",
+      "bytes": 4751,
+      "sha256": "85d834839eb497e956320c4589ab105f862f5d7c672e77ddd6a4dc2059c14c0b",
+      "git_blob_sha": "c959a4ed3dcccc3e725f3a0a8a56856af91dac34",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_body_final/standalone_markers_L11_L13_R14.json",
+      "bytes": 4456,
+      "sha256": "18e513b226e76e6b87af1d48a06d3f2d1d13623733263f90e833c043a4d30a3a",
+      "git_blob_sha": "53832cf1e158361fdbe6c8d6b1bfb4ea03d6d1a3",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_parts/independent_saved_meshes_report.json",
+      "bytes": 45396,
+      "sha256": "9fb1bc7f6c3f8dbe46968e96d2958646badf376f5493e26ebace6d1496528edc",
+      "git_blob_sha": "2f9afcade5ea3c4d27164691a9c198d0dd2bdaf9",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/independent_whole_body_R14.json",
+      "bytes": 2765,
+      "sha256": "dcbb5c8c0d20265792440e95fac6b295aad2af6c058186fd4a2f45f717aa7d40",
+      "git_blob_sha": "c395249cf8b85e1cbcb9a8dc376225c93201179c",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/individual_port_wall_samples_R14.json",
+      "bytes": 605724,
+      "sha256": "d59b00794327781a1aa739c3d72839f5b352708c50df1c4ee105e290e90eb447",
+      "git_blob_sha": "1eced3b0a197f38431a17aad221335b360f6ce96",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/individual_wall_samples_R14.json",
+      "bytes": 30168,
+      "sha256": "f087c9f5754449ec8faed618d0403fded2070dd5152781712cd92b44b2f4f384",
+      "git_blob_sha": "133113a1a20826199a5abc4c3cd8e6990ea07cfc",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/installed_channels_R14.json",
+      "bytes": 379128,
+      "sha256": "dd9127e4c9cce18bf6cdf8f02470f33d1195229a8d06825ce306d4aa36ea3d6b",
+      "git_blob_sha": "108a45edd19edd7af5c953a4aaa27752f7a42f64",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/lumen_connectivity_R14.json",
+      "bytes": 30832,
+      "sha256": "76cec9bd448c4a87083a71102da99e93e71cc2fda870020f339e95734af8c7b4",
+      "git_blob_sha": "8be48cb5623b1043ee494dbee2cace8cb7b2a6f1",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/repaired_part_exports_R14.json",
+      "bytes": 32187,
+      "sha256": "6803148ad2f19c8a00ffa5ec73a0a6bd53b7f619b7b241037807b257ac9ce68b",
+      "git_blob_sha": "c770a5f55df2f2822c84a83522673ac68955f25d",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/reproduction_inputs_archive_receipt_R14.json",
+      "bytes": 8786,
+      "sha256": "dd063afba42899a1328881c24481737050b7149b311aafa1d4c3798449975dac",
+      "git_blob_sha": "1c4a3a80af6983dd9c95369cdc50a11bae253764",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/seed_replay_limitation_R14.json",
+      "bytes": 1219,
+      "sha256": "9f315736f3889891d28070682a1821de2b727904f06455c56790c6b15ee170cf",
+      "git_blob_sha": "795f693a7ba5a59818209e6ee22bb278039ff561",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/source_archive_receipt_R14.json",
+      "bytes": 8253,
+      "sha256": "e77d92e67d18533e94daadb29da60fc497f36335100ea55f9d716ef15228558a",
+      "git_blob_sha": "823c93a50ea5c68bfc5c642943c0a5c642c0b576",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/validation_archive_receipt_R14.json",
+      "bytes": 27125,
+      "sha256": "228e1869aaf54e7913050ceced8e2cf64cdbe4e2d7879af258fb0b578ce2cb02",
+      "git_blob_sha": "5407e8a32bc403b2a79dcf6ace3a3ddbb849256e",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/validation_summary_R14_repaired.json",
+      "bytes": 63961,
+      "sha256": "9f6be1e44a6a66b594c3f1c879b85ad8845f16794f3dfef9e30c99e135931e95",
+      "git_blob_sha": "463b9552e45efded787da76cf38d7d4eff803bfc",
+      "matched": true
+    },
+    {
+      "path": "artifacts/penholder_R14/reports/whole_port_wall_samples_R14.json",
+      "bytes": 608928,
+      "sha256": "c3e8ef912017c7b1803c5ad5d611d57102dd699783d796f5cb73eb9b020f2a16",
+      "git_blob_sha": "1dd7045ce6299481552bc6a5f19f738603dde4b7",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/README_exact_validation_JA.txt",
+      "bytes": 4393,
+      "sha256": "8273087f08109a1d3f62cb20bea21788c84fcf9e3c62ae4bd3250eddd9628755",
+      "git_blob_sha": "caad69f800000f7baddeb71d92a3dd2accf5d3dd",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/augment_saved_defects.py",
+      "bytes": 3161,
+      "sha256": "65cea984d32decbc6be6863e8d6255b6682c462554ab2631448f523c9978c25a",
+      "git_blob_sha": "7b8500ccdbc44aaae793cf26af70f5edf350fdb7",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/build_exact_engines.py",
+      "bytes": 866,
+      "sha256": "058db4f79c536ab76ddb48efa047410b273d72637dd1221b0d46f660ab3bb5ed",
+      "git_blob_sha": "32f284ab96281398cfb642179ef62161893d53c3",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/build_flow_coupon_R14.py",
+      "bytes": 13440,
+      "sha256": "99ba97510e8530cb6068bf7c23e278671de8aeeb898f81330ab9d92b37eb9472",
+      "git_blob_sha": "85c1ca1653c9c83d8388330d28340d0559988a30",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/build_r14.py",
+      "bytes": 7298,
+      "sha256": "dc6449d02e6b0e8733325aa312f4a8d04a5a84587eb4e68066b0258c8067fe14",
+      "git_blob_sha": "d3719ca6f49265f1cb16baf247aad186a93ae695",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/check_stored_stl_normals.py",
+      "bytes": 1674,
+      "sha256": "17d3cc140bde271c84dfa731a97176f6a2227ac1e6789313035a55455e8bd0e6",
+      "git_blob_sha": "230131a151f3d296f55770b50c4b9b9646165847",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/core_signature_r14.py",
+      "bytes": 815,
+      "sha256": "d97085fc610775b17860cf81d444d7a3c1a33abc8ed29f12a6e839c11dae592a",
+      "git_blob_sha": "89c414668c8b8d49da89385bba020da0f089b033",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/cpu_mesh_raster.cpp",
+      "bytes": 3187,
+      "sha256": "a3a410fa62ee3bfdbcb28d67c9d341f78dc4473d4cba8c3a8fb76d948622ae51",
+      "git_blob_sha": "2c5efe620336c973d8a2a3b9bea0f28055afd805",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/cpu_mesh_render.py",
+      "bytes": 2491,
+      "sha256": "c8ad833816f8c87094ae5e72a96525625d65f37949a695e748c2f0c3de928f10",
+      "git_blob_sha": "4d93e5808b9651d42a3d4983a644474364b54ba3",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/diagnose_exact_hits.py",
+      "bytes": 6283,
+      "sha256": "900d9b22fdc0d2fe0963df9824b371e36d2b6e819ce2c7fbdc44dbf6795e64fd",
+      "git_blob_sha": "a4e1987c47c6add18cba971d76489133391cb4d3",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/exact_archive_r14.py",
+      "bytes": 11226,
+      "sha256": "d71b8938b019c18730518abec054b1c1ec4f8232d709eac9925ec572031b6c2e",
+      "git_blob_sha": "f2c45724dcfafa6b33dcaf754acb502ea0743799",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/exact_mesh_bvh.cpp",
+      "bytes": 7512,
+      "sha256": "eec9e4814e9bde8cc2ce049bb71c50aba91089c58165046ccd156d28011487c9",
+      "git_blob_sha": "64f91751752b27a726603b9f4006f68954a55028",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/exact_predicate.hpp",
+      "bytes": 6016,
+      "sha256": "430ce5ea43576eae91aaed7cd28bc6774fefeada03ec1c475994ebce32dae42c",
+      "git_blob_sha": "ac98a48c8f5f6eb5c958c66ba6409ff8bca60d6f",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/exact_triangle_pairs.cpp",
+      "bytes": 1553,
+      "sha256": "94b4fb94f958e68aa6029d5e618aab299e98baf24d9c3c064e0f77c3c4769b17",
+      "git_blob_sha": "8155431b71f063162ebdd702bfdbf02037c93f86",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/export_3mf_r14.py",
+      "bytes": 2129,
+      "sha256": "d2a725f564ed614bcd73db40bb4b5104a883df87695650ff685a0484342623ac",
+      "git_blob_sha": "bc6b69878b88a1af15ccb97785246e3f074f42c8",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/export_repaired_parts.py",
+      "bytes": 2756,
+      "sha256": "3570b9acace9909bbfbd9bc9c13bf123ed834166757addb0291683612419512b",
+      "git_blob_sha": "7abaaebd4a7b76e7df5b7b1fe469a0e137c53aa9",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/extract_principal_boundary.py",
+      "bytes": 2065,
+      "sha256": "2fdb892a52184bae9634595a3bdca19f64b7cb12dfccd17e1a3bc33307ed983b",
+      "git_blob_sha": "b505b421d395d370583285c6ce6085c129743db8",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/extract_saved_mesh_defects.py",
+      "bytes": 2593,
+      "sha256": "935a996c5e07f68121438ef307bdcf02fcda4f2ded8eb413e2f38d335a36267a",
+      "git_blob_sha": "770c4cb42767f8b890c41f88e036c95a56717c39",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/geometry_r14.py",
+      "bytes": 14874,
+      "sha256": "86d2b4e7d7e7fd05be66f5a5ed2afbe22d560100b42b7fc9110fb4bce3501439",
+      "git_blob_sha": "de306e1d9173f4ac92c2db6d99e731bff896854e",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/inspect_print_orientation.py",
+      "bytes": 7334,
+      "sha256": "9c0c3955de18ee9dfa3b69eaaf2b666fdb45aab0e1778ecc0499c0571a4223e9",
+      "git_blob_sha": "260a847e5793a9b5c65486ad6dc3424102e2aa49",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/mesh_ray_checks_r13.py",
+      "bytes": 3760,
+      "sha256": "c0fce59937d2af07c3309572c6f405670ef8761660617298a86318fdaddd4c42",
+      "git_blob_sha": "689ea560f4d7bcbd1861f65a75c8e2c1bf6d6bc6",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/mesh_validation_utils.py",
+      "bytes": 1135,
+      "sha256": "e3aac7b60be24125cb8158e1f9b0f27a1c943bd155dd92e13d6ce8423730e2fc",
+      "git_blob_sha": "ee93d4c391691723eccb9d3b3622456a15f3165d",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/model_coordinates.py",
+      "bytes": 4576,
+      "sha256": "919bde699be8c98f200dfacd79c4e816dd1b839e03dde0e4aa6bf9c2fa34d177",
+      "git_blob_sha": "21cbe0877ade217496522acef6f9ccdc4403e873",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/prepare_component_inventory.py",
+      "bytes": 3465,
+      "sha256": "f0f5158e1a690d886015972e5333084e993b5a2dffc6d3a3ae4e0c3035fb2821",
+      "git_blob_sha": "ad4701ae72c10e8bb1030f62b401e8db5aaa6c63",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/rail_components_r14.py",
+      "bytes": 4524,
+      "sha256": "7e9db8137825cab12d55f07ea7b73c60628d2900dde5025076158fd993d81b81",
+      "git_blob_sha": "a819e2af96b9ac2c922d3e78ba3d35e44bf2114a",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/render_r14.py",
+      "bytes": 2327,
+      "sha256": "e1e0b7015c8fe3a4311159eaeef2ee54f8d4d5447d494efa066933b0ced0aa49",
+      "git_blob_sha": "7865832b49cd42f94ed0e68c502344cd451f3fbd",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/repair_selected_seams.py",
+      "bytes": 2934,
+      "sha256": "8e920f8d6a7ff1215ab2daed96b1fafb1d59ed6046a75429d7b6e1dfac4ca5f7",
+      "git_blob_sha": "c1258b1ab2246b7cadccd7236080edeb913961d4",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/reproduce_body_r14.py",
+      "bytes": 8292,
+      "sha256": "af9d2374811214ad0733c2021af6e4fddf5b3ea78ebe7157ce6934100b119a1d",
+      "git_blob_sha": "c74514d8ff32f351f294fc0be1435b257df44722",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/reproduce_rails_r14.py",
+      "bytes": 15517,
+      "sha256": "3a434ce8dc08a746697f536deaf96e7f05e65adf53817f6b59ab4937a19e37be",
+      "git_blob_sha": "df1d881974bdf753ee27e9ae7335aad05fa18cdf",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/requirements_independent_validation.txt",
+      "bytes": 204,
+      "sha256": "5b02a1f7d5aa01dc59c97471f14964c19b94fff7a3ddf1dd7cd152556d83cd1a",
+      "git_blob_sha": "910df96c00bfd2b535eefa29c5b84cbf86e76e6f",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/requirements_rebuild_R14.txt",
+      "bytes": 320,
+      "sha256": "43d1e1e0738af593c16794f9b0558742272b2a39ba31bac3c52d4fb5e3bb9cf5",
+      "git_blob_sha": "24800f67bd3573936a44d9754594f45fef8fe5ac",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/robust_export_r14.py",
+      "bytes": 5123,
+      "sha256": "3c9247f7584dd0f342bed4f565492d124c89485c0ab61a78e1c340af328d5ca9",
+      "git_blob_sha": "fed6260079a07bb174a80ecfcd491b219d328d62",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/round_internal_junctions_r14.py",
+      "bytes": 15198,
+      "sha256": "16920d45d473d835813a156d4d6f5849c4b1230236a977ffb36c1af4a0e8d9e7",
+      "git_blob_sha": "52edea250ec6c761cdd47db0dd7c0d375adf6498",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/run_exact_mesh_bvh.py",
+      "bytes": 3819,
+      "sha256": "98ad0cda9256d3e4cd5c2fb0517fd0fbb9e8fffc038d54ed7bb6a5c8c400b5e0",
+      "git_blob_sha": "da6b2ba94df0d41417f2b64e130a085d894961a9",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/run_exact_triangle_pairs.py",
+      "bytes": 3983,
+      "sha256": "27c4d68eafbd910d7222bb8c51bb7b69b0f0e68f147a9817ed43e36a5527f080",
+      "git_blob_sha": "5d368a06b76699d442a05f8f68919e8db6384d29",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/run_final_part_exact_batch.py",
+      "bytes": 3332,
+      "sha256": "9057201440c139a9029e0ea58a02506ad25e70160bd5557a3222bd15675f3d92",
+      "git_blob_sha": "6966328f21806d1597f1d6ed672ed2cbfcbde121",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/test_exact_mesh_bvh.py",
+      "bytes": 1579,
+      "sha256": "283ec8f3e9fe8819b30af897fbbc1873daedc25a451ed076120f1ff52634f362",
+      "git_blob_sha": "2dc8d2a0babd4474de54ca1b663e7265ee5a6c61",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/test_exact_triangle_pairs.py",
+      "bytes": 2031,
+      "sha256": "386c63fcbc4d97f64081d9d82acc44fa9855731768f8b0ed2293a4f45865716c",
+      "git_blob_sha": "e6f248cf99db07783b2b9134a1154b373cb9996e",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/validate_saved_meshes.py",
+      "bytes": 8808,
+      "sha256": "80f6ee148ed2e4a3a65fca3bcf1762da3a7cfebbe1599aa4d0be4c5c9dfaa67f",
+      "git_blob_sha": "c13c187a43c942e6dbf496f942f99d21ad746d63",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_component_nesting.py",
+      "bytes": 4259,
+      "sha256": "39cb503350bc39b61f9aacbaaac045c4548f7e35214520078e2c2d54ea4d0f92",
+      "git_blob_sha": "0bd49e7a97e4c9ba308f2c8195f0d8f07e804cc3",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_core_connectivity_r14.py",
+      "bytes": 4075,
+      "sha256": "567c6032b012e6e8a03fd24c58ec429a09b21ac0b9be931979b98d91485ba7fd",
+      "git_blob_sha": "8610af37a85e7b41f6b75410be4063313f9d9004",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_coupon_saved_geometry_r14.py",
+      "bytes": 11215,
+      "sha256": "3e355952129140b5a55d9bd7f1a5a309fcfbea91c005c2edfb2842bc854a2b55",
+      "git_blob_sha": "20294a9f2c7e2ae0355a1a7dc67ea51feb5b38a3",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_installed_channels.py",
+      "bytes": 4051,
+      "sha256": "fe696aa54d8b5966bb6ed83952ea5e28830e1765768ec1227e21466922b5e06f",
+      "git_blob_sha": "412d6f594ae54ed6e1ac77e51337fe3d325bae14",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_port_walls_r14.py",
+      "bytes": 14322,
+      "sha256": "8d33baf2eed5ae2f7a1b07395795c54f679ced34d0e745801932458244a4a1f1",
+      "git_blob_sha": "5792a59112b4cca09d290f0609316ccdbaa512e4",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_port_walls_r14_v1.py",
+      "bytes": 13268,
+      "sha256": "07409a6b8e6703da66e34dc7a4f5c6cf093d7e1015259956b0156bcfe119ca6e",
+      "git_blob_sha": "e2a9c0de6f1c70b00c5b3dd286c80a82757d657d",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_saved_wall_regions.py",
+      "bytes": 9041,
+      "sha256": "febe5991e9973866e575b7bb0b5f04783a42b49d15835e02b0a0fe7b974bd44d",
+      "git_blob_sha": "6cba8fd461c7f1da2ccc8bb59577f745c4e7420a",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_secondary_core_separation.py",
+      "bytes": 4216,
+      "sha256": "b7f21858ed282d34512866783cffc5fcbdaaa7735b73c3c99935d0d20b0d7d8f",
+      "git_blob_sha": "d5fb72f18099c524e69aa2d42e6834363dd84705",
+      "matched": true
+    },
+    {
+      "path": "penholder_r14/verify_secondary_reuse.py",
+      "bytes": 3714,
+      "sha256": "b9ba4587f458ed1bffded881618597e73657992244bf2dfd8b4acbc44ec7c4b4",
+      "git_blob_sha": "1097fc804958d38c07d436691207a9cc41042afc",
+      "matched": true
+    }
+  ],
+  "reconstructed_archives": [
+    {
+      "name": "body_R14_exact.zip",
+      "sha256": "14e8c21d246e57f0f9bb381573d2bd60422f32659f6501905411a34979d9f403",
+      "parts": 21,
+      "members": 2,
+      "all_member_hashes_matched_current_files": true
+    },
+    {
+      "name": "reproduction_inputs_R14_exact.zip",
+      "sha256": "81a78ec16f7e1a9a8fb6bd8f74c51e94918d393ab27e412e81d2e1940431db7c",
+      "parts": 16,
+      "members": 47,
+      "all_member_hashes_matched_current_files": true
+    }
+  ],
+  "original18_source_tree_unchanged": true,
+  "changes_restricted_to_r14_paths": true,
+  "changed_path_count": 133,
+  "seconds": 5.233123540878296
+}

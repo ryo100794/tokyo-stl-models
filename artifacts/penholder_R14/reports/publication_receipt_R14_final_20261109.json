@@ -1,0 +1,237 @@
+{
+  "schema": "R14-final-publication-receipt-v1",
+  "payload_commit": {
+    "repository": "ryo100794/tokyo-stl-models",
+    "branch": "recovery/r14-20261109",
+    "parent": "a8cba45a4b0d66e1ea9a5e008c947d4810898493",
+    "tree": "f8dccd28912583a09cff5c1709c79291a89722ac",
+    "commit": "68d566810decf714831e364e75faef9d81baf8cb",
+    "url": "https://github.com/ryo100794/tokyo-stl-models/commit/68d566810decf714831e364e75faef9d81baf8cb",
+    "tree_entries_changed": 133,
+    "expected_sha_used": "a8cba45a4b0d66e1ea9a5e008c947d4810898493"
+  },
+  "metadata_commit_resolution": "The commit containing this receipt adds only this receipt and the independent Git readback proof; it preserves the payload commit and does not embed its own future SHA.",
+  "verified_payload_file_count": 143,
+  "independent_github_readback": {
+    "report_path": "artifacts/penholder_R14/reports/github_readback_verification_R14.json",
+    "bytes": 42366,
+    "sha256": "560d3376b26d602f6d59eb7d2706433fd4982f39aa2f36465a49471d9df1ded9",
+    "drive_id": "14_J_aIbpZS3UdJRLBYEpujIZUAZY0Swi",
+    "view_url": "https://drive.google.com/file/d/14_J_aIbpZS3UdJRLBYEpujIZUAZY0Swi/view",
+    "all_143_file_SHA256_match": true,
+    "split_parts_reassembled": 37,
+    "body_and_input_archive_SHA256_match": true,
+    "expanded_body_members_match": 2,
+    "expanded_input_members_match": 47,
+    "original_18_source_tree_matches_initial_commit": true,
+    "changes_restricted_to_R14_paths": true
+  },
+  "main_branch": {
+    "sha": "a2a69ccf2100feaef2a2e39bbced695c9f4e70a4",
+    "unchanged": true
+  },
+  "R13_modified": false,
+  "original_Drive_model_files_modified": false,
+  "source_files": 48,
+  "models": {
+    "STL_count": 16,
+    "three_MF_count": 1,
+    "whole_body_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+    "whole_body_3mf_sha256": "cd50c52fff6f4d59e8a4de426a424d90ee29025c7bc8e486608369461ef81cfb"
+  },
+  "correspondence": {
+    "github_path": "artifacts/penholder_R14/reports/FILE_CORRESPONDENCE_R14_repaired_20261109.json",
+    "drive_id": "1KY9lxN4KBwNxFhBYg7b4OpgaypJ2SRJk",
+    "sha256": "8e04d1fd22d724343e1e7693caebd22c070c78ce6bb9ad4323ae813b14b27202"
+  },
+  "sha256_index": {
+    "github_path": "artifacts/penholder_R14/reports/FINAL_PUBLICATION_SHA256SUMS_R14.txt",
+    "drive_id": "1wz462kvRiQ3Aks4FmW5JxIg7kCPnE_Y6",
+    "sha256": "4079c7d016ab9e062932e6b7e60de5e16dd21cf5eec130e0c27214f2252c6a33",
+    "file_entries": 142,
+    "self_excluded": true
+  },
+  "drive_files_with_fresh_raw_readback": [
+    {
+      "logical_path": "models/subway_R14_hollow_print.stl",
+      "drive_id": "1e5pcIa2VMJ9axnC8cGFz8KWsBWRVOaOw",
+      "view_url": "https://drive.google.com/file/d/1e5pcIa2VMJ9axnC8cGFz8KWsBWRVOaOw/view",
+      "bytes": 87173984,
+      "sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "models/subway_R14_hollow_print.3mf",
+      "drive_id": "1ZkLQUUWkbjyBS4fAzVh1ztSkYXuFTNpS",
+      "view_url": "https://drive.google.com/file/d/1ZkLQUUWkbjyBS4fAzVh1ztSkYXuFTNpS/view",
+      "bytes": 28106611,
+      "sha256": "cd50c52fff6f4d59e8a4de426a424d90ee29025c7bc8e486608369461ef81cfb",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "models/rail_R14_L07.stl",
+      "drive_id": "1pRw5AhC6mwj4gY19qY2H4ztOkJmMzEgC",
+      "view_url": "https://drive.google.com/file/d/1pRw5AhC6mwj4gY19qY2H4ztOkJmMzEgC/view",
+      "bytes": 1931884,
+      "sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "models/rail_R14_L09.stl",
+      "drive_id": "1kUwpnOasGQkS6ngf13yzdnxD1KUKjJ9m",
+      "view_url": "https://drive.google.com/file/d/1kUwpnOasGQkS6ngf13yzdnxD1KUKjJ9m/view",
+      "bytes": 1115584,
+      "sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "models/rail_R14_L12.stl",
+      "drive_id": "1o0UAADo3wdf6Tl5Ru-3rgaxa7vtmIQNw",
+      "view_url": "https://drive.google.com/file/d/1o0UAADo3wdf6Tl5Ru-3rgaxa7vtmIQNw/view",
+      "bytes": 1552584,
+      "sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "models/rail_R14_L13.stl",
+      "drive_id": "14SiSW4vD4WdSt4N3BnmNkl52xEg1tur5",
+      "view_url": "https://drive.google.com/file/d/14SiSW4vD4WdSt4N3BnmNkl52xEg1tur5/view",
+      "bytes": 3266484,
+      "sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "models/rail_R14_L14.stl",
+      "drive_id": "1U9M_2IJ0JQyjdoqGC_cMyWR5--Hb7KsR",
+      "view_url": "https://drive.google.com/file/d/1U9M_2IJ0JQyjdoqGC_cMyWR5--Hb7KsR/view",
+      "bytes": 3791284,
+      "sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "archives/reproduction_inputs_R14_exact.zip",
+      "drive_id": "1R0a1KpmKZKZQ2rXWlO8yYRY7_diV7SN-",
+      "view_url": "https://drive.google.com/file/d/1R0a1KpmKZKZQ2rXWlO8yYRY7_diV7SN-/view",
+      "bytes": 49150239,
+      "sha256": "81a78ec16f7e1a9a8fb6bd8f74c51e94918d393ab27e412e81d2e1940431db7c",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "archives/generation_source_R14_repaired.zip",
+      "drive_id": "1y2uvbXwUZxtQ34hhxbSIc_ztoYiARwAw",
+      "view_url": "https://drive.google.com/file/d/1y2uvbXwUZxtQ34hhxbSIc_ztoYiARwAw/view",
+      "bytes": 119651,
+      "sha256": "92c5c7f0e4157897d6834af815f6d53d7ca6d434b3ebe21ed8b351a436293890",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "archives/validation_and_previews_R14_exact.zip",
+      "drive_id": "1XdZhZc3yd-asn5Ze9WbFHVsOBzvStXUN",
+      "view_url": "https://drive.google.com/file/d/1XdZhZc3yd-asn5Ze9WbFHVsOBzvStXUN/view",
+      "bytes": 2439616,
+      "sha256": "5859134e7be48a17fb5e00db8bf881c348fafb2002695c5655a13c1cc36bf0e8",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "README_R14_ja.md",
+      "drive_id": "1F3NcztPZH84Ww9-HfHg-CPA-Z3-G907v",
+      "view_url": "https://drive.google.com/file/d/1F3NcztPZH84Ww9-HfHg-CPA-Z3-G907v/view",
+      "bytes": 12883,
+      "sha256": "8854ed102b3e00a7e24478efc6a07dedda448f078db60fb951b9895bd152430e",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "reports/validation_summary_R14_repaired.json",
+      "drive_id": "1I5vuhFloup-kFowBM9YApJwS1ixvSMK2",
+      "view_url": "https://drive.google.com/file/d/1I5vuhFloup-kFowBM9YApJwS1ixvSMK2/view",
+      "bytes": 63961,
+      "sha256": "9f6be1e44a6a66b594c3f1c879b85ad8845f16794f3dfef9e30c99e135931e95",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "reports/repaired_part_exports_R14.json",
+      "drive_id": "13rT31i5_nUQaPFFERYixAxMw5nTVz2zJ",
+      "view_url": "https://drive.google.com/file/d/13rT31i5_nUQaPFFERYixAxMw5nTVz2zJ/view",
+      "bytes": 32187,
+      "sha256": "6803148ad2f19c8a00ffa5ec73a0a6bd53b7f619b7b241037807b257ac9ce68b",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "reports/independent_parts/independent_saved_meshes_report.json",
+      "drive_id": "1CyjZE3YQx9HeEvYMc7xL-GDQzyeHeJyk",
+      "view_url": "https://drive.google.com/file/d/1CyjZE3YQx9HeEvYMc7xL-GDQzyeHeJyk/view",
+      "bytes": 45396,
+      "sha256": "9fb1bc7f6c3f8dbe46968e96d2958646badf376f5493e26ebace6d1496528edc",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "previews/L12_cusp_section_before_after.png",
+      "drive_id": "1LxCsCwl4fshWZpe_QKfF5e7HLnJ0_2cr",
+      "view_url": "https://drive.google.com/file/d/1LxCsCwl4fshWZpe_QKfF5e7HLnJ0_2cr/view",
+      "bytes": 255493,
+      "sha256": "53656f4133a083ccbc5348b49037d79a3ebc77b29cbac0cc0bd44a6e065d24fa",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "previews/R14_flow_coupon.png",
+      "drive_id": "1AL8Bih8IJqu_4a5aTjxOaqgmsVa0xeFE",
+      "view_url": "https://drive.google.com/file/d/1AL8Bih8IJqu_4a5aTjxOaqgmsVa0xeFE/view",
+      "bytes": 222794,
+      "sha256": "7bfd179d42f472a991743ba5fe3d595ad51881a33e0d1da70d744679160ea2bb",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "previews/R14_overview.png",
+      "drive_id": "1ZGVa6MnCtYCdRq0DvyVr43h5VMTQDceP",
+      "view_url": "https://drive.google.com/file/d/1ZGVa6MnCtYCdRq0DvyVr43h5VMTQDceP/view",
+      "bytes": 1057721,
+      "sha256": "b1f6059e3cfc6b6b25e3c0ddcde2013b74448c4e483f291f8b5ef0d823a94e9d",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "previews/R14_railways.png",
+      "drive_id": "1UfiF9McqB1LbMv95G6As1JjBm6hjnk7A",
+      "view_url": "https://drive.google.com/file/d/1UfiF9McqB1LbMv95G6As1JjBm6hjnk7A/view",
+      "bytes": 300711,
+      "sha256": "619e283b12c07ba9052253c38b8e7921d061a48ed703dab58084359cc65e090f",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "reports/FILE_CORRESPONDENCE_R14_repaired_20261109.json",
+      "drive_id": "1KY9lxN4KBwNxFhBYg7b4OpgaypJ2SRJk",
+      "view_url": "https://drive.google.com/file/d/1KY9lxN4KBwNxFhBYg7b4OpgaypJ2SRJk/view",
+      "bytes": 191517,
+      "sha256": "8e04d1fd22d724343e1e7693caebd22c070c78ce6bb9ad4323ae813b14b27202",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "reports/FINAL_PUBLICATION_SHA256SUMS_R14.txt",
+      "drive_id": "1wz462kvRiQ3Aks4FmW5JxIg7kCPnE_Y6",
+      "view_url": "https://drive.google.com/file/d/1wz462kvRiQ3Aks4FmW5JxIg7kCPnE_Y6/view",
+      "bytes": 18793,
+      "sha256": "4079c7d016ab9e062932e6b7e60de5e16dd21cf5eec130e0c27214f2252c6a33",
+      "raw_readback_exact": true
+    },
+    {
+      "logical_path": "reports/github_readback_verification_R14.json",
+      "drive_id": "14_J_aIbpZS3UdJRLBYEpujIZUAZY0Swi",
+      "view_url": "https://drive.google.com/file/d/14_J_aIbpZS3UdJRLBYEpujIZUAZY0Swi/view",
+      "bytes": 42366,
+      "sha256": "560d3376b26d602f6d59eb7d2706433fd4982f39aa2f36465a49471d9df1ded9",
+      "raw_readback_exact": true
+    }
+  ],
+  "unchanged_nine_lines_and_coupon": {
+    "count": 10,
+    "sha256_and_Drive_ids_reused_from_verified_checkpoint": "a8cba45a4b0d66e1ea9a5e008c947d4810898493"
+  },
+  "scope": {
+    "numerical_geometry_validation_completed_with_documented_limits": true,
+    "global_wall_minimum_proven": false,
+    "physical_SLA_print_performed": false,
+    "physical_flow_test_performed": false,
+    "print_release": false,
+    "optional_full_seed_replay": "diagnostic path fails the topology guard; the supported pinned-positive path reproduces the published SHA256"
+  },
+  "self_receipt_digest_excluded_to_avoid_circular_reference": true
+}
