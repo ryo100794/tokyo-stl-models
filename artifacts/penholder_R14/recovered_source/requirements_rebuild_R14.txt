@@ -1,0 +1,12 @@
+numpy==2.3.5
+scipy==1.17.0
+trimesh==4.12.2
+manifold3d==3.5.2
+pymeshlab==2025.7.post1
+pymeshfix==0.18.1
+vtk==9.3.1
+lxml==6.1.1
+requests==2.34.2
+pyproj==3.8.0
+PyYAML==6.0.3
+Pillow==12.3.0
