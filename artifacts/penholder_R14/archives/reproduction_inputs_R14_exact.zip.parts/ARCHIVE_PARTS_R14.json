@@ -1,0 +1,90 @@
+{
+  "schema": "R14-archive-split-v1",
+  "archive_name": "reproduction_inputs_R14_exact.zip",
+  "archive_bytes": 49150239,
+  "archive_sha256": "81a78ec16f7e1a9a8fb6bd8f74c51e94918d393ab27e412e81d2e1940431db7c",
+  "assembly": "binary concatenation in listed order, then exact_archive_r14 extract",
+  "parts": [
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part001",
+      "bytes": 3145728,
+      "sha256": "15baf4d1690390852956561deb39deae8bf70163fee570a3da9240a8166ba0b8"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part002",
+      "bytes": 3145728,
+      "sha256": "351f842c4d7f9796d92cb79925dbc2a449c9165f67ec444d6461672083b783b8"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part003",
+      "bytes": 3145728,
+      "sha256": "06a995dfae9d8b7058b5d9bb5ec58ef3177693d96d64a7f517781c98011da128"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part004",
+      "bytes": 3145728,
+      "sha256": "551dd1bfcb58cfecdfb0b8377dae870394d32a17339f20f5e65e006949875d74"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part005",
+      "bytes": 3145728,
+      "sha256": "054da8c1533051263cf76b93ed78482ba08fd8e7d06b6af53d1c92ae9b404543"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part006",
+      "bytes": 3145728,
+      "sha256": "4f03c8541a8d5f96849851cdff9979fa49ec81e0fe7bbdeb3b88d71531e01dc1"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part007",
+      "bytes": 3145728,
+      "sha256": "763f67914b8454c18ff25440b2a0f758ec67cf99756ff2f73e1196a648c0a420"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part008",
+      "bytes": 3145728,
+      "sha256": "4f1c77a3c0ce9715db6e9c4dd0bf2902214b79d692a6a8d6bc00943a6ce2c0cd"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part009",
+      "bytes": 3145728,
+      "sha256": "46f78802905636996935f1af011b876b07c5126247059b4507c6a80cd8d22e31"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part010",
+      "bytes": 3145728,
+      "sha256": "c5e30ce01e2b84bb8c214bdc945dd0c61a4484f637763a2dc7beffb2ce36b52b"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part011",
+      "bytes": 3145728,
+      "sha256": "3ee435f9ef60234123252909daa02d7209f9ffaf17df2cd26f7b90775063f9b5"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part012",
+      "bytes": 3145728,
+      "sha256": "907a18ad61641a8db2d526601ff1d33c32494b7a1dc89fe42155d622b4ad55af"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part013",
+      "bytes": 3145728,
+      "sha256": "bd74f8d3b93df332566bab54f7c23d6807263a7a0878f7b17f780ac0c8c2128c"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part014",
+      "bytes": 3145728,
+      "sha256": "88b30a5d42353eb46b529f38b9fc4acd7d14e8ee21485ab531588b73193e562b"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part015",
+      "bytes": 3145728,
+      "sha256": "815a0da4ad2f79409e142f2bdbc5813f6767e6645af221c4bc4f5fe090162c88"
+    },
+    {
+      "path": "reproduction_inputs_R14_exact.zip.part016",
+      "bytes": 1964319,
+      "sha256": "d87287848e3a8742c89bba899d69105d24b269969470fe75fc96a62600b47e97"
+    }
+  ],
+  "external_service_upload_performed": false
+}

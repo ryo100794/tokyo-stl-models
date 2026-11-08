@@ -1,0 +1,318 @@
+{
+  "scope": "Full saved-mesh exact triangle intersection scan of 14 final standalone line STLs and the unchanged coupon; no geometry changes",
+  "validator_sources_sha256": {
+    "run_exact_mesh_bvh.py": "98ad0cda9256d3e4cd5c2fb0517fd0fbb9e8fffc038d54ed7bb6a5c8c400b5e0",
+    "exact_mesh_bvh.cpp": "eec9e4814e9bde8cc2ce049bb71c50aba91089c58165046ccd156d28011487c9",
+    "exact_predicate.hpp": "430ce5ea43576eae91aaed7cd28bc6774fefeada03ec1c475994ebce32dae42c",
+    "build_exact_engines.py": "058db4f79c536ab76ddb48efa047410b273d72637dd1221b0d46f660ab3bb5ed",
+    "run_exact_triangle_pairs.py": "27c4d68eafbd910d7222bb8c51bb7b69b0f0e68f147a9817ed43e36a5527f080"
+  },
+  "source_script_sha256": "9057201440c139a9029e0ea58a02506ad25e70160bd5557a3222bd15675f3d92",
+  "parts": [
+    {
+      "file": "flow_coupon_R14.stl",
+      "report": "flow_coupon_R14_exact_intersections.json",
+      "report_sha256": "984cd30f6456707c4f9fc579d49f0a6f5441f5fbcb51d2c4ab503db42241ef4b",
+      "source_sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 224803,
+        "expected_shared_vertex_or_edge_contact": 563786,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 5.066496563005785
+    },
+    {
+      "file": "rail_R14_L01.stl",
+      "report": "rail_R14_L01_exact_intersections.json",
+      "report_sha256": "b3371e80be6c125255af12d01c259f080bf99bcbbccc9edab846979c7f469e80",
+      "source_sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 144711,
+        "expected_shared_vertex_or_edge_contact": 208916,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 2.259246786001313
+    },
+    {
+      "file": "rail_R14_L02.stl",
+      "report": "rail_R14_L02_exact_intersections.json",
+      "report_sha256": "7052b9257cca3fe90cde9230c8aaef033601a33efb1cc4d37f3fbc66dbdb3713",
+      "source_sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 172049,
+        "expected_shared_vertex_or_edge_contact": 309057,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 3.0075133760037716
+    },
+    {
+      "file": "rail_R14_L03.stl",
+      "report": "rail_R14_L03_exact_intersections.json",
+      "report_sha256": "d84675b3f7db877f7fbc6357f910d0790c154614599267063063c46a893869ea",
+      "source_sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 175681,
+        "expected_shared_vertex_or_edge_contact": 261419,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 2.7883488130028127
+    },
+    {
+      "file": "rail_R14_L04.stl",
+      "report": "rail_R14_L04_exact_intersections.json",
+      "report_sha256": "835261c6b424e0a71dbaf23b6bd3f2751c7e4b9bd4a2a356d407af055949ef1f",
+      "source_sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 124074,
+        "expected_shared_vertex_or_edge_contact": 227019,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 1.8183963400006178
+    },
+    {
+      "file": "rail_R14_L05.stl",
+      "report": "rail_R14_L05_exact_intersections.json",
+      "report_sha256": "227a55d38a4eb9cdafc031247ae8889572e0f1d1acf5379bccc1a664a2afec97",
+      "source_sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 152021,
+        "expected_shared_vertex_or_edge_contact": 280744,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 2.902855307998834
+    },
+    {
+      "file": "rail_R14_L06.stl",
+      "report": "rail_R14_L06_exact_intersections.json",
+      "report_sha256": "9ec9e2b1a0335682e6f9d8aaff289158bc0820fdee7235dff1de634172aae808",
+      "source_sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 268809,
+        "expected_shared_vertex_or_edge_contact": 302287,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 4.1244174639941775
+    },
+    {
+      "file": "rail_R14_L07.stl",
+      "report": "rail_R14_L07_exact_intersections.json",
+      "report_sha256": "a51d403573225d475b73d92a1e150705501cb0fbacb76797c847efafc225fc62",
+      "source_sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 88087,
+        "expected_shared_vertex_or_edge_contact": 256116,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 2.0487201099967933
+    },
+    {
+      "file": "rail_R14_L08.stl",
+      "report": "rail_R14_L08_exact_intersections.json",
+      "report_sha256": "ed5432fff38ef1b582521954a3e331b57d23f2559d1e3d7df92c478c2581f109",
+      "source_sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 166617,
+        "expected_shared_vertex_or_edge_contact": 309386,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 3.334844194003381
+    },
+    {
+      "file": "rail_R14_L09.stl",
+      "report": "rail_R14_L09_exact_intersections.json",
+      "report_sha256": "4b99a8445f53ecab360ec374b7cad0868074259f23f00a4b7f5fc559b746e697",
+      "source_sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 188856,
+        "expected_shared_vertex_or_edge_contact": 148635,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 1.232600982999429
+    },
+    {
+      "file": "rail_R14_L10.stl",
+      "report": "rail_R14_L10_exact_intersections.json",
+      "report_sha256": "583c463d1b42d194b9c9f1fafd5c794105a754c22b6dc4f3c7dae8f7cc94d91f",
+      "source_sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 225467,
+        "expected_shared_vertex_or_edge_contact": 161525,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 1.9188466600026004
+    },
+    {
+      "file": "rail_R14_L11.stl",
+      "report": "rail_R14_L11_exact_intersections.json",
+      "report_sha256": "f1677ebd4d00f9b605751c278c7a6e3b1524e1ea7278d1a06f5f80dbfd2b9ddb",
+      "source_sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 156595,
+        "expected_shared_vertex_or_edge_contact": 200687,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 1.9597555979999015
+    },
+    {
+      "file": "rail_R14_L12.stl",
+      "report": "rail_R14_L12_exact_intersections.json",
+      "report_sha256": "2f97a706c5c1b037674c21b521f8d2064546fcb64f362bb49c44f2222b4db956",
+      "source_sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 162833,
+        "expected_shared_vertex_or_edge_contact": 207218,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 2.4084810790009215
+    },
+    {
+      "file": "rail_R14_L13.stl",
+      "report": "rail_R14_L13_exact_intersections.json",
+      "report_sha256": "b09a5ca14664bfa4f800733930ed4885383e65e403bc7bfea0f40ded051fbffa",
+      "source_sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 300043,
+        "expected_shared_vertex_or_edge_contact": 436409,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 4.802047880999453
+    },
+    {
+      "file": "rail_R14_L14.stl",
+      "report": "rail_R14_L14_exact_intersections.json",
+      "report_sha256": "ea48435718cbe02a0c5662907369ab5e8f5bcaeecf1662311f7910003f7eb3a9",
+      "source_sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+      "input_hash_unchanged": true,
+      "abnormal_pair_count": 0,
+      "degenerate_face_count": 0,
+      "class_counts": {
+        "disjoint": 181011,
+        "expected_shared_vertex_or_edge_contact": 510686,
+        "other_point_contact": 0,
+        "noncoplanar_proper_crossing_segment": 0,
+        "coplanar_area_overlap": 0,
+        "other_segment_contact": 0,
+        "degenerate_triangle": 0
+      },
+      "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+      "elapsed_seconds": 4.636142265997478
+    }
+  ],
+  "completed": true,
+  "all_source_mesh_bytes_unchanged": true,
+  "all_15_pass": true,
+  "validator_sources_unchanged": true,
+  "elapsed_seconds": 32.43199062347412
+}

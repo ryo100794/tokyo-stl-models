@@ -1,0 +1,440 @@
+{
+  "scope": "Actual saved coupon STL in its own XYZ millimetres; railway transform not applied",
+  "mesh_file": "flow_coupon_R14.stl",
+  "mesh_sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+  "specification_sha256": "5cecc403fe6deb41745f9e9648621e9044ce4c2722c509b5c80f0de4714abd0c",
+  "specification_recorded_stl_sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+  "matches_specification_recorded_stl_hash": true,
+  "source_script_sha256": "3e355952129140b5a55d9bd7f1a5a309fcfbea91c005c2edfb2842bc854a2b55",
+  "peer_validator_sha256": "febe5991e9973866e575b7bb0b5f04783a42b49d15835e02b0a0fe7b974bd44d",
+  "physical_tests_performed": false,
+  "global_wall_or_leak_proof": false,
+  "saved_mesh_topology": {
+    "watertight": true,
+    "winding_consistent": true,
+    "body_count": 1,
+    "triangles": 79244,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        54.0,
+        68.0,
+        7.699999809265137
+      ]
+    ]
+  },
+  "path_step_max_mm": 0.4,
+  "longitudinal_offsets": "center plus four offsets at 0.75 times the channel inner radius",
+  "radial_angles": 24,
+  "nominal_channel_count": 5,
+  "nominal_ports": 10,
+  "channels": [
+    {
+      "id": "D10",
+      "inner_diameter_mm": 1.0,
+      "longitudinal_rays": 1130,
+      "blocked_longitudinal_rays": 0,
+      "radial_rays": 5424,
+      "planned_mouth_escape_rays": 2,
+      "unexpected_missing_radial_boundaries": 0,
+      "first_surfaces_not_matching_channel": 0,
+      "normal_outer_wall_samples": 5412,
+      "normal_interchannel_wall_samples": 0,
+      "normal_internal_same_channel_samples": 4,
+      "intentional_mouth_end_face_exits": 6,
+      "missing_normal_exits": 0,
+      "minimum_outer_normal_wall_mm": 0.5948650306548526,
+      "minimum_interchannel_normal_wall_mm": null,
+      "outer_wall_samples_below_0_5_mm": 0,
+      "interchannel_wall_samples_below_0_6_mm": 0,
+      "examples": [],
+      "ports": [
+        {
+          "end": "start",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        },
+        {
+          "end": "end",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        }
+      ],
+      "finite_checks_clear": true
+    },
+    {
+      "id": "D12",
+      "inner_diameter_mm": 1.2,
+      "longitudinal_rays": 1130,
+      "blocked_longitudinal_rays": 0,
+      "radial_rays": 5424,
+      "planned_mouth_escape_rays": 8,
+      "unexpected_missing_radial_boundaries": 0,
+      "first_surfaces_not_matching_channel": 0,
+      "normal_outer_wall_samples": 5410,
+      "normal_interchannel_wall_samples": 0,
+      "normal_internal_same_channel_samples": 0,
+      "intentional_mouth_end_face_exits": 6,
+      "missing_normal_exits": 0,
+      "minimum_outer_normal_wall_mm": 0.5948644621439616,
+      "minimum_interchannel_normal_wall_mm": null,
+      "outer_wall_samples_below_0_5_mm": 0,
+      "interchannel_wall_samples_below_0_6_mm": 0,
+      "examples": [],
+      "ports": [
+        {
+          "end": "start",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        },
+        {
+          "end": "end",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        }
+      ],
+      "finite_checks_clear": true
+    },
+    {
+      "id": "D14",
+      "inner_diameter_mm": 1.4,
+      "longitudinal_rays": 1130,
+      "blocked_longitudinal_rays": 0,
+      "radial_rays": 5424,
+      "planned_mouth_escape_rays": 8,
+      "unexpected_missing_radial_boundaries": 0,
+      "first_surfaces_not_matching_channel": 0,
+      "normal_outer_wall_samples": 5410,
+      "normal_interchannel_wall_samples": 0,
+      "normal_internal_same_channel_samples": 0,
+      "intentional_mouth_end_face_exits": 6,
+      "missing_normal_exits": 0,
+      "minimum_outer_normal_wall_mm": 0.5948641270506015,
+      "minimum_interchannel_normal_wall_mm": null,
+      "outer_wall_samples_below_0_5_mm": 0,
+      "interchannel_wall_samples_below_0_6_mm": 0,
+      "examples": [],
+      "ports": [
+        {
+          "end": "start",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        },
+        {
+          "end": "end",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        }
+      ],
+      "finite_checks_clear": true
+    },
+    {
+      "id": "cross_A",
+      "inner_diameter_mm": 1.2,
+      "longitudinal_rays": 475,
+      "blocked_longitudinal_rays": 0,
+      "radial_rays": 2280,
+      "planned_mouth_escape_rays": 7,
+      "unexpected_missing_radial_boundaries": 0,
+      "first_surfaces_not_matching_channel": 0,
+      "normal_outer_wall_samples": 2241,
+      "normal_interchannel_wall_samples": 21,
+      "normal_internal_same_channel_samples": 5,
+      "intentional_mouth_end_face_exits": 6,
+      "missing_normal_exits": 0,
+      "minimum_outer_normal_wall_mm": 0.5948660843005987,
+      "minimum_interchannel_normal_wall_mm": 0.7060401711933557,
+      "outer_wall_samples_below_0_5_mm": 0,
+      "interchannel_wall_samples_below_0_6_mm": 0,
+      "examples": [],
+      "ports": [
+        {
+          "end": "start",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        },
+        {
+          "end": "end",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        }
+      ],
+      "finite_checks_clear": true
+    },
+    {
+      "id": "cross_B",
+      "inner_diameter_mm": 1.2,
+      "longitudinal_rays": 225,
+      "blocked_longitudinal_rays": 0,
+      "radial_rays": 1080,
+      "planned_mouth_escape_rays": 6,
+      "unexpected_missing_radial_boundaries": 0,
+      "first_surfaces_not_matching_channel": 0,
+      "normal_outer_wall_samples": 1045,
+      "normal_interchannel_wall_samples": 21,
+      "normal_internal_same_channel_samples": 2,
+      "intentional_mouth_end_face_exits": 6,
+      "missing_normal_exits": 0,
+      "minimum_outer_normal_wall_mm": 0.594866084300602,
+      "minimum_interchannel_normal_wall_mm": 0.7060403189345736,
+      "outer_wall_samples_below_0_5_mm": 0,
+      "interchannel_wall_samples_below_0_6_mm": 0,
+      "examples": [],
+      "ports": [
+        {
+          "end": "start",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        },
+        {
+          "end": "end",
+          "through_nozzle_rays": 9,
+          "blocked_through_nozzle_rays": 0,
+          "mouth_disk_rays": 9,
+          "blocked_mouth_disk_rays": 0,
+          "examples": [],
+          "sampled_open": true
+        }
+      ],
+      "finite_checks_clear": true
+    }
+  ],
+  "crossing_material_barrier_samples": [
+    {
+      "xy_mm": [
+        26.75,
+        52.75
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.8193484719216833,
+      "entry_mm": [
+        26.75,
+        52.75,
+        2.740325876686879
+      ],
+      "exit_mm": [
+        26.75,
+        52.75,
+        3.5596743486085622
+      ],
+      "entry_face": 77318,
+      "exit_face": 78283
+    },
+    {
+      "xy_mm": [
+        26.75,
+        53.0
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.7596743962922803,
+      "entry_mm": [
+        26.75,
+        53.0,
+        2.799999952316283
+      ],
+      "exit_mm": [
+        26.75,
+        53.0,
+        3.559674348608563
+      ],
+      "entry_face": 77320,
+      "exit_face": 78283
+    },
+    {
+      "xy_mm": [
+        26.75,
+        53.25
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.8193484719216833,
+      "entry_mm": [
+        26.75,
+        53.25,
+        2.740325876686879
+      ],
+      "exit_mm": [
+        26.75,
+        53.25,
+        3.5596743486085622
+      ],
+      "entry_face": 77297,
+      "exit_face": 78283
+    },
+    {
+      "xy_mm": [
+        27.0,
+        52.75
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.7596741233131206,
+      "entry_mm": [
+        27.0,
+        52.75,
+        2.740325876686879
+      ],
+      "exit_mm": [
+        27.0,
+        52.75,
+        3.4999999999999996
+      ],
+      "entry_face": 77318,
+      "exit_face": 78310
+    },
+    {
+      "xy_mm": [
+        27.0,
+        53.0
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.7000000476837167,
+      "entry_mm": [
+        27.0,
+        53.0,
+        2.799999952316283
+      ],
+      "exit_mm": [
+        27.0,
+        53.0,
+        3.4999999999999996
+      ],
+      "entry_face": 77320,
+      "exit_face": 78286
+    },
+    {
+      "xy_mm": [
+        27.0,
+        53.25
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.7596741233131206,
+      "entry_mm": [
+        27.0,
+        53.25,
+        2.740325876686879
+      ],
+      "exit_mm": [
+        27.0,
+        53.25,
+        3.4999999999999996
+      ],
+      "entry_face": 77297,
+      "exit_face": 78310
+    },
+    {
+      "xy_mm": [
+        27.25,
+        52.75
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.8193484719216815,
+      "entry_mm": [
+        27.25,
+        52.75,
+        2.740325876686879
+      ],
+      "exit_mm": [
+        27.25,
+        52.75,
+        3.5596743486085605
+      ],
+      "entry_face": 77318,
+      "exit_face": 78316
+    },
+    {
+      "xy_mm": [
+        27.25,
+        53.0
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.7596743962922776,
+      "entry_mm": [
+        27.25,
+        53.0,
+        2.799999952316283
+      ],
+      "exit_mm": [
+        27.25,
+        53.0,
+        3.5596743486085605
+      ],
+      "entry_face": 77320,
+      "exit_face": 78316
+    },
+    {
+      "xy_mm": [
+        27.25,
+        53.25
+      ],
+      "material_barrier_present": true,
+      "measured_vertical_material_gap_mm": 0.8193484719216815,
+      "entry_mm": [
+        27.25,
+        53.25,
+        2.740325876686879
+      ],
+      "exit_mm": [
+        27.25,
+        53.25,
+        3.5596743486085605
+      ],
+      "entry_face": 77297,
+      "exit_face": 78316
+    }
+  ],
+  "crossing_minimum_sampled_gap_mm": 0.7000000476837167,
+  "mesh_bytes_unchanged": true,
+  "summary": {
+    "channels_tested": 5,
+    "ports_tested": 10,
+    "longitudinal_rays": 4090,
+    "blocked_longitudinal_rays": 0,
+    "radial_directions": 19632,
+    "minimum_outer_normal_wall_sample_mm": 0.5948641270506015,
+    "mouth_disk_rays": 90,
+    "through_nozzle_rays": 90,
+    "all_10_sampled_open": true,
+    "all_channel_finite_checks_clear": true,
+    "all_crossing_barriers_meet_0_6_mm": true,
+    "physical_test_performed": false
+  }
+}

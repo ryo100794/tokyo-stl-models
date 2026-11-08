@@ -1,0 +1,249 @@
+{
+  "archive_file": "generation_source_R14_repaired.zip",
+  "archive_bytes": 119651,
+  "archive_sha256": "92c5c7f0e4157897d6834af815f6d53d7ca6d434b3ebe21ed8b351a436293890",
+  "source_file_count": 48,
+  "all_source_members_sha256_verified": true,
+  "files": [
+    {
+      "path": "source/README_exact_validation_JA.txt",
+      "bytes": 4393,
+      "sha256": "8273087f08109a1d3f62cb20bea21788c84fcf9e3c62ae4bd3250eddd9628755"
+    },
+    {
+      "path": "source/augment_saved_defects.py",
+      "bytes": 3161,
+      "sha256": "65cea984d32decbc6be6863e8d6255b6682c462554ab2631448f523c9978c25a"
+    },
+    {
+      "path": "source/build_exact_engines.py",
+      "bytes": 866,
+      "sha256": "058db4f79c536ab76ddb48efa047410b273d72637dd1221b0d46f660ab3bb5ed"
+    },
+    {
+      "path": "source/build_flow_coupon_R14.py",
+      "bytes": 13440,
+      "sha256": "99ba97510e8530cb6068bf7c23e278671de8aeeb898f81330ab9d92b37eb9472"
+    },
+    {
+      "path": "source/build_r14.py",
+      "bytes": 7298,
+      "sha256": "dc6449d02e6b0e8733325aa312f4a8d04a5a84587eb4e68066b0258c8067fe14"
+    },
+    {
+      "path": "source/check_stored_stl_normals.py",
+      "bytes": 1674,
+      "sha256": "17d3cc140bde271c84dfa731a97176f6a2227ac1e6789313035a55455e8bd0e6"
+    },
+    {
+      "path": "source/core_signature_r14.py",
+      "bytes": 815,
+      "sha256": "d97085fc610775b17860cf81d444d7a3c1a33abc8ed29f12a6e839c11dae592a"
+    },
+    {
+      "path": "source/cpu_mesh_raster.cpp",
+      "bytes": 3187,
+      "sha256": "a3a410fa62ee3bfdbcb28d67c9d341f78dc4473d4cba8c3a8fb76d948622ae51"
+    },
+    {
+      "path": "source/cpu_mesh_render.py",
+      "bytes": 2491,
+      "sha256": "c8ad833816f8c87094ae5e72a96525625d65f37949a695e748c2f0c3de928f10"
+    },
+    {
+      "path": "source/diagnose_exact_hits.py",
+      "bytes": 6283,
+      "sha256": "900d9b22fdc0d2fe0963df9824b371e36d2b6e819ce2c7fbdc44dbf6795e64fd"
+    },
+    {
+      "path": "source/exact_archive_r14.py",
+      "bytes": 11226,
+      "sha256": "d71b8938b019c18730518abec054b1c1ec4f8232d709eac9925ec572031b6c2e"
+    },
+    {
+      "path": "source/exact_mesh_bvh.cpp",
+      "bytes": 7512,
+      "sha256": "eec9e4814e9bde8cc2ce049bb71c50aba91089c58165046ccd156d28011487c9"
+    },
+    {
+      "path": "source/exact_predicate.hpp",
+      "bytes": 6016,
+      "sha256": "430ce5ea43576eae91aaed7cd28bc6774fefeada03ec1c475994ebce32dae42c"
+    },
+    {
+      "path": "source/exact_triangle_pairs.cpp",
+      "bytes": 1553,
+      "sha256": "94b4fb94f958e68aa6029d5e618aab299e98baf24d9c3c064e0f77c3c4769b17"
+    },
+    {
+      "path": "source/export_3mf_r14.py",
+      "bytes": 2129,
+      "sha256": "d2a725f564ed614bcd73db40bb4b5104a883df87695650ff685a0484342623ac"
+    },
+    {
+      "path": "source/export_repaired_parts.py",
+      "bytes": 2756,
+      "sha256": "3570b9acace9909bbfbd9bc9c13bf123ed834166757addb0291683612419512b"
+    },
+    {
+      "path": "source/extract_principal_boundary.py",
+      "bytes": 2065,
+      "sha256": "2fdb892a52184bae9634595a3bdca19f64b7cb12dfccd17e1a3bc33307ed983b"
+    },
+    {
+      "path": "source/extract_saved_mesh_defects.py",
+      "bytes": 2593,
+      "sha256": "935a996c5e07f68121438ef307bdcf02fcda4f2ded8eb413e2f38d335a36267a"
+    },
+    {
+      "path": "source/geometry_r14.py",
+      "bytes": 14874,
+      "sha256": "86d2b4e7d7e7fd05be66f5a5ed2afbe22d560100b42b7fc9110fb4bce3501439"
+    },
+    {
+      "path": "source/inspect_print_orientation.py",
+      "bytes": 7334,
+      "sha256": "9c0c3955de18ee9dfa3b69eaaf2b666fdb45aab0e1778ecc0499c0571a4223e9"
+    },
+    {
+      "path": "source/mesh_ray_checks_r13.py",
+      "bytes": 3760,
+      "sha256": "c0fce59937d2af07c3309572c6f405670ef8761660617298a86318fdaddd4c42"
+    },
+    {
+      "path": "source/mesh_validation_utils.py",
+      "bytes": 1135,
+      "sha256": "e3aac7b60be24125cb8158e1f9b0f27a1c943bd155dd92e13d6ce8423730e2fc"
+    },
+    {
+      "path": "source/model_coordinates.py",
+      "bytes": 4576,
+      "sha256": "919bde699be8c98f200dfacd79c4e816dd1b839e03dde0e4aa6bf9c2fa34d177"
+    },
+    {
+      "path": "source/prepare_component_inventory.py",
+      "bytes": 3465,
+      "sha256": "f0f5158e1a690d886015972e5333084e993b5a2dffc6d3a3ae4e0c3035fb2821"
+    },
+    {
+      "path": "source/rail_components_r14.py",
+      "bytes": 4524,
+      "sha256": "7e9db8137825cab12d55f07ea7b73c60628d2900dde5025076158fd993d81b81"
+    },
+    {
+      "path": "source/render_r14.py",
+      "bytes": 2327,
+      "sha256": "e1e0b7015c8fe3a4311159eaeef2ee54f8d4d5447d494efa066933b0ced0aa49"
+    },
+    {
+      "path": "source/repair_selected_seams.py",
+      "bytes": 2934,
+      "sha256": "8e920f8d6a7ff1215ab2daed96b1fafb1d59ed6046a75429d7b6e1dfac4ca5f7"
+    },
+    {
+      "path": "source/reproduce_body_r14.py",
+      "bytes": 8292,
+      "sha256": "af9d2374811214ad0733c2021af6e4fddf5b3ea78ebe7157ce6934100b119a1d"
+    },
+    {
+      "path": "source/reproduce_rails_r14.py",
+      "bytes": 15517,
+      "sha256": "3a434ce8dc08a746697f536deaf96e7f05e65adf53817f6b59ab4937a19e37be"
+    },
+    {
+      "path": "source/requirements_independent_validation.txt",
+      "bytes": 204,
+      "sha256": "5b02a1f7d5aa01dc59c97471f14964c19b94fff7a3ddf1dd7cd152556d83cd1a"
+    },
+    {
+      "path": "source/requirements_rebuild_R14.txt",
+      "bytes": 320,
+      "sha256": "43d1e1e0738af593c16794f9b0558742272b2a39ba31bac3c52d4fb5e3bb9cf5"
+    },
+    {
+      "path": "source/robust_export_r14.py",
+      "bytes": 5123,
+      "sha256": "3c9247f7584dd0f342bed4f565492d124c89485c0ab61a78e1c340af328d5ca9"
+    },
+    {
+      "path": "source/round_internal_junctions_r14.py",
+      "bytes": 15198,
+      "sha256": "16920d45d473d835813a156d4d6f5849c4b1230236a977ffb36c1af4a0e8d9e7"
+    },
+    {
+      "path": "source/run_exact_mesh_bvh.py",
+      "bytes": 3819,
+      "sha256": "98ad0cda9256d3e4cd5c2fb0517fd0fbb9e8fffc038d54ed7bb6a5c8c400b5e0"
+    },
+    {
+      "path": "source/run_exact_triangle_pairs.py",
+      "bytes": 3983,
+      "sha256": "27c4d68eafbd910d7222bb8c51bb7b69b0f0e68f147a9817ed43e36a5527f080"
+    },
+    {
+      "path": "source/run_final_part_exact_batch.py",
+      "bytes": 3332,
+      "sha256": "9057201440c139a9029e0ea58a02506ad25e70160bd5557a3222bd15675f3d92"
+    },
+    {
+      "path": "source/test_exact_mesh_bvh.py",
+      "bytes": 1579,
+      "sha256": "283ec8f3e9fe8819b30af897fbbc1873daedc25a451ed076120f1ff52634f362"
+    },
+    {
+      "path": "source/test_exact_triangle_pairs.py",
+      "bytes": 2031,
+      "sha256": "386c63fcbc4d97f64081d9d82acc44fa9855731768f8b0ed2293a4f45865716c"
+    },
+    {
+      "path": "source/validate_saved_meshes.py",
+      "bytes": 8808,
+      "sha256": "80f6ee148ed2e4a3a65fca3bcf1762da3a7cfebbe1599aa4d0be4c5c9dfaa67f"
+    },
+    {
+      "path": "source/verify_component_nesting.py",
+      "bytes": 4259,
+      "sha256": "39cb503350bc39b61f9aacbaaac045c4548f7e35214520078e2c2d54ea4d0f92"
+    },
+    {
+      "path": "source/verify_core_connectivity_r14.py",
+      "bytes": 4075,
+      "sha256": "567c6032b012e6e8a03fd24c58ec429a09b21ac0b9be931979b98d91485ba7fd"
+    },
+    {
+      "path": "source/verify_coupon_saved_geometry_r14.py",
+      "bytes": 11215,
+      "sha256": "3e355952129140b5a55d9bd7f1a5a309fcfbea91c005c2edfb2842bc854a2b55"
+    },
+    {
+      "path": "source/verify_installed_channels.py",
+      "bytes": 4051,
+      "sha256": "fe696aa54d8b5966bb6ed83952ea5e28830e1765768ec1227e21466922b5e06f"
+    },
+    {
+      "path": "source/verify_port_walls_r14.py",
+      "bytes": 14322,
+      "sha256": "8d33baf2eed5ae2f7a1b07395795c54f679ced34d0e745801932458244a4a1f1"
+    },
+    {
+      "path": "source/verify_port_walls_r14_v1.py",
+      "bytes": 13268,
+      "sha256": "07409a6b8e6703da66e34dc7a4f5c6cf093d7e1015259956b0156bcfe119ca6e"
+    },
+    {
+      "path": "source/verify_saved_wall_regions.py",
+      "bytes": 9041,
+      "sha256": "febe5991e9973866e575b7bb0b5f04783a42b49d15835e02b0a0fe7b974bd44d"
+    },
+    {
+      "path": "source/verify_secondary_core_separation.py",
+      "bytes": 4216,
+      "sha256": "b7f21858ed282d34512866783cffc5fcbdaaa7735b73c3c99935d0d20b0d7d8f"
+    },
+    {
+      "path": "source/verify_secondary_reuse.py",
+      "bytes": 3714,
+      "sha256": "b9ba4587f458ed1bffded881618597e73657992244bf2dfd8b4acbc44ec7c4b4"
+    }
+  ]
+}

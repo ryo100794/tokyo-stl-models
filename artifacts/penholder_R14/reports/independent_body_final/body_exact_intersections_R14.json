@@ -1,0 +1,50 @@
+{
+  "schema": "R14-exhaustive-exact-saved-mesh-intersection-v1",
+  "source": "/workspace/scratch/e1b7a5798e07/reproduction_check/pocket_fixed/subway_R14_hollow_candidate_print.stl",
+  "source_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+  "exact_coordinate_weld_only": true,
+  "engine": {
+    "vertices": 837099,
+    "faces": 1743478,
+    "aabb_candidate_pairs": 25382504,
+    "common_power_of_two": -50,
+    "counts": [
+      12445756,
+      12936748,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "abnormal_pairs": 0,
+    "degenerate_faces": 0,
+    "threads": 3,
+    "elapsed_seconds": 59.4055
+  },
+  "class_counts": {
+    "disjoint": 12445756,
+    "expected_shared_vertex_or_edge_contact": 12936748,
+    "other_point_contact": 0,
+    "noncoplanar_proper_crossing_segment": 0,
+    "coplanar_area_overlap": 0,
+    "other_segment_contact": 0,
+    "degenerate_triangle": 0
+  },
+  "abnormal_pair_count": 0,
+  "abnormal_face_ids": [],
+  "degenerate_face_ids": [],
+  "no_abnormal_intersections_and_no_exact_degenerate_faces": true,
+  "candidate_completeness": "All triangles in the saved mesh; a closed AABB BVH self-traversal enumerates every overlapping triangle-box pair once. No MeshLab selection filter.",
+  "arithmetic": "All binary64 representations of saved coordinates decoded exactly to integers with a common power of two. GMP arbitrary-precision integer orientations and rational intersection comparisons, without geometric tolerance.",
+  "adjacency": "Only an intersection wholly contained in the exact shared vertex or shared edge is normal. Other intersections remain failures, including those in a pair that shares one vertex.",
+  "does_not_establish": [
+    "edge or vertex manifoldness (reported separately)",
+    "wall thickness",
+    "fluid connectivity",
+    "support adequacy",
+    "SLA print success",
+    "physical flow or drainage"
+  ],
+  "elapsed_seconds": 66.72045469599834
+}

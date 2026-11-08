@@ -451,11 +451,11 @@
   },
   {
     "file": "rail_R14_L07.stl",
-    "sha256": "1c0a7ed974323c31bc1f6120ae56f8cea70af6120f5e13316a1c00d395824131",
-    "bytes": 1913984,
+    "sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+    "bytes": 1931884,
     "topology": {
-      "vertices": 19133,
-      "triangles": 38278,
+      "vertices": 19312,
+      "triangles": 38636,
       "watertight": true,
       "winding_consistent": true,
       "boundary_edges": 0,
@@ -463,7 +463,7 @@
       "nonmanifold_vertex_links": 0,
       "zero_area_triangles": 0,
       "duplicate_faces": 0,
-      "volume_mm3": 828.9618751108255,
+      "volume_mm3": 828.9166325111955,
       "bounds_mm": [
         [
           -53.258365631103516,
@@ -482,7 +482,19 @@
         33.33584976196289
       ]
     },
-    "export_attempts": [
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L07",
+    "name_ja": "半蔵門線",
+    "previous_checkpoint_sha256": "1c0a7ed974323c31bc1f6120ae56f8cea70af6120f5e13316a1c00d395824131",
+    "internal_cusp_repair_applied": true,
+    "internal_cusp_repair_report": "internal_cusp_repair_R14.json",
+    "outer_positive_changed": false,
+    "source_centerlines_moved": false,
+    "port_coordinates_moved": false,
+    "baseline_export_attempts": [
       {
         "simplification_tolerance_mm": 0.001,
         "before": {
@@ -516,13 +528,8 @@
         }
       }
     ],
-    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
-    "surface_reconstruction_used": false,
-    "hole_filling_used": false,
-    "physical_tests_performed": false,
-    "line_id": "L07",
-    "name_ja": "半蔵門線",
-    "seconds": 1.110227108001709
+    "baseline_export_seconds": 1.110227108001709,
+    "final_export_recipe": "round_internal_junctions_r14.py: saved_simplify=.001 mm and bounded float32 seam weld=.00005 mm"
   },
   {
     "file": "rail_R14_L08.stl",
@@ -601,11 +608,11 @@
   },
   {
     "file": "rail_R14_L09.stl",
-    "sha256": "be89e2048e0ff891b9e31b6d66f02846fae355c8af06d062dd84aa69176e2562",
-    "bytes": 1042284,
+    "sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+    "bytes": 1115584,
     "topology": {
-      "vertices": 10414,
-      "triangles": 20844,
+      "vertices": 11145,
+      "triangles": 22310,
       "watertight": true,
       "winding_consistent": true,
       "boundary_edges": 0,
@@ -613,7 +620,7 @@
       "nonmanifold_vertex_links": 0,
       "zero_area_triangles": 0,
       "duplicate_faces": 0,
-      "volume_mm3": 597.1254546090801,
+      "volume_mm3": 596.9229245220844,
       "bounds_mm": [
         [
           -68.65603637695312,
@@ -632,7 +639,19 @@
         28.450092315673828
       ]
     },
-    "export_attempts": [
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L09",
+    "name_ja": "副都心線",
+    "previous_checkpoint_sha256": "be89e2048e0ff891b9e31b6d66f02846fae355c8af06d062dd84aa69176e2562",
+    "internal_cusp_repair_applied": true,
+    "internal_cusp_repair_report": "internal_cusp_repair_R14.json",
+    "outer_positive_changed": false,
+    "source_centerlines_moved": false,
+    "port_coordinates_moved": false,
+    "baseline_export_attempts": [
       {
         "simplification_tolerance_mm": 0.001,
         "before": {
@@ -666,13 +685,8 @@
         }
       }
     ],
-    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
-    "surface_reconstruction_used": false,
-    "hole_filling_used": false,
-    "physical_tests_performed": false,
-    "line_id": "L09",
-    "name_ja": "副都心線",
-    "seconds": 0.6008849143981934
+    "baseline_export_seconds": 0.6008849143981934,
+    "final_export_recipe": "round_internal_junctions_r14.py: saved_simplify=.001 mm and bounded float32 seam weld=.00005 mm"
   },
   {
     "file": "rail_R14_L10.stl",
@@ -826,11 +840,11 @@
   },
   {
     "file": "rail_R14_L12.stl",
-    "sha256": "22821b470cd3eff0bc6c1ccf47423a2ced022492c742b71256a8e8fe88f646e5",
-    "bytes": 1508684,
+    "sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+    "bytes": 1552584,
     "topology": {
-      "vertices": 15080,
-      "triangles": 30172,
+      "vertices": 15519,
+      "triangles": 31050,
       "watertight": true,
       "winding_consistent": true,
       "boundary_edges": 0,
@@ -838,7 +852,7 @@
       "nonmanifold_vertex_links": 0,
       "zero_area_triangles": 0,
       "duplicate_faces": 0,
-      "volume_mm3": 900.8788148982029,
+      "volume_mm3": 900.7711665797351,
       "bounds_mm": [
         [
           -54.71485900878906,
@@ -857,7 +871,19 @@
         23.996532440185547
       ]
     },
-    "export_attempts": [
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L12",
+    "name_ja": "新宿線",
+    "previous_checkpoint_sha256": "22821b470cd3eff0bc6c1ccf47423a2ced022492c742b71256a8e8fe88f646e5",
+    "internal_cusp_repair_applied": true,
+    "internal_cusp_repair_report": "internal_cusp_repair_R14.json",
+    "outer_positive_changed": false,
+    "source_centerlines_moved": false,
+    "port_coordinates_moved": false,
+    "baseline_export_attempts": [
       {
         "simplification_tolerance_mm": 0.001,
         "before": {
@@ -891,21 +917,16 @@
         }
       }
     ],
-    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
-    "surface_reconstruction_used": false,
-    "hole_filling_used": false,
-    "physical_tests_performed": false,
-    "line_id": "L12",
-    "name_ja": "新宿線",
-    "seconds": 0.9258148670196533
+    "baseline_export_seconds": 0.9258148670196533,
+    "final_export_recipe": "round_internal_junctions_r14.py: saved_simplify=.001 mm and bounded float32 seam weld=.00005 mm"
   },
   {
     "file": "rail_R14_L13.stl",
-    "sha256": "f51764a5af44608f9ea13121c2acfa214779627f2c4ca34a5f14d2aafe35294d",
-    "bytes": 3201584,
+    "sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+    "bytes": 3266484,
     "topology": {
-      "vertices": 32007,
-      "triangles": 64030,
+      "vertices": 32656,
+      "triangles": 65328,
       "watertight": true,
       "winding_consistent": true,
       "boundary_edges": 0,
@@ -913,7 +934,7 @@
       "nonmanifold_vertex_links": 0,
       "zero_area_triangles": 0,
       "duplicate_faces": 0,
-      "volume_mm3": 1578.0698128201104,
+      "volume_mm3": 1577.9646796901827,
       "bounds_mm": [
         [
           -106.30593872070312,
@@ -932,7 +953,19 @@
         32.31795883178711
       ]
     },
-    "export_attempts": [
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L13",
+    "name_ja": "大江戸線",
+    "previous_checkpoint_sha256": "f51764a5af44608f9ea13121c2acfa214779627f2c4ca34a5f14d2aafe35294d",
+    "internal_cusp_repair_applied": true,
+    "internal_cusp_repair_report": "internal_cusp_repair_R14.json",
+    "outer_positive_changed": false,
+    "source_centerlines_moved": false,
+    "port_coordinates_moved": false,
+    "baseline_export_attempts": [
       {
         "simplification_tolerance_mm": 0.001,
         "before": {
@@ -966,21 +999,16 @@
         }
       }
     ],
-    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
-    "surface_reconstruction_used": false,
-    "hole_filling_used": false,
-    "physical_tests_performed": false,
-    "line_id": "L13",
-    "name_ja": "大江戸線",
-    "seconds": 2.441784620285034
+    "baseline_export_seconds": 2.441784620285034,
+    "final_export_recipe": "round_internal_junctions_r14.py: saved_simplify=.001 mm and bounded float32 seam weld=.00005 mm"
   },
   {
     "file": "rail_R14_L14.stl",
-    "sha256": "e2a56a216fc579b84c96688648c50a5de6e77e027c1aeb57bfe49801bf2b1d22",
-    "bytes": 3750184,
+    "sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+    "bytes": 3791284,
     "topology": {
-      "vertices": 37491,
-      "triangles": 75002,
+      "vertices": 37902,
+      "triangles": 75824,
       "watertight": true,
       "winding_consistent": true,
       "boundary_edges": 0,
@@ -988,7 +1016,7 @@
       "nonmanifold_vertex_links": 0,
       "zero_area_triangles": 0,
       "duplicate_faces": 0,
-      "volume_mm3": 1238.4313871783743,
+      "volume_mm3": 1238.377018126428,
       "bounds_mm": [
         [
           -51.362064361572266,
@@ -1007,7 +1035,19 @@
         24.314271926879883
       ]
     },
-    "export_attempts": [
+    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
+    "surface_reconstruction_used": false,
+    "hole_filling_used": false,
+    "physical_tests_performed": false,
+    "line_id": "L14",
+    "name_ja": "山手線",
+    "previous_checkpoint_sha256": "e2a56a216fc579b84c96688648c50a5de6e77e027c1aeb57bfe49801bf2b1d22",
+    "internal_cusp_repair_applied": true,
+    "internal_cusp_repair_report": "internal_cusp_repair_R14.json",
+    "outer_positive_changed": false,
+    "source_centerlines_moved": false,
+    "port_coordinates_moved": false,
+    "baseline_export_attempts": [
       {
         "simplification_tolerance_mm": 0.001,
         "before": {
@@ -1041,12 +1081,7 @@
         }
       }
     ],
-    "geometry_method": "polyhedral capsule Minkowski sweep; Boolean outer minus core",
-    "surface_reconstruction_used": false,
-    "hole_filling_used": false,
-    "physical_tests_performed": false,
-    "line_id": "L14",
-    "name_ja": "山手線",
-    "seconds": 2.51121187210083
+    "baseline_export_seconds": 2.51121187210083,
+    "final_export_recipe": "round_internal_junctions_r14.py: saved_simplify=.001 mm and bounded float32 seam weld=.00005 mm"
   }
 ]

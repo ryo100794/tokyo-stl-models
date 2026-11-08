@@ -1,0 +1,4167 @@
+{
+  "source": "/workspace/scratch/e1b7a5798e07/r14_trials/residual7_print/body_0_print.stl",
+  "source_sha256": "109209cd570003f07a44c5fd59e1a5bf6afc361d877f3f90e9dd929cf4e8a64d",
+  "coordinates": "Saved print XYZ inverted by recorded transform into ENU mm for core comparison",
+  "print_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      54.37443032860756
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "cores": [
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L01_core.npz",
+      "line_id": "L01",
+      "sha256": "bf587c7edb956883f5dcbd009482e07c3b713dee47c59b3de320f48ebd2d26cc",
+      "triangles": 14406,
+      "volume_mm3": 183.18050117744036
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L02_core.npz",
+      "line_id": "L02",
+      "sha256": "30e7882b49ef25591bf31d3ec465f924996ed1902fe2750819108f3eea4c6d3e",
+      "triangles": 20466,
+      "volume_mm3": 335.64443431742825
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L03_core.npz",
+      "line_id": "L03",
+      "sha256": "dc12f72eea7e5a6b145e74ff1be32240ab724f5dee1d1a342239dfbc310d1ed4",
+      "triangles": 18032,
+      "volume_mm3": 259.72329095797875
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L04_core.npz",
+      "line_id": "L04",
+      "sha256": "2c6ed13fb8ed510253eba57a25e8cdd071f5aaefcae42336362c301359ef81af",
+      "triangles": 15564,
+      "volume_mm3": 276.1798710123629
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L05_core.npz",
+      "line_id": "L05",
+      "sha256": "209d417a35a6dd7b4dab65fb9dabc7f934e6e1c0f779259c5a548dfb94adbaf2",
+      "triangles": 19550,
+      "volume_mm3": 300.3897541201045
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L06_core.npz",
+      "line_id": "L06",
+      "sha256": "f6b363576beff2a9fe64dbf437b8e2925b25266d6eac12fbcabf1eccdad2c176",
+      "triangles": 20092,
+      "volume_mm3": 353.893848071747
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L07_core.npz",
+      "line_id": "L07",
+      "sha256": "962c9e1be24f876691e6b1c8ae5d92e6c93421c43d2e9df77e8ac35515fb72dc",
+      "triangles": 18394,
+      "volume_mm3": 258.05528123648094
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L08_core.npz",
+      "line_id": "L08",
+      "sha256": "249e970a2123e29b6582336f9cf9445d0904634e143b49d5de36346482887d9e",
+      "triangles": 21886,
+      "volume_mm3": 301.51119226977073
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L09_core.npz",
+      "line_id": "L09",
+      "sha256": "75c09fd4fbf985320d3c6cc0c811e638f6d63ba87b33bd43c3e47e897cc409f5",
+      "triangles": 11384,
+      "volume_mm3": 199.46939566946628
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L10_core.npz",
+      "line_id": "L10",
+      "sha256": "7a091de7fca769f4036513a2c1a4ae7e7136c4a91688fa3cd7bca3f8b6699633",
+      "triangles": 9242,
+      "volume_mm3": 220.10225101127506
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L11_core.npz",
+      "line_id": "L11",
+      "sha256": "1f93e6f1bc98c7a6752de2322f78c6dc755528118e79b701ea1183fe4f32ab80",
+      "triangles": 11396,
+      "volume_mm3": 268.55253710358136
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L12_core.npz",
+      "line_id": "L12",
+      "sha256": "02b67545f711e2e10468fed751f4de2d36cd3bb14a1532a00e33b322b61ab850",
+      "triangles": 14434,
+      "volume_mm3": 279.3163576449551
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L13_core.npz",
+      "line_id": "L13",
+      "sha256": "69ab51e42f0e4fa6f376bd87140b9fe60e1e5e9a2126b622b930c568bf367ef8",
+      "triangles": 28960,
+      "volume_mm3": 476.03562827896144
+    },
+    {
+      "file": "/workspace/scratch/e1b7a5798e07/r14_final_cache/L14_core.npz",
+      "line_id": "L14",
+      "sha256": "67c48d68e108c9c1031b1f97b21d9265dba8253a4dab974388a8dc2655e1fda2",
+      "triangles": 36804,
+      "volume_mm3": 393.7880837136782
+    }
+  ],
+  "union_core_triangles": 260610,
+  "union_core_volume_mm3": 4105.842426585231,
+  "subsidiary_components_tested": 402,
+  "all_separation_gates_passed": true,
+  "minimum_reported_gap_mm": 0.5865965225779423,
+  "components": [
+    {
+      "component": 388,
+      "original_signed_volume_mm3": 1.2171651882031393,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 371,
+      "original_signed_volume_mm3": 0.018267722558391864,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.1582483376148756,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 368,
+      "original_signed_volume_mm3": 0.020874808268170772,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.226426403647567,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 56,
+      "original_signed_volume_mm3": 0.0005404864039007047,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9959883020308267,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 363,
+      "original_signed_volume_mm3": 0.06853997055075606,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8781502985559062,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 261,
+      "original_signed_volume_mm3": 0.06131466690126491,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.0573295017352238,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 168,
+      "original_signed_volume_mm3": 0.0015211954070778718,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.2738606409510322,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 382,
+      "original_signed_volume_mm3": 0.033118843341740103,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 84,
+      "original_signed_volume_mm3": 0.0037426952026358433,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.2259966257348154,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 362,
+      "original_signed_volume_mm3": 0.005900707441105116,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.3056555303264625,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 377,
+      "original_signed_volume_mm3": 0.0018263082905758538,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 46,
+      "original_signed_volume_mm3": 0.0003931760656535315,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.8446075602321685,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 82,
+      "original_signed_volume_mm3": 0.007035404308740454,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.338429147073032,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 68,
+      "original_signed_volume_mm3": -0.00022589360417416254,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.788818173409392,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 227,
+      "original_signed_volume_mm3": 0.00035516217235311096,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5907398814636923,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 67,
+      "original_signed_volume_mm3": 0.0003004680158943396,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.485269945993277,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 370,
+      "original_signed_volume_mm3": 0.02621804498262753,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.1977189468336276,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 40,
+      "original_signed_volume_mm3": 0.0002804092554635785,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.317091465135604,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 110,
+      "original_signed_volume_mm3": 0.0002639689141697016,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 269,
+      "original_signed_volume_mm3": 0.002071241693998157,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.1241171788321607,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 50,
+      "original_signed_volume_mm3": 4.5249192194361364e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.066108820634645,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 250,
+      "original_signed_volume_mm3": 0.00040625275670829657,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.4047400064426174,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 399,
+      "original_signed_volume_mm3": 0.007289486611213648,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 264,
+      "original_signed_volume_mm3": 0.03111735037698197,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.2551553374169973,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 97,
+      "original_signed_volume_mm3": 0.00032989048008904426,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.0775697564936135,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 133,
+      "original_signed_volume_mm3": 0.0001136553075575242,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.125808443988628,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 251,
+      "original_signed_volume_mm3": 4.779350279115964e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.4276616956312633,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 262,
+      "original_signed_volume_mm3": 0.0669102459541672,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7295209189758092,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 43,
+      "original_signed_volume_mm3": 0.00027418656318824923,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.845955141308957,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 263,
+      "original_signed_volume_mm3": 0.05202655718555583,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.0383132652918006,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 85,
+      "original_signed_volume_mm3": 0.00019345809289010227,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.448572251124626,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 391,
+      "original_signed_volume_mm3": 0.05046814470062472,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 249,
+      "original_signed_volume_mm3": 0.00034458777794556597,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.432872627379838,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 228,
+      "original_signed_volume_mm3": 0.00019985082874751647,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.8816007681798887,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 49,
+      "original_signed_volume_mm3": 0.0001047100951557941,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.3343579504986494,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 234,
+      "original_signed_volume_mm3": -0.0007237327780999225,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 309,
+      "original_signed_volume_mm3": 0.027152446197319588,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 48,
+      "original_signed_volume_mm3": 0.00035167234374055417,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.51756689211022,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 83,
+      "original_signed_volume_mm3": 0.004586590069811914,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.2091071061431258,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 222,
+      "original_signed_volume_mm3": 0.0006112220397907558,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.6978884624242094,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 136,
+      "original_signed_volume_mm3": 0.00010295673246326102,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.632541952887848,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 310,
+      "original_signed_volume_mm3": -0.004785596395625974,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.354452309340091,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 156,
+      "original_signed_volume_mm3": 0.00026276194725960433,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9389472830070897,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 223,
+      "original_signed_volume_mm3": 0.0002215787061304711,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.9687422936545592,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 159,
+      "original_signed_volume_mm3": 3.0003578023402885e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.8112488525630956,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 400,
+      "original_signed_volume_mm3": 0.005382938006929631,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.784806575915666,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 268,
+      "original_signed_volume_mm3": 0.0009185646047589636,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.5009644934315953,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 21,
+      "original_signed_volume_mm3": 0.00012847838624654604,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.078911082221608,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 27,
+      "original_signed_volume_mm3": 0.00017636506660390636,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8317666036925676,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 401,
+      "original_signed_volume_mm3": 0.022439343382129856,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.1535618062337507,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 106,
+      "original_signed_volume_mm3": 1.886971465645329e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.267120110893934,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 107,
+      "original_signed_volume_mm3": 0.000143856293013259,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.790415029950675,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 44,
+      "original_signed_volume_mm3": 5.891664710121116e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8386347775612559,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 395,
+      "original_signed_volume_mm3": 0.000246224401380987,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 369,
+      "original_signed_volume_mm3": 3.148350736732454e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.4109309301187662,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 350,
+      "original_signed_volume_mm3": -7.92966594861215e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.942287364404423,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 108,
+      "original_signed_volume_mm3": 8.588347304083494e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 132,
+      "original_signed_volume_mm3": 0.0001597914072826996,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.7110090303980188,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 157,
+      "original_signed_volume_mm3": 0.0002617443825788494,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.0927816082984405,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 366,
+      "original_signed_volume_mm3": -0.001448675011216754,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5899719659162954,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 218,
+      "original_signed_volume_mm3": 0.0005257250297588528,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.3034797088030783,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 148,
+      "original_signed_volume_mm3": -5.0107250656654476e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.27554567047042,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 277,
+      "original_signed_volume_mm3": 2.71843176953766e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.1379636449831083,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 64,
+      "original_signed_volume_mm3": 9.510532561497113e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.3236663287741317,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 272,
+      "original_signed_volume_mm3": 0.0007406328103046686,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.9939009461188723,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 194,
+      "original_signed_volume_mm3": 0.0012996713424967762,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.839399230145504,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 278,
+      "original_signed_volume_mm3": 2.1866384022216638e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.6335737340491456,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 188,
+      "original_signed_volume_mm3": 0.00010793089012419918,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.1272699898880907,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 224,
+      "original_signed_volume_mm3": 3.5643922736992417e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.9486406102957647,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 290,
+      "original_signed_volume_mm3": 1.0130667062912841e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8528672360582208,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 69,
+      "original_signed_volume_mm3": 2.53175044227596e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.3472902324018634,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 289,
+      "original_signed_volume_mm3": 4.698751622734078e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.8715905523130107,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 199,
+      "original_signed_volume_mm3": 0.00033460534078270384,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.8217490960093508,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 80,
+      "original_signed_volume_mm3": 0.0014321324420497744,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.26314115667901,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 162,
+      "original_signed_volume_mm3": 9.06050072297603e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.6371958876423505,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 58,
+      "original_signed_volume_mm3": 9.126547013689154e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8696865970037466,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 81,
+      "original_signed_volume_mm3": 2.091827036132738e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.898475171634487,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 256,
+      "original_signed_volume_mm3": 0.00018216301224145345,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.1000032491038394,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 178,
+      "original_signed_volume_mm3": -8.652408847799347e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7648589506656807,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 158,
+      "original_signed_volume_mm3": 7.412852024289707e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.4103504086480165,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 8,
+      "original_signed_volume_mm3": 3.0157227243171603e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.5078066813918576,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 229,
+      "original_signed_volume_mm3": 8.669966219002737e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.018242537302191,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 115,
+      "original_signed_volume_mm3": 1.2727250977973229e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.927265877460881,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 283,
+      "original_signed_volume_mm3": 0.0002627214989664485,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.5519032060409732,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 257,
+      "original_signed_volume_mm3": 0.0009197736970925781,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.4955916478802898,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 174,
+      "original_signed_volume_mm3": -0.00016995286171435364,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8840113869773858,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 134,
+      "original_signed_volume_mm3": 8.52378803426273e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.967616865909151,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 266,
+      "original_signed_volume_mm3": 0.0012482375091272604,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8094195351542997,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 164,
+      "original_signed_volume_mm3": -0.0005235323211619722,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7495342371584854,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 72,
+      "original_signed_volume_mm3": -0.001161915893166568,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9855765172346258,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 125,
+      "original_signed_volume_mm3": -6.897273192522116e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.2727290736632069,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 226,
+      "original_signed_volume_mm3": 0.0006331323913401771,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8206708454811772,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 79,
+      "original_signed_volume_mm3": 0.0005802531685494793,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.2569761432016284,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 135,
+      "original_signed_volume_mm3": 7.886362247905461e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.462026973948224,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 385,
+      "original_signed_volume_mm3": 0.000497152235922069,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8211285901609582,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 254,
+      "original_signed_volume_mm3": 0.0014210798447110012,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.3667952466367959,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 130,
+      "original_signed_volume_mm3": 0.0016404960124845134,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.6300158776321845,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 321,
+      "original_signed_volume_mm3": -2.0772574538904147e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.838841442831444,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 117,
+      "original_signed_volume_mm3": 0.00010565991133172116,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 78,
+      "original_signed_volume_mm3": 0.0002274412048241612,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.7552913634490617,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 288,
+      "original_signed_volume_mm3": 4.3753965498251606e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.9084228135080554,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 279,
+      "original_signed_volume_mm3": 1.3769683454349349e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.3125218419381377,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 198,
+      "original_signed_volume_mm3": 0.00022055515251681417,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.627107767310885,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 253,
+      "original_signed_volume_mm3": 0.0009617063177031412,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8121913760781797,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 374,
+      "original_signed_volume_mm3": -0.00048738130050684505,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8171000406210127,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 191,
+      "original_signed_volume_mm3": -0.0005271852742665247,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.526096889676762,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 396,
+      "original_signed_volume_mm3": 2.764583697794287e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 297,
+      "original_signed_volume_mm3": 2.5253673451178325e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.6574276386877039,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 51,
+      "original_signed_volume_mm3": 1.8485074179742017e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.9188555146068849,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 144,
+      "original_signed_volume_mm3": -5.1641402862807136e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.230246048334037,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 221,
+      "original_signed_volume_mm3": -0.0012458181948393787,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.508212139906456,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 53,
+      "original_signed_volume_mm3": 4.115456916895226e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.9012973458622007,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 323,
+      "original_signed_volume_mm3": -0.0031323858758074605,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 359,
+      "original_signed_volume_mm3": -0.0007192916749285128,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.2737676977760035,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 305,
+      "original_signed_volume_mm3": -0.011220575135963917,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9251267712174682,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 354,
+      "original_signed_volume_mm3": -0.0002212634952587526,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.097266286708728,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 65,
+      "original_signed_volume_mm3": 4.6161563565338785e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9372675803860118,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 365,
+      "original_signed_volume_mm3": 0.00046084771296640327,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.679634180156344,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 24,
+      "original_signed_volume_mm3": -0.00015277932247973868,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.640804124029924,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 88,
+      "original_signed_volume_mm3": -9.504611483845884e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7840663011788975,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 246,
+      "original_signed_volume_mm3": -0.0005836831704968404,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.9565407127166776,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 52,
+      "original_signed_volume_mm3": 4.1894447261729174e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.5222921500943616,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 232,
+      "original_signed_volume_mm3": -0.0020638909544650717,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.419655726392774,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 90,
+      "original_signed_volume_mm3": -8.780022567625835e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.243732639935355,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 155,
+      "original_signed_volume_mm3": 2.31088334217101e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.2244581079522272,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 145,
+      "original_signed_volume_mm3": 1.7835212665723527e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.561490209265388,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 137,
+      "original_signed_volume_mm3": 8.835709486509045e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.91403937673785,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 311,
+      "original_signed_volume_mm3": -0.0005203549942683027,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.050581156887129,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 375,
+      "original_signed_volume_mm3": 0.00029506540341051827,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.455402070340016,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 335,
+      "original_signed_volume_mm3": 9.874816874914927e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.9791807965099574,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 282,
+      "original_signed_volume_mm3": 0.00012647593579652049,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.362685703934575,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 89,
+      "original_signed_volume_mm3": -6.0142947744623674e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.3193554917463155,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 91,
+      "original_signed_volume_mm3": -0.0003818607427905629,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.8582992445112008,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 96,
+      "original_signed_volume_mm3": 8.55412322941498e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.5159825288753814,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 270,
+      "original_signed_volume_mm3": 2.652022007376383e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.0447606758365178,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 349,
+      "original_signed_volume_mm3": -5.123671079516716e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.9463527192504473,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 313,
+      "original_signed_volume_mm3": -0.0008611854451738472,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 236,
+      "original_signed_volume_mm3": -2.085956961580854e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.8556251910143593,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 172,
+      "original_signed_volume_mm3": -4.7914828001702605e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.928455834632317,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 402,
+      "original_signed_volume_mm3": 0.00019774876231111807,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 274,
+      "original_signed_volume_mm3": 0.00016422369779417652,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.03676345309735,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 120,
+      "original_signed_volume_mm3": 3.3429067388977504e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 353,
+      "original_signed_volume_mm3": 7.333671460182532e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 378,
+      "original_signed_volume_mm3": 4.4635262019525335e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 180,
+      "original_signed_volume_mm3": 0.00019110553397252983,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.489707167962187,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 320,
+      "original_signed_volume_mm3": 5.5893492023710025e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.896475245009928,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 219,
+      "original_signed_volume_mm3": 4.278715609965939e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.950111574619529,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 380,
+      "original_signed_volume_mm3": -1.3373754819232626e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.14956997800233,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 131,
+      "original_signed_volume_mm3": -5.33030549118383e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.010659977178728,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 200,
+      "original_signed_volume_mm3": -0.00018713465753898706,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.331753760245182,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 324,
+      "original_signed_volume_mm3": -1.0097393566119725e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.135661740399728,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 330,
+      "original_signed_volume_mm3": 1.7395877321601996e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 99,
+      "original_signed_volume_mm3": -0.00011100910602064584,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.2549975601495613,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 345,
+      "original_signed_volume_mm3": -7.13452373958433e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.0868022854307595,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 285,
+      "original_signed_volume_mm3": 2.701394601054008e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.5557933981120673,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 18,
+      "original_signed_volume_mm3": -7.176389195961627e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5915255615349022,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 167,
+      "original_signed_volume_mm3": 2.5274430080677278e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.5598427163882613,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 74,
+      "original_signed_volume_mm3": -3.349523567058822e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.6886010481071285,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 197,
+      "original_signed_volume_mm3": 4.248491790126202e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.695832878770686,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 389,
+      "original_signed_volume_mm3": -7.258158916610984e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.0560504512495081,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 372,
+      "original_signed_volume_mm3": -5.6121777164191305e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8416923004511421,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 260,
+      "original_signed_volume_mm3": -3.2143453868310333e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.819581296299171,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 203,
+      "original_signed_volume_mm3": -0.000347508262342062,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 204,
+      "original_signed_volume_mm3": -0.0005814549152418035,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 147,
+      "original_signed_volume_mm3": -1.5537139386542385e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7912427767792183,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 142,
+      "original_signed_volume_mm3": 1.848783214623438e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.614884437807984,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 293,
+      "original_signed_volume_mm3": 8.381886626996336e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.279659113618166,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 170,
+      "original_signed_volume_mm3": -9.065606362341179e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.3721686210308603,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 259,
+      "original_signed_volume_mm3": -9.760963414369439e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 166,
+      "original_signed_volume_mm3": -4.944924087436561e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.21056364575689,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 113,
+      "original_signed_volume_mm3": 6.203643468694758e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.51045206063545,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 331,
+      "original_signed_volume_mm3": -8.232449456932066e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.599122522531184,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 276,
+      "original_signed_volume_mm3": -2.9549617518850966e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.1002744735187269,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 121,
+      "original_signed_volume_mm3": -1.6327992116922478e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.491262698787955,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 98,
+      "original_signed_volume_mm3": -0.00030812256263638635,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.14050047893469,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 332,
+      "original_signed_volume_mm3": -2.38367477207009e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.566335185417554,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 361,
+      "original_signed_volume_mm3": -0.00028798073644910094,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5891552738579396,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 348,
+      "original_signed_volume_mm3": -0.0001037399313652855,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5910758759867255,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 54,
+      "original_signed_volume_mm3": -1.1263130482574781e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9390340996282638,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 42,
+      "original_signed_volume_mm3": 7.571213879473213e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9292669818284796,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 202,
+      "original_signed_volume_mm3": -3.08527586773378e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 140,
+      "original_signed_volume_mm3": -5.336004108751958e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.057446300403142,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 149,
+      "original_signed_volume_mm3": -9.824587735205413e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.624908992664919,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 177,
+      "original_signed_volume_mm3": -4.915117151899247e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.0673980516881345,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 163,
+      "original_signed_volume_mm3": 9.324562855086982e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.5782675312981245,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 215,
+      "original_signed_volume_mm3": -5.6673366498879996e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.1105926153507042,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 207,
+      "original_signed_volume_mm3": -0.0007288793012255601,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 248,
+      "original_signed_volume_mm3": -0.0006432989144751048,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 111,
+      "original_signed_volume_mm3": 1.0107387986678243e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 128,
+      "original_signed_volume_mm3": -0.0003287557236047803,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.54573428725644,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 327,
+      "original_signed_volume_mm3": 1.524370815487834e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.4652010533328164,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 138,
+      "original_signed_volume_mm3": 4.639824907612996e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.7801865872087257,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 237,
+      "original_signed_volume_mm3": -1.6615998003435633e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8776498628580198,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 265,
+      "original_signed_volume_mm3": 5.811197446395702e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.0468391886602109,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 245,
+      "original_signed_volume_mm3": -0.0014865951652751896,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.711474800665348,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 230,
+      "original_signed_volume_mm3": 1.175623476777285e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.602515045150558,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 55,
+      "original_signed_volume_mm3": -1.153428747029464e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.02008548282707,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 179,
+      "original_signed_volume_mm3": -0.0003981436542188632,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.746133267610687,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 367,
+      "original_signed_volume_mm3": 8.25661052649509e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.673032665877138,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 129,
+      "original_signed_volume_mm3": -5.4155170362562774e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.975840363504092,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 286,
+      "original_signed_volume_mm3": 2.613338146939337e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.2034523733778113,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 75,
+      "original_signed_volume_mm3": -0.0010302934578193118,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9134030427801265,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 160,
+      "original_signed_volume_mm3": 4.041812451467414e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7888104194147747,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 173,
+      "original_signed_volume_mm3": -2.243681578077087e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8004580565450412,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 161,
+      "original_signed_volume_mm3": -2.9416211812479005e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.771817697456106,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 171,
+      "original_signed_volume_mm3": -2.5182210347200057e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.6078934936317117,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 379,
+      "original_signed_volume_mm3": 3.6521795907431404e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 63,
+      "original_signed_volume_mm3": -0.0001744224303455034,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.0762576249430995,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 187,
+      "original_signed_volume_mm3": -6.134606693558001e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5942893000059486,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 118,
+      "original_signed_volume_mm3": 5.104511872413946e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.042303012338047,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 23,
+      "original_signed_volume_mm3": 5.614321070641567e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.1463220352586854,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 291,
+      "original_signed_volume_mm3": 5.025650382109795e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.472459024718218,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 284,
+      "original_signed_volume_mm3": 3.066273577285745e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8640317660254675,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 114,
+      "original_signed_volume_mm3": 9.560488166720084e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.629736122769236,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 209,
+      "original_signed_volume_mm3": -0.000166665511458235,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 225,
+      "original_signed_volume_mm3": -0.00010589858712688888,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5865965225779423,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 139,
+      "original_signed_volume_mm3": 4.52411054263635e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.9794528350084892,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 150,
+      "original_signed_volume_mm3": -5.314321938506249e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 152,
+      "original_signed_volume_mm3": -3.744125131414748e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8067457194748483,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 306,
+      "original_signed_volume_mm3": -0.00010848036266860803,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.970482028898598,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 6,
+      "original_signed_volume_mm3": -5.621374192431826e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.363991540139058,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 14,
+      "original_signed_volume_mm3": -1.6321347907172169e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.38761461584617,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 347,
+      "original_signed_volume_mm3": -2.038185711605682e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.1702940143460117,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 4,
+      "original_signed_volume_mm3": -2.5063335671839798e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.311126021622702,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 87,
+      "original_signed_volume_mm3": -2.9504738801411183e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7867793909086784,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 47,
+      "original_signed_volume_mm3": -2.0396539923916868e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.9910788075713355,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 35,
+      "original_signed_volume_mm3": -0.0006106327955351654,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.078628875226869,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 105,
+      "original_signed_volume_mm3": -4.56196555189385e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 303,
+      "original_signed_volume_mm3": -0.0002798081642839713,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.2075593756714356,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 318,
+      "original_signed_volume_mm3": -1.540989421613178e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.193449744419096,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 280,
+      "original_signed_volume_mm3": -3.0931255777396326e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.2192939303259642,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 95,
+      "original_signed_volume_mm3": -1.1852851122076701e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.370228686928676,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 101,
+      "original_signed_volume_mm3": -3.0968931279767528e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.2388159654409825,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 336,
+      "original_signed_volume_mm3": -0.00015970737028147457,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.8888541816554971,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 122,
+      "original_signed_volume_mm3": -6.713487179562522e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7714125301295427,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 116,
+      "original_signed_volume_mm3": 2.0090024441713037e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 383,
+      "original_signed_volume_mm3": -1.318439842351582e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.1854951170058974,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 25,
+      "original_signed_volume_mm3": -2.7390064212261993e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.509674623262768,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 28,
+      "original_signed_volume_mm3": -0.0001508271962666896,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.420450637658429,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 70,
+      "original_signed_volume_mm3": -2.7711134870738417e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.979504643469245,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 71,
+      "original_signed_volume_mm3": -0.00012504308066991305,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.667426749077489,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 32,
+      "original_signed_volume_mm3": -8.739836375576404e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 233,
+      "original_signed_volume_mm3": -0.0001570356698447229,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 235,
+      "original_signed_volume_mm3": -2.1721272280202878e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.711217666561924,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 307,
+      "original_signed_volume_mm3": -4.469787666291263e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.1974328919084845,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 124,
+      "original_signed_volume_mm3": 1.5576886242912825e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.3299289824198626,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 387,
+      "original_signed_volume_mm3": 5.119700140223619e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.6782861152217645,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 196,
+      "original_signed_volume_mm3": 8.635352352100297e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.717311927266407,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 181,
+      "original_signed_volume_mm3": -1.6779743939946724e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5895250391438233,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 292,
+      "original_signed_volume_mm3": 8.496403549155011e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.5384682068205247,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 390,
+      "original_signed_volume_mm3": 6.945123504080344e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 316,
+      "original_signed_volume_mm3": -1.5709142487644765e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.197595824090601,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 328,
+      "original_signed_volume_mm3": -1.344188906948849e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.899918671269751,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 294,
+      "original_signed_volume_mm3": 1.5046437558844197e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.5482544314058853,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 314,
+      "original_signed_volume_mm3": -1.3789241854143503e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 295,
+      "original_signed_volume_mm3": -2.1347053684819296e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8485476162750901,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 258,
+      "original_signed_volume_mm3": -1.1038437600382252e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.672439203899621,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 123,
+      "original_signed_volume_mm3": -2.9303309570107884e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.314691943071128,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 239,
+      "original_signed_volume_mm3": -5.341598564643016e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.697312691501158,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 206,
+      "original_signed_volume_mm3": -8.268089762375128e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.3193241120949954,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 143,
+      "original_signed_volume_mm3": -2.8775699411811434e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.986671978040527,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 220,
+      "original_signed_volume_mm3": 1.8465282336734348e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7703450864006176,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 169,
+      "original_signed_volume_mm3": -2.6069508619617e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.729404478441238,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 57,
+      "original_signed_volume_mm3": -3.810695264060848e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.5276930565608384,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 192,
+      "original_signed_volume_mm3": -2.6822869632781715e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.8473361340792724,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 338,
+      "original_signed_volume_mm3": -9.806492697188307e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 66,
+      "original_signed_volume_mm3": -6.360087050512591e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.4758774893739424,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 61,
+      "original_signed_volume_mm3": -1.9839506799298502e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.0618513012959823,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 376,
+      "original_signed_volume_mm3": -2.051784095512786e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.3843185413353372,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 76,
+      "original_signed_volume_mm3": -0.00012250207211709357,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7996026254629014,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 33,
+      "original_signed_volume_mm3": -6.035725247701025e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 37,
+      "original_signed_volume_mm3": -3.6221092356198987e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9623214010885583,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 39,
+      "original_signed_volume_mm3": -3.960852367573505e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.5543487177821425,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 41,
+      "original_signed_volume_mm3": -9.223422996485885e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7968549524577455,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 92,
+      "original_signed_volume_mm3": -1.5247607628348162e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.0501233717219627,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 5,
+      "original_signed_volume_mm3": -2.2955491735636435e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.969922293054554,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 3,
+      "original_signed_volume_mm3": -3.607172856737867e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.9043000768223513,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 126,
+      "original_signed_volume_mm3": -1.4332867945088886e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.482700858842017,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 7,
+      "original_signed_volume_mm3": -8.044669510765858e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 77,
+      "original_signed_volume_mm3": 1.7427701742485932e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.403020425305584,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 29,
+      "original_signed_volume_mm3": -5.031267653683898e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.5480188977790443,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 73,
+      "original_signed_volume_mm3": -2.543078395059184e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.1491213787539816,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 176,
+      "original_signed_volume_mm3": -2.830241755624449e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7552419430601359,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 182,
+      "original_signed_volume_mm3": -4.729084850238485e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.6983427280516046,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 195,
+      "original_signed_volume_mm3": -0.0012964352954891074,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 242,
+      "original_signed_volume_mm3": -5.132261869493157e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.424006971570085,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 238,
+      "original_signed_volume_mm3": -6.570967608915531e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7064243474360654,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 205,
+      "original_signed_volume_mm3": -1.785537482090413e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.570400114822388,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 231,
+      "original_signed_volume_mm3": -4.338678509677846e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 151,
+      "original_signed_volume_mm3": -8.453431467120992e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7698501033213253,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 308,
+      "original_signed_volume_mm3": -3.1517716180631296e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.2156864190076244,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 273,
+      "original_signed_volume_mm3": -1.8185197243059115e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.1376973376575015,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 255,
+      "original_signed_volume_mm3": -1.955546081498262e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 299,
+      "original_signed_volume_mm3": 1.5692171443737555e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.8842860306202596,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 317,
+      "original_signed_volume_mm3": -4.6405798907300354e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7176500632719605,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 12,
+      "original_signed_volume_mm3": 2.6361277969777323e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7697692402587784,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 398,
+      "original_signed_volume_mm3": -3.241907450490149e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 94,
+      "original_signed_volume_mm3": -4.728213340410292e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.032760556548438,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 302,
+      "original_signed_volume_mm3": -4.174094799654288e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.4367338798051335,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 301,
+      "original_signed_volume_mm3": -1.5143800335947892e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.2944781904895843,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 304,
+      "original_signed_volume_mm3": -0.0001335862617903259,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.9010358092423427,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 109,
+      "original_signed_volume_mm3": -3.220407119161801e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.169469466505656,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 104,
+      "original_signed_volume_mm3": -6.057188734659479e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 337,
+      "original_signed_volume_mm3": -0.0007910620872055851,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 373,
+      "original_signed_volume_mm3": -1.8723225299147397e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.365069504324888,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 45,
+      "original_signed_volume_mm3": -2.9687366534308576e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.2811578340151124,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 300,
+      "original_signed_volume_mm3": 7.912719746094865e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.20031501617998,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 22,
+      "original_signed_volume_mm3": -7.075501768185645e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.8771829352548095,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 93,
+      "original_signed_volume_mm3": -1.3855064580074045e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.0890009311218747,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 119,
+      "original_signed_volume_mm3": 1.8802180082322373e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 211,
+      "original_signed_volume_mm3": -0.0005769573852185406,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 208,
+      "original_signed_volume_mm3": -5.85172740189769e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.252586759478785,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 112,
+      "original_signed_volume_mm3": -7.25415945969749e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.9303041809801353,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 325,
+      "original_signed_volume_mm3": -2.2109956236303005e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.845966526371978,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 343,
+      "original_signed_volume_mm3": -3.892385848783611e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 397,
+      "original_signed_volume_mm3": 3.3031116419878284e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 393,
+      "original_signed_volume_mm3": -3.683090314315256e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.120901104027585,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 358,
+      "original_signed_volume_mm3": -1.3884658711660336e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.543924880986495,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 351,
+      "original_signed_volume_mm3": -1.5765745850487975e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.3383429201913386,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 16,
+      "original_signed_volume_mm3": -4.4122659903508637e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 355,
+      "original_signed_volume_mm3": 5.482238354837128e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.6133808074185416,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 86,
+      "original_signed_volume_mm3": -3.2876550907362523e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.126031098644588,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 315,
+      "original_signed_volume_mm3": 2.7131859018758153e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.5027869064531902,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 241,
+      "original_signed_volume_mm3": -1.225214069172642e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 252,
+      "original_signed_volume_mm3": 2.318664620637456e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.4620667895397954,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 243,
+      "original_signed_volume_mm3": -3.2392238512209126e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.129479593538829,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 153,
+      "original_signed_volume_mm3": -5.092869685142097e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 271,
+      "original_signed_volume_mm3": -2.8405883366242252e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.260108646882812,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 267,
+      "original_signed_volume_mm3": -1.4870886486627322e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.758993813741204,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 212,
+      "original_signed_volume_mm3": -1.5172401065452479e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 189,
+      "original_signed_volume_mm3": -5.337180769190639e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 59,
+      "original_signed_volume_mm3": -5.241485048167443e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.9640729285120115,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 210,
+      "original_signed_volume_mm3": -3.7984332368328627e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 175,
+      "original_signed_volume_mm3": -2.221199119446576e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.9149443516270446,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 36,
+      "original_signed_volume_mm3": -2.1948332659493634e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.6172455809918183,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 341,
+      "original_signed_volume_mm3": -6.471752268030068e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 165,
+      "original_signed_volume_mm3": -6.92191506778371e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.4771253329716605,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 38,
+      "original_signed_volume_mm3": -1.1798877360848074e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7199198434383723,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 381,
+      "original_signed_volume_mm3": -5.983430659828315e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7790600921991934,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 384,
+      "original_signed_volume_mm3": -2.7414071378592184e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.1108483729294885,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 386,
+      "original_signed_volume_mm3": -4.2645696825770706e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.527463206007759,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 240,
+      "original_signed_volume_mm3": -1.0670405377810263e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 127,
+      "original_signed_volume_mm3": -2.6413298403213034e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.475513608788652,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 213,
+      "original_signed_volume_mm3": -2.3553907341797124e-09,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.26288597275742,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 214,
+      "original_signed_volume_mm3": -2.3050648410571917e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.7509794849402915,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 201,
+      "original_signed_volume_mm3": -1.7486046184345128e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 216,
+      "original_signed_volume_mm3": -1.4582109795213682e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 217,
+      "original_signed_volume_mm3": 1.3599130662313857e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.794609885140478,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 247,
+      "original_signed_volume_mm3": -1.31725175356312e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.674310747819727,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 244,
+      "original_signed_volume_mm3": -3.3720694248007277e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 154,
+      "original_signed_volume_mm3": -9.463389529191374e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 184,
+      "original_signed_volume_mm3": -2.4851549322840033e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.898092906835427,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 185,
+      "original_signed_volume_mm3": -1.8124270824882056e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.4030038676672272,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 186,
+      "original_signed_volume_mm3": -3.0180789691410664e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.6350804204898632,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 190,
+      "original_signed_volume_mm3": -4.425461925805507e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.6977866335712113,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 193,
+      "original_signed_volume_mm3": -6.673516687405543e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.835100630299673,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 340,
+      "original_signed_volume_mm3": -1.1517219871142077e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.7328767236223728,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 339,
+      "original_signed_volume_mm3": -1.8588538236146562e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.712128648401665,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 34,
+      "original_signed_volume_mm3": -2.1789740974498695e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 31,
+      "original_signed_volume_mm3": -6.372824580452895e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.473152953858025,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 30,
+      "original_signed_volume_mm3": -6.560942712969392e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.848565404875365,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 26,
+      "original_signed_volume_mm3": -2.134261643861406e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.863690399438761,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 62,
+      "original_signed_volume_mm3": -8.409445047708342e-09,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.5701067796759596,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 60,
+      "original_signed_volume_mm3": 8.149644084542421e-10,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.9820158077269205,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 141,
+      "original_signed_volume_mm3": -5.423369775497825e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.8064129657763015,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 146,
+      "original_signed_volume_mm3": -1.4953297326281492e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.205758157718745,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 183,
+      "original_signed_volume_mm3": -2.413010780819534e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.185091017613353,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 322,
+      "original_signed_volume_mm3": -9.213346067555792e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.710529420571633,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 319,
+      "original_signed_volume_mm3": -5.0794485864837785e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.1306246403470475,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 103,
+      "original_signed_volume_mm3": -2.6918613227317574e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.552305863863748,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 287,
+      "original_signed_volume_mm3": 4.2683691085332147e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.2279788727337997,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 281,
+      "original_signed_volume_mm3": -4.3634357384724973e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 298,
+      "original_signed_volume_mm3": 2.1446989295598835e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.2122547788196956,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 296,
+      "original_signed_volume_mm3": -6.590343658943211e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5921721455885688,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 20,
+      "original_signed_volume_mm3": -1.5557502525131994e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5913541885753708,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 312,
+      "original_signed_volume_mm3": -2.3413731763566748e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.708577012318663,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 19,
+      "original_signed_volume_mm3": -4.410616627481545e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.5892487440219774,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 102,
+      "original_signed_volume_mm3": -2.542308224976267e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 275,
+      "original_signed_volume_mm3": 9.470227808433497e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.7514735556528502,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 100,
+      "original_signed_volume_mm3": -6.035199589044665e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.045125121870247,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 334,
+      "original_signed_volume_mm3": -4.465410307592961e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.4139567215008368,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 333,
+      "original_signed_volume_mm3": -3.900917348105722e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.25827068163841,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 326,
+      "original_signed_volume_mm3": -9.345942497674103e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.053396629541478,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 329,
+      "original_signed_volume_mm3": -3.353296821847259e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.965628073074423,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 356,
+      "original_signed_volume_mm3": -1.6740684321170807e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.7870640395056934,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 360,
+      "original_signed_volume_mm3": -8.660002120872666e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8893481027984116,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 17,
+      "original_signed_volume_mm3": -7.556206443881663e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.5896414890804184,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 342,
+      "original_signed_volume_mm3": -1.950524688245671e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8710384910878792,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 346,
+      "original_signed_volume_mm3": -5.02039390060105e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.6342519755102733,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 344,
+      "original_signed_volume_mm3": -3.904459241110738e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.2678067578557066,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 352,
+      "original_signed_volume_mm3": -1.639588108818476e-09,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.33779327671432,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 364,
+      "original_signed_volume_mm3": 6.049035897366401e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.233085040545566,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 357,
+      "original_signed_volume_mm3": -1.1743648754185612e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.5280314597147437,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 392,
+      "original_signed_volume_mm3": -8.751363561620464e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.8803921076658671,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 9,
+      "original_signed_volume_mm3": -6.005731439939765e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 4.2273330418449335,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 10,
+      "original_signed_volume_mm3": -1.069972362399349e-05,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 2.762760673630915,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 11,
+      "original_signed_volume_mm3": 2.158157404825653e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.3887055829395294,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 13,
+      "original_signed_volume_mm3": 1.0059977550436194e-06,
+      "negative_shell_reoriented_to_positive_enclosed_space": false,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 1.4931979708818177,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 15,
+      "original_signed_volume_mm3": -6.271750263575626e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 3.968135440093876,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 394,
+      "original_signed_volume_mm3": -1.512805277888163e-07,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 5.0,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 2,
+      "original_signed_volume_mm3": -2.2380600567278213e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.81855336565236,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    },
+    {
+      "component": 1,
+      "original_signed_volume_mm3": -4.1824217061919204e-08,
+      "negative_shell_reoriented_to_positive_enclosed_space": true,
+      "query_manifold_status": "Error.NoError",
+      "minimum_gap_to_union_of_final_cores_mm_search5": 0.7896933856523493,
+      "core_intersection_volume_mm3": 0.0,
+      "core_intersection_triangles": 0,
+      "separation_gate_passed": true
+    }
+  ],
+  "method": "Boolean overlap and minimum gap against the true union of all 14 final double-precision cutters. Negative shells reversed to represent their enclosed cavity volume.",
+  "separation_margin_mm": 0.0001,
+  "limitations": [
+    "Geometric separation only; no physical print or flow qualification.",
+    "A 5 mm distance value is a capped search result, meaning at least 5 mm.",
+    "A failed or unclassifiable separation gate must be reviewed and must not be bypassed solely because a shell is small.",
+    "Core hash manifest must match the final cutters used in the delivered generation pipeline."
+  ],
+  "elapsed_seconds": 32.940075874001195
+}

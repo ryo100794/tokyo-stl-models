@@ -1,11 +1,5 @@
 {
-  "schema": "R14-independent-saved-STL-validation-v1",
-  "runtime": {
-    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
-    "numpy": "2.5.4",
-    "scipy": "1.17.0",
-    "trimesh": "5.2.0"
-  },
+  "scope": "Final14 standalone lines and unchangedcoupon, exactsavedhashes checked for every reused or new report",
   "tests": [
     {
       "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/flow_coupon_R14.stl",
@@ -549,14 +543,14 @@
     {
       "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L07.stl",
       "basename": "rail_R14_L07.stl",
-      "sha256": "1c0a7ed974323c31bc1f6120ae56f8cea70af6120f5e13316a1c00d395824131",
-      "bytes": 1913984,
+      "sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+      "bytes": 1931884,
       "input_modified": false,
       "units": "mm as specified by project; STL carries no units",
       "welding": "exact identical saved coordinates only; no tolerance merge, face removal, smoothing or repair",
-      "vertices_after_exact_weld": 19133,
-      "faces": 38278,
-      "unique_edges": 57417,
+      "vertices_after_exact_weld": 19312,
+      "faces": 38636,
+      "unique_edges": 57954,
       "boundary_edges": 0,
       "edges_with_more_than_two_faces": 0,
       "inconsistent_two_face_edge_orientation": 0,
@@ -564,8 +558,8 @@
       "triangles_area_below_1e_minus_12_mm2": 0,
       "duplicate_faces_ignoring_orientation": 0,
       "finite_vertex_coordinates": true,
-      "signed_volume_mm3": 828.9618751108253,
-      "surface_area_mm2": 2555.60022813441,
+      "signed_volume_mm3": 828.9166325111952,
+      "surface_area_mm2": 2555.3564734818265,
       "bounds_mm": [
         [
           -53.258365631103516,
@@ -587,10 +581,10 @@
       "components": [
         {
           "index": 0,
-          "vertices": 19133,
-          "faces": 38278,
-          "signed_volume_mm3": 828.9618751108301,
-          "area_mm2": 2555.600228134404,
+          "vertices": 19312,
+          "faces": 38636,
+          "signed_volume_mm3": 828.9166325112001,
+          "area_mm2": 2555.356473481824,
           "bounds_mm": [
             [
               -53.258365631103516,
@@ -612,6 +606,7 @@
       "vertex_links": {
         "nonmanifold_vertex_count": 0,
         "nonmanifold_vertex_ids_first_50": [],
+        "nonmanifold_vertex_ids": [],
         "isolated_vertex_count": 0,
         "method": "full local vertex-link cycle traversal after exact-coordinate weld"
       },
@@ -621,7 +616,7 @@
         "method": "PyMeshLab compute_selection_by_self_intersections_per_face on exact-coordinate-welded saved STL",
         "limitation": "Floating-point triangle intersection predicate; zero means none detected, not an exact-arithmetic guarantee. Adjacent/shared-topology contacts and coincident/coplanar degeneracies may need separate assessment."
       },
-      "elapsed_seconds": 0.502
+      "elapsed_seconds": 1.457
     },
     {
       "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L08.stl",
@@ -703,14 +698,14 @@
     {
       "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L09.stl",
       "basename": "rail_R14_L09.stl",
-      "sha256": "be89e2048e0ff891b9e31b6d66f02846fae355c8af06d062dd84aa69176e2562",
-      "bytes": 1042284,
+      "sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+      "bytes": 1115584,
       "input_modified": false,
       "units": "mm as specified by project; STL carries no units",
       "welding": "exact identical saved coordinates only; no tolerance merge, face removal, smoothing or repair",
-      "vertices_after_exact_weld": 10414,
-      "faces": 20844,
-      "unique_edges": 31266,
+      "vertices_after_exact_weld": 11145,
+      "faces": 22310,
+      "unique_edges": 33465,
       "boundary_edges": 0,
       "edges_with_more_than_two_faces": 0,
       "inconsistent_two_face_edge_orientation": 0,
@@ -718,8 +713,8 @@
       "triangles_area_below_1e_minus_12_mm2": 0,
       "duplicate_faces_ignoring_orientation": 0,
       "finite_vertex_coordinates": true,
-      "signed_volume_mm3": 597.1254546090767,
-      "surface_area_mm2": 1876.3208297938336,
+      "signed_volume_mm3": 596.9229245220812,
+      "surface_area_mm2": 1875.5926963346496,
       "bounds_mm": [
         [
           -68.65603637695312,
@@ -741,10 +736,10 @@
       "components": [
         {
           "index": 0,
-          "vertices": 10414,
-          "faces": 20844,
-          "signed_volume_mm3": 597.1254546090775,
-          "area_mm2": 1876.3208297938215,
+          "vertices": 11145,
+          "faces": 22310,
+          "signed_volume_mm3": 596.9229245220833,
+          "area_mm2": 1875.592696334636,
           "bounds_mm": [
             [
               -68.65603637695312,
@@ -760,12 +755,13 @@
         }
       ],
       "surface_components_caveat": "Surface components are not by themselves solid-component counts: negative oriented shells may bound enclosed cavities. Positive separately bounded shells require nesting/overlap interpretation.",
-      "euler_characteristic": -8,
+      "euler_characteristic": -10,
       "trimesh_is_watertight": true,
       "trimesh_is_winding_consistent": true,
       "vertex_links": {
         "nonmanifold_vertex_count": 0,
         "nonmanifold_vertex_ids_first_50": [],
+        "nonmanifold_vertex_ids": [],
         "isolated_vertex_count": 0,
         "method": "full local vertex-link cycle traversal after exact-coordinate weld"
       },
@@ -775,7 +771,7 @@
         "method": "PyMeshLab compute_selection_by_self_intersections_per_face on exact-coordinate-welded saved STL",
         "limitation": "Floating-point triangle intersection predicate; zero means none detected, not an exact-arithmetic guarantee. Adjacent/shared-topology contacts and coincident/coplanar degeneracies may need separate assessment."
       },
-      "elapsed_seconds": 0.315
+      "elapsed_seconds": 0.408
     },
     {
       "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L10.stl",
@@ -953,14 +949,14 @@
     {
       "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L12.stl",
       "basename": "rail_R14_L12.stl",
-      "sha256": "22821b470cd3eff0bc6c1ccf47423a2ced022492c742b71256a8e8fe88f646e5",
-      "bytes": 1508684,
+      "sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+      "bytes": 1552584,
       "input_modified": false,
       "units": "mm as specified by project; STL carries no units",
       "welding": "exact identical saved coordinates only; no tolerance merge, face removal, smoothing or repair",
-      "vertices_after_exact_weld": 15080,
-      "faces": 30172,
-      "unique_edges": 45258,
+      "vertices_after_exact_weld": 15519,
+      "faces": 31050,
+      "unique_edges": 46575,
       "boundary_edges": 0,
       "edges_with_more_than_two_faces": 0,
       "inconsistent_two_face_edge_orientation": 0,
@@ -968,8 +964,8 @@
       "triangles_area_below_1e_minus_12_mm2": 0,
       "duplicate_faces_ignoring_orientation": 0,
       "finite_vertex_coordinates": true,
-      "signed_volume_mm3": 900.8788148982029,
-      "surface_area_mm2": 2772.2520007132525,
+      "signed_volume_mm3": 900.7711665797351,
+      "surface_area_mm2": 2771.640930438224,
       "bounds_mm": [
         [
           -54.71485900878906,
@@ -991,10 +987,10 @@
       "components": [
         {
           "index": 0,
-          "vertices": 15080,
-          "faces": 30172,
-          "signed_volume_mm3": 900.8788148982036,
-          "area_mm2": 2772.2520007132493,
+          "vertices": 15519,
+          "faces": 31050,
+          "signed_volume_mm3": 900.7711665797375,
+          "area_mm2": 2771.64093043822,
           "bounds_mm": [
             [
               -54.71485900878906,
@@ -1016,6 +1012,7 @@
       "vertex_links": {
         "nonmanifold_vertex_count": 0,
         "nonmanifold_vertex_ids_first_50": [],
+        "nonmanifold_vertex_ids": [],
         "isolated_vertex_count": 0,
         "method": "full local vertex-link cycle traversal after exact-coordinate weld"
       },
@@ -1025,19 +1022,19 @@
         "method": "PyMeshLab compute_selection_by_self_intersections_per_face on exact-coordinate-welded saved STL",
         "limitation": "Floating-point triangle intersection predicate; zero means none detected, not an exact-arithmetic guarantee. Adjacent/shared-topology contacts and coincident/coplanar degeneracies may need separate assessment."
       },
-      "elapsed_seconds": 0.439
+      "elapsed_seconds": 0.507
     },
     {
       "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L13.stl",
       "basename": "rail_R14_L13.stl",
-      "sha256": "f51764a5af44608f9ea13121c2acfa214779627f2c4ca34a5f14d2aafe35294d",
-      "bytes": 3201584,
+      "sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+      "bytes": 3266484,
       "input_modified": false,
       "units": "mm as specified by project; STL carries no units",
       "welding": "exact identical saved coordinates only; no tolerance merge, face removal, smoothing or repair",
-      "vertices_after_exact_weld": 32007,
-      "faces": 64030,
-      "unique_edges": 96045,
+      "vertices_after_exact_weld": 32656,
+      "faces": 65328,
+      "unique_edges": 97992,
       "boundary_edges": 0,
       "edges_with_more_than_two_faces": 0,
       "inconsistent_two_face_edge_orientation": 0,
@@ -1045,8 +1042,8 @@
       "triangles_area_below_1e_minus_12_mm2": 0,
       "duplicate_faces_ignoring_orientation": 0,
       "finite_vertex_coordinates": true,
-      "signed_volume_mm3": 1578.0698128200997,
-      "surface_area_mm2": 4838.103120506562,
+      "signed_volume_mm3": 1577.9646796901725,
+      "surface_area_mm2": 4837.538687417631,
       "bounds_mm": [
         [
           -106.30593872070312,
@@ -1068,10 +1065,10 @@
       "components": [
         {
           "index": 0,
-          "vertices": 31771,
-          "faces": 63562,
-          "signed_volume_mm3": 1570.7185601698743,
-          "area_mm2": 4818.226292218129,
+          "vertices": 32420,
+          "faces": 64860,
+          "signed_volume_mm3": 1570.6134270399466,
+          "area_mm2": 4817.661859129196,
           "bounds_mm": [
             [
               -106.30593872070312,
@@ -1112,6 +1109,7 @@
       "vertex_links": {
         "nonmanifold_vertex_count": 0,
         "nonmanifold_vertex_ids_first_50": [],
+        "nonmanifold_vertex_ids": [],
         "isolated_vertex_count": 0,
         "method": "full local vertex-link cycle traversal after exact-coordinate weld"
       },
@@ -1121,19 +1119,19 @@
         "method": "PyMeshLab compute_selection_by_self_intersections_per_face on exact-coordinate-welded saved STL",
         "limitation": "Floating-point triangle intersection predicate; zero means none detected, not an exact-arithmetic guarantee. Adjacent/shared-topology contacts and coincident/coplanar degeneracies may need separate assessment."
       },
-      "elapsed_seconds": 0.953
+      "elapsed_seconds": 1.22
     },
     {
       "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L14.stl",
       "basename": "rail_R14_L14.stl",
-      "sha256": "e2a56a216fc579b84c96688648c50a5de6e77e027c1aeb57bfe49801bf2b1d22",
-      "bytes": 3750184,
+      "sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+      "bytes": 3791284,
       "input_modified": false,
       "units": "mm as specified by project; STL carries no units",
       "welding": "exact identical saved coordinates only; no tolerance merge, face removal, smoothing or repair",
-      "vertices_after_exact_weld": 37491,
-      "faces": 75002,
-      "unique_edges": 112503,
+      "vertices_after_exact_weld": 37902,
+      "faces": 75824,
+      "unique_edges": 113736,
       "boundary_edges": 0,
       "edges_with_more_than_two_faces": 0,
       "inconsistent_two_face_edge_orientation": 0,
@@ -1141,8 +1139,8 @@
       "triangles_area_below_1e_minus_12_mm2": 0,
       "duplicate_faces_ignoring_orientation": 0,
       "finite_vertex_coordinates": true,
-      "signed_volume_mm3": 1238.4313871783763,
-      "surface_area_mm2": 3880.7217287821177,
+      "signed_volume_mm3": 1238.3770181264304,
+      "surface_area_mm2": 3880.425328501696,
       "bounds_mm": [
         [
           -51.362064361572266,
@@ -1164,10 +1162,10 @@
       "components": [
         {
           "index": 0,
-          "vertices": 37491,
-          "faces": 75002,
-          "signed_volume_mm3": 1238.4313871783593,
-          "area_mm2": 3880.7217287821295,
+          "vertices": 37902,
+          "faces": 75824,
+          "signed_volume_mm3": 1238.3770181264135,
+          "area_mm2": 3880.425328501705,
           "bounds_mm": [
             [
               -51.362064361572266,
@@ -1189,6 +1187,7 @@
       "vertex_links": {
         "nonmanifold_vertex_count": 0,
         "nonmanifold_vertex_ids_first_50": [],
+        "nonmanifold_vertex_ids": [],
         "isolated_vertex_count": 0,
         "method": "full local vertex-link cycle traversal after exact-coordinate weld"
       },
@@ -1198,15 +1197,9 @@
         "method": "PyMeshLab compute_selection_by_self_intersections_per_face on exact-coordinate-welded saved STL",
         "limitation": "Floating-point triangle intersection predicate; zero means none detected, not an exact-arithmetic guarantee. Adjacent/shared-topology contacts and coincident/coplanar degeneracies may need separate assessment."
       },
-      "elapsed_seconds": 1.001
+      "elapsed_seconds": 1.887
     }
   ],
-  "does_not_establish": [
-    "material wall-thickness certification",
-    "fluid connectivity or leak-tightness",
-    "successful SLA printing",
-    "support adequacy",
-    "successful physical flow",
-    "strength or pressure rating"
-  ]
+  "input_modified": false,
+  "physical_tests_performed": false
 }

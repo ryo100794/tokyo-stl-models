@@ -1,0 +1,61 @@
+{
+  "triangles": 106,
+  "brute_force_pairs": 5565,
+  "brute_force_engine": "triangles=106 pairs=5565 common_power_of_two=-80 counts=4195,5,7,1353,3,2,0,",
+  "checks": [
+    {
+      "threads": 1,
+      "match": true,
+      "expected_abnormal_pairs": 1365,
+      "actual_abnormal_pairs": 1365,
+      "missing": 0,
+      "extra": 0,
+      "engine": {
+        "vertices": 309,
+        "faces": 106,
+        "aabb_candidate_pairs": 3825,
+        "common_power_of_two": -80,
+        "counts": [
+          2455,
+          5,
+          7,
+          1353,
+          3,
+          2,
+          0
+        ],
+        "abnormal_pairs": 1365,
+        "degenerate_faces": 0,
+        "threads": 1,
+        "elapsed_seconds": 0.0178574
+      }
+    },
+    {
+      "threads": 3,
+      "match": true,
+      "expected_abnormal_pairs": 1365,
+      "actual_abnormal_pairs": 1365,
+      "missing": 0,
+      "extra": 0,
+      "engine": {
+        "vertices": 309,
+        "faces": 106,
+        "aabb_candidate_pairs": 3825,
+        "common_power_of_two": -80,
+        "counts": [
+          2455,
+          5,
+          7,
+          1353,
+          3,
+          2,
+          0
+        ],
+        "abnormal_pairs": 1365,
+        "degenerate_faces": 0,
+        "threads": 3,
+        "elapsed_seconds": 0.011416
+      }
+    }
+  ]
+}

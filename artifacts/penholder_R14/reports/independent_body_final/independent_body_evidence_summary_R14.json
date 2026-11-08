@@ -1,0 +1,111 @@
+{
+  "schema": "R14-final-independent-evidence-handoff-v1",
+  "saved_body": {
+    "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/subway_R14_hollow_print.stl",
+    "sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+    "vertices": 837099,
+    "triangles": 1743478
+  },
+  "exact_global_intersections": {
+    "aabb_candidate_pairs": 25382504,
+    "class_counts": {
+      "disjoint": 12445756,
+      "expected_shared_vertex_or_edge_contact": 12936748,
+      "other_point_contact": 0,
+      "noncoplanar_proper_crossing_segment": 0,
+      "coplanar_area_overlap": 0,
+      "other_segment_contact": 0,
+      "degenerate_triangle": 0
+    },
+    "exact_degenerate_faces": 0,
+    "passed": true
+  },
+  "secondary_surface_removal_evidence": {
+    "raw_source_sha256": "d7699fd4e8736b107e01fb85a2c2c1bd8a2560a99de0a73bbf3d821823cf361a",
+    "pre_seam_principal_sha256": "78737ff7b1e9c6ddf29c91f919c5998e905da39d4b6aefaa10d0456429b627b3",
+    "principal_triangles_exactly_extracted": true,
+    "secondary_summary": {
+      "components": 402,
+      "positive_count": 164,
+      "negative_count": 238,
+      "positive_volume_mm3": 1.759095301583404,
+      "negative_signed_volume_mm3": -0.045503877127674036,
+      "positive_surface_area_mm2": 29.308489111265196,
+      "negative_surface_area_mm2": 4.538699668890574
+    },
+    "all_boundary_vertices_tested": 8162,
+    "all_vertices_inside_primary": true,
+    "exact_primary_secondary_pairs": 90041,
+    "all_primary_secondary_pairs_disjoint": true,
+    "unchanged_oriented_secondary_triangles": 14742,
+    "canonical_oriented_triangle_sha256": "fdfd935b7c576176b6e60b3c80f813bcea36b4532a8061de9c2b1c44be8ce28b",
+    "unchanged_final_core_files": 14,
+    "all_secondary_volumes_disjoint_from_intended_cores": true,
+    "minimum_reported_core_gap_mm": 0.5865965225779423,
+    "interpretation": "The 402 removed boundaries are wholly internal, separated from the retained principal boundary and outside every intended final lumen core. No size-only deletion rule was used. Negative signed shells were tested as enclosed cavity volumes with reversed orientation.",
+    "sequence": "Nesting and core exclusion concern the pre-seam principal boundary. Four prescribed coordinate-pair corrections then changed the maximum vertex position by 1.9073486328125e-6 mm and removed 8 collapsed triangles. The final saved corrected boundary is independently covered by the exhaustive exact scan. Saved channel and topology gates are separate parent-owned reports."
+  },
+  "orientation": {
+    "reviewed_report": "../orientation/print_orientation_and_drainage_screen_R14.json",
+    "reviewed_report_sha256": "90a3e1fba3efa71ac4f270c29ab6666199194cfae596de692df9333c9644181d",
+    "input_body_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+    "dimensions_xyz_mm": [
+      230.63545989990234,
+      199.68900299072266,
+      74.23472595214844
+    ],
+    "port_axis_summary": {
+      "total": 69,
+      "upward_axis_z_greater_1e_minus_6": 54,
+      "horizontal_axis_abs_z_at_most_1e_minus_6": 6,
+      "downward_axis_z_less_negative_1e_minus_6": 9,
+      "minimum_angle_from_positive_build_Z_degrees": 0.0,
+      "maximum_angle_from_positive_build_Z_degrees": 180.0
+    },
+    "lines_with_nominal_gravity_drainage_concern": 12,
+    "maximum_line_low_point": {
+      "line_id": "L07",
+      "lowest_nominal_route_inner_surface_z_mm": 41.750109773361515,
+      "lowest_nominal_mouth_edge_z_mm": 57.045846236057116,
+      "nominal_low_point_below_all_same_line_mouths_mm": 15.2957364626956,
+      "interpretation": "positive value identifies a fixed-orientation gravity-drainage concern even if same-line traces interconnect; no residual volume or physical-flow claim"
+    },
+    "lowest_plane_contact": {
+      "lowest_z_plane_mm": 0.0,
+      "coplanar_triangle_count": 11,
+      "coplanar_surface_area_mm2": 0.0005318485273164697,
+      "vertices_within_0_2_mm_of_lowest_z": 83,
+      "near_lowest_xy_extents_mm": [
+        0.026210784912109375,
+        0.026212692260742188
+      ],
+      "interpretation": "Geometric contact screen only; no supports, raft, exposure or adhesion qualification."
+    }
+  },
+  "marker_interpretation": "Standalone L11 and L13 each preserve one detached solid display marker from the reference geometry, in addition to the lumen-carrying main part. Their two components do not mean two disconnected lumen networks. Each marker has positive overlap with inherited base in the whole model.",
+  "independent_algorithm_checks": {
+    "analytic_cases_and_permutations": 540,
+    "analytic_failures": 0,
+    "brute_force_triangles": 106,
+    "brute_force_pairs": 5565,
+    "matching_abnormal_pairs": 1365,
+    "bvh_missing_pairs": 0,
+    "bvh_extra_pairs": 0,
+    "threads_checked": [
+      1,
+      3
+    ]
+  },
+  "separate_required_gates": [
+    "saved-mesh edge/vertex topology and winding",
+    "wall thickness and line isolation",
+    "saved-mesh installed channel continuity and mouth access"
+  ],
+  "unresolved_physical_items": [
+    "SLA printing",
+    "support and raft design in a specific slicer/printer/resin profile",
+    "washing and complete resin drainage",
+    "post-cure leakage and pigment flow"
+  ],
+  "authorization_scope": "Independent local digital inspection and evidence packaging only; no external writes, hardware operation, purchase or R13 modification by this agent."
+}

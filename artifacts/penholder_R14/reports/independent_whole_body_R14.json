@@ -1,0 +1,79 @@
+{
+  "file": "/workspace/scratch/e1b7a5798e07/reproduction_check/pocket_fixed/subway_R14_hollow_candidate_print.stl",
+  "basename": "subway_R14_hollow_candidate_print.stl",
+  "sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+  "bytes": 87173984,
+  "input_modified": false,
+  "units": "mm as specified by project; STL carries no units",
+  "welding": "exact identical saved coordinates only; no tolerance merge, face removal, smoothing or repair",
+  "vertices_after_exact_weld": 837099,
+  "faces": 1743478,
+  "unique_edges": 2615217,
+  "boundary_edges": 0,
+  "edges_with_more_than_two_faces": 0,
+  "inconsistent_two_face_edge_orientation": 0,
+  "zero_area_triangles_exact": 0,
+  "triangles_area_below_1e_minus_12_mm2": 0,
+  "duplicate_faces_ignoring_orientation": 0,
+  "finite_vertex_coordinates": true,
+  "signed_volume_mm3": 27653.000673820155,
+  "surface_area_mm2": 133611.47162329644,
+  "bounds_mm": [
+    [
+      -115.31707763671875,
+      -99.84510040283203,
+      0.0
+    ],
+    [
+      115.3183822631836,
+      99.84390258789062,
+      74.23472595214844
+    ]
+  ],
+  "dimensions_mm": [
+    230.63545989990234,
+    199.68900299072266,
+    74.23472595214844
+  ],
+  "connected_surface_components": 1,
+  "components": [
+    {
+      "index": 0,
+      "vertices": 837099,
+      "faces": 1743478,
+      "signed_volume_mm3": 27653.000673821163,
+      "area_mm2": 133611.4716232836,
+      "bounds_mm": [
+        [
+          -115.31707763671875,
+          -99.84510040283203,
+          0.0
+        ],
+        [
+          115.3183822631836,
+          99.84390258789062,
+          74.23472595214844
+        ]
+      ]
+    }
+  ],
+  "surface_components_caveat": "Surface components are not by themselves solid-component counts: negative oriented shells may bound enclosed cavities. Positive separately bounded shells require nesting/overlap interpretation.",
+  "euler_characteristic": -34640,
+  "trimesh_is_watertight": true,
+  "trimesh_is_winding_consistent": true,
+  "vertex_links": {
+    "nonmanifold_vertex_count": 0,
+    "nonmanifold_vertex_ids_first_50": [],
+    "nonmanifold_vertex_ids": [],
+    "isolated_vertex_count": 0,
+    "method": "full local vertex-link cycle traversal after exact-coordinate weld"
+  },
+  "self_intersection_test": {
+    "selected_face_count": 0,
+    "selected_face_ids_first_100": [],
+    "method": "PyMeshLab compute_selection_by_self_intersections_per_face on exact-coordinate-welded saved STL",
+    "limitation": "Floating-point triangle intersection predicate; zero means none detected, not an exact-arithmetic guarantee. Adjacent/shared-topology contacts and coincident/coplanar degeneracies may need separate assessment."
+  },
+  "elapsed_seconds": 35.797,
+  "delivered_file": "subway_R14_hollow_print.stl"
+}

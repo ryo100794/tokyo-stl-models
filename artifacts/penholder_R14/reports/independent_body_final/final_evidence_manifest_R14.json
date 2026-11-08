@@ -1,0 +1,93 @@
+{
+  "schema": "R14-independent-final-evidence-files-v1",
+  "body_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+  "files": [
+    {
+      "file": "README_independent_body_JA.txt",
+      "bytes": 2861,
+      "sha256": "4a561bd48558a5254e73691db21103eec5275b19ad209be7ac982d8ca1cc5a91"
+    },
+    {
+      "file": "analytic_predicate_tests_R14.json",
+      "bytes": 213,
+      "sha256": "78d936d0605cab274f5c5cfb9027ad3d7ff4d57799f79e93d7101cb6178e6896"
+    },
+    {
+      "file": "body_component_extraction_R14.json",
+      "bytes": 173955,
+      "sha256": "4c157fc22707c23309134cce07c585b41f8c3ebf72c626e5392f533cc38913ad"
+    },
+    {
+      "file": "body_component_labels_R14.npz",
+      "bytes": 13452,
+      "sha256": "f2b61266b7a1d803e945f8416ed5b7ccb305512fa1d36e758b5d7266a2ebba59"
+    },
+    {
+      "file": "body_exact_intersections_R14.json",
+      "bytes": 1940,
+      "sha256": "951c7ac2750e63a4f2ef08c801c5b1e5565ddf20e0e44f80c8c64e726a053cd0"
+    },
+    {
+      "file": "body_exact_intersections_R14.npz",
+      "bytes": 644,
+      "sha256": "3b1be8ec0a70bb6022012c289f02154e2a38f7ece3d0986406f15e117a4fc87b"
+    },
+    {
+      "file": "body_final_microseam_correction_R14.json",
+      "bytes": 2413,
+      "sha256": "1453e84a7bc4bd4307760ed91d090bdd5fdce763f4ecbdab29df1a9312f9235e"
+    },
+    {
+      "file": "body_lowest_plane_contact_screen_R14.json",
+      "bytes": 1186,
+      "sha256": "b0a449d11416a70211db5f8faca44954beb7812071b4b5ee6baf539e108a6931"
+    },
+    {
+      "file": "body_secondary_core_separation_basis_R14.json",
+      "bytes": 168432,
+      "sha256": "d160da128102e6892f6e62bcecb807abdd6658dcc362b9153c8b034917e11600"
+    },
+    {
+      "file": "body_secondary_core_separation_reuse_R14.json",
+      "bytes": 4924,
+      "sha256": "257ce7f4d92288299de8b8fae4129548fb4457e86fa23ba1aeeff3b4436249d2"
+    },
+    {
+      "file": "body_secondary_nesting_R14.json",
+      "bytes": 154836,
+      "sha256": "56d73d1f0096fb29f3b41b6d48dfa4f7430d9fefe7d0f6a4091113e6d2947030"
+    },
+    {
+      "file": "body_secondary_nesting_pairs_R14.npz",
+      "bytes": 208451,
+      "sha256": "6e5fb6445b4362c486f99285d245acfa2f1963f6d93ed0b5eed3bdd19a7c7c62"
+    },
+    {
+      "file": "bvh_completeness_tests_R14.json",
+      "bytes": 1301,
+      "sha256": "f11138d38b55a8c1718cd1b62aeb7d988334bd008695157daf0f060c9c742707"
+    },
+    {
+      "file": "independent_body_evidence_summary_R14.json",
+      "bytes": 5412,
+      "sha256": "e1ea47a0ce87bef049e828224987e5d8764a261b6b695c51569fbfbfbd92fb48"
+    },
+    {
+      "file": "independent_validation_source_manifest_R14.json",
+      "bytes": 4751,
+      "sha256": "85d834839eb497e956320c4589ab105f862f5d7c672e77ddd6a4dc2059c14c0b"
+    },
+    {
+      "file": "standalone_markers_L11_L13_R14.json",
+      "bytes": 4456,
+      "sha256": "18e513b226e76e6b87af1d48a06d3f2d1d13623733263f90e833c043a4d30a3a"
+    }
+  ],
+  "reviewed_orientation_relative": "../orientation/print_orientation_and_drainage_screen_R14.json",
+  "reviewed_orientation_sha256": "90a3e1fba3efa71ac4f270c29ab6666199194cfae596de692df9333c9644181d",
+  "source_bundle": {
+    "path": "/workspace/scratch/e1b7a5798e07/independent_validation/portable_independent_validation_source.zip",
+    "sha256": "aebde522c0518184929b91dc15488d94c3bb918848eaac05f29bd898dbfcf187",
+    "bytes": 34211
+  }
+}

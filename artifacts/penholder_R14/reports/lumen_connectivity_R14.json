@@ -1,0 +1,1216 @@
+{
+  "passed": true,
+  "lines": [
+    {
+      "line_id": "L01",
+      "name_ja": "銀座線",
+      "core_sha256": "bf587c7edb956883f5dcbd009482e07c3b713dee47c59b3de320f48ebd2d26cc",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 4,
+      "port_membership": [
+        {
+          "port_id": "L01_P01",
+          "attachment_signed_mm": -0.5865978864749434,
+          "mouth_signed_mm": -0.7999999999999985,
+          "passed": true
+        },
+        {
+          "port_id": "L01_P02",
+          "attachment_signed_mm": -0.5893642061959098,
+          "mouth_signed_mm": -0.7999999999999997,
+          "passed": true
+        },
+        {
+          "port_id": "L01_P03",
+          "attachment_signed_mm": -0.588973111258767,
+          "mouth_signed_mm": -0.8000000000000005,
+          "passed": true
+        },
+        {
+          "port_id": "L01_P04",
+          "attachment_signed_mm": -0.5948669168242838,
+          "mouth_signed_mm": -0.7999999999999987,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L02",
+      "name_ja": "丸ノ内線",
+      "core_sha256": "30e7882b49ef25591bf31d3ec465f924996ed1902fe2750819108f3eea4c6d3e",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 6,
+      "port_membership": [
+        {
+          "port_id": "L02_P01",
+          "attachment_signed_mm": -0.5865978864749406,
+          "mouth_signed_mm": -0.7999999999999993,
+          "passed": true
+        },
+        {
+          "port_id": "L02_P02",
+          "attachment_signed_mm": -0.5875429183661429,
+          "mouth_signed_mm": -0.8000000000000043,
+          "passed": true
+        },
+        {
+          "port_id": "L02_P03",
+          "attachment_signed_mm": -0.5885096054687841,
+          "mouth_signed_mm": -0.8,
+          "passed": true
+        },
+        {
+          "port_id": "L02_P04",
+          "attachment_signed_mm": -0.5917992971309964,
+          "mouth_signed_mm": -0.8,
+          "passed": true
+        },
+        {
+          "port_id": "L02_P05",
+          "attachment_signed_mm": -0.5873932792050633,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L02_P06",
+          "attachment_signed_mm": -0.5865978864749464,
+          "mouth_signed_mm": -0.7999999999999972,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L03",
+      "name_ja": "日比谷線",
+      "core_sha256": "dc12f72eea7e5a6b145e74ff1be32240ab724f5dee1d1a342239dfbc310d1ed4",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 5,
+      "port_membership": [
+        {
+          "port_id": "L03_P01",
+          "attachment_signed_mm": -0.5865978864749405,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L03_P02",
+          "attachment_signed_mm": -0.5893361981417967,
+          "mouth_signed_mm": -0.8000000000000009,
+          "passed": true
+        },
+        {
+          "port_id": "L03_P03",
+          "attachment_signed_mm": -0.5880148332909734,
+          "mouth_signed_mm": -0.8000000000000003,
+          "passed": true
+        },
+        {
+          "port_id": "L03_P04",
+          "attachment_signed_mm": -0.5890095424863693,
+          "mouth_signed_mm": -0.7999999999999972,
+          "passed": true
+        },
+        {
+          "port_id": "L03_P05",
+          "attachment_signed_mm": -0.5881452788133142,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L04",
+      "name_ja": "東西線",
+      "core_sha256": "2c6ed13fb8ed510253eba57a25e8cdd071f5aaefcae42336362c301359ef81af",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 5,
+      "port_membership": [
+        {
+          "port_id": "L04_P01",
+          "attachment_signed_mm": -0.5948669168242852,
+          "mouth_signed_mm": -0.8000000000000114,
+          "passed": true
+        },
+        {
+          "port_id": "L04_P02",
+          "attachment_signed_mm": -0.5865978864749395,
+          "mouth_signed_mm": -0.7999999999999972,
+          "passed": true
+        },
+        {
+          "port_id": "L04_P03",
+          "attachment_signed_mm": -0.5898663019159501,
+          "mouth_signed_mm": -0.8000000000000005,
+          "passed": true
+        },
+        {
+          "port_id": "L04_P04",
+          "attachment_signed_mm": -0.5887208624800889,
+          "mouth_signed_mm": -0.7999999999999995,
+          "passed": true
+        },
+        {
+          "port_id": "L04_P05",
+          "attachment_signed_mm": -0.5895891596964399,
+          "mouth_signed_mm": -0.8000000000000003,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L05",
+      "name_ja": "千代田線",
+      "core_sha256": "209d417a35a6dd7b4dab65fb9dabc7f934e6e1c0f779259c5a548dfb94adbaf2",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 4,
+      "port_membership": [
+        {
+          "port_id": "L05_P01",
+          "attachment_signed_mm": -0.5948669168242811,
+          "mouth_signed_mm": -0.8000000000000099,
+          "passed": true
+        },
+        {
+          "port_id": "L05_P02",
+          "attachment_signed_mm": -0.5902773827127441,
+          "mouth_signed_mm": -0.8000000000000012,
+          "passed": true
+        },
+        {
+          "port_id": "L05_P03",
+          "attachment_signed_mm": -0.590633848079453,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L05_P04",
+          "attachment_signed_mm": -0.5865978864749459,
+          "mouth_signed_mm": -0.7999999999999952,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L06",
+      "name_ja": "有楽町線",
+      "core_sha256": "f6b363576beff2a9fe64dbf437b8e2925b25266d6eac12fbcabf1eccdad2c176",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 6,
+      "port_membership": [
+        {
+          "port_id": "L06_P01",
+          "attachment_signed_mm": -0.5865978864749427,
+          "mouth_signed_mm": -0.7999999999999962,
+          "passed": true
+        },
+        {
+          "port_id": "L06_P02",
+          "attachment_signed_mm": -0.5948669168242823,
+          "mouth_signed_mm": -0.7999999999999948,
+          "passed": true
+        },
+        {
+          "port_id": "L06_P03",
+          "attachment_signed_mm": -0.5874737442052441,
+          "mouth_signed_mm": -0.8000000000000012,
+          "passed": true
+        },
+        {
+          "port_id": "L06_P04",
+          "attachment_signed_mm": -0.5891452534995965,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L06_P05",
+          "attachment_signed_mm": -0.5912871284964036,
+          "mouth_signed_mm": -0.7999999999999994,
+          "passed": true
+        },
+        {
+          "port_id": "L06_P06",
+          "attachment_signed_mm": -0.5896002829480755,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L07",
+      "name_ja": "半蔵門線",
+      "core_sha256": "962c9e1be24f876691e6b1c8ae5d92e6c93421c43d2e9df77e8ac35515fb72dc",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 5,
+      "port_membership": [
+        {
+          "port_id": "L07_P01",
+          "attachment_signed_mm": -0.5929628739530404,
+          "mouth_signed_mm": -0.7999999999999994,
+          "passed": true
+        },
+        {
+          "port_id": "L07_P02",
+          "attachment_signed_mm": -0.5875429183661436,
+          "mouth_signed_mm": -0.7999999999999975,
+          "passed": true
+        },
+        {
+          "port_id": "L07_P03",
+          "attachment_signed_mm": -0.5896900262252031,
+          "mouth_signed_mm": -0.8000000000000014,
+          "passed": true
+        },
+        {
+          "port_id": "L07_P04",
+          "attachment_signed_mm": -0.5901115209469069,
+          "mouth_signed_mm": -0.8000000000000028,
+          "passed": true
+        },
+        {
+          "port_id": "L07_P05",
+          "attachment_signed_mm": -0.5876741487512859,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L08",
+      "name_ja": "南北線",
+      "core_sha256": "249e970a2123e29b6582336f9cf9445d0904634e143b49d5de36346482887d9e",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 5,
+      "port_membership": [
+        {
+          "port_id": "L08_P01",
+          "attachment_signed_mm": -0.5865978864749419,
+          "mouth_signed_mm": -0.8000000000000027,
+          "passed": true
+        },
+        {
+          "port_id": "L08_P02",
+          "attachment_signed_mm": -0.5865978864749422,
+          "mouth_signed_mm": -0.7999999999999997,
+          "passed": true
+        },
+        {
+          "port_id": "L08_P03",
+          "attachment_signed_mm": -0.5883778453112828,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L08_P04",
+          "attachment_signed_mm": -0.5890867889369577,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L08_P05",
+          "attachment_signed_mm": -0.5873993930138293,
+          "mouth_signed_mm": -0.7999999999999985,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L09",
+      "name_ja": "副都心線",
+      "core_sha256": "75c09fd4fbf985320d3c6cc0c811e638f6d63ba87b33bd43c3e47e897cc409f5",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 4,
+      "port_membership": [
+        {
+          "port_id": "L09_P01",
+          "attachment_signed_mm": -0.5875429183661396,
+          "mouth_signed_mm": -0.8000000000000024,
+          "passed": true
+        },
+        {
+          "port_id": "L09_P02",
+          "attachment_signed_mm": -0.5893642061959075,
+          "mouth_signed_mm": -0.8000000000000024,
+          "passed": true
+        },
+        {
+          "port_id": "L09_P03",
+          "attachment_signed_mm": -0.5895653626083467,
+          "mouth_signed_mm": -0.8000000000000019,
+          "passed": true
+        },
+        {
+          "port_id": "L09_P04",
+          "attachment_signed_mm": -0.5920768492507736,
+          "mouth_signed_mm": -0.8000000000000017,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L10",
+      "name_ja": "浅草線",
+      "core_sha256": "7a091de7fca769f4036513a2c1a4ae7e7136c4a91688fa3cd7bca3f8b6699633",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 4,
+      "port_membership": [
+        {
+          "port_id": "L10_P01",
+          "attachment_signed_mm": -0.5865978864749455,
+          "mouth_signed_mm": -0.7999999999999952,
+          "passed": true
+        },
+        {
+          "port_id": "L10_P02",
+          "attachment_signed_mm": -0.589359882252068,
+          "mouth_signed_mm": -0.7999999999999986,
+          "passed": true
+        },
+        {
+          "port_id": "L10_P03",
+          "attachment_signed_mm": -0.5892026945386113,
+          "mouth_signed_mm": -0.8000000000000017,
+          "passed": true
+        },
+        {
+          "port_id": "L10_P04",
+          "attachment_signed_mm": -0.5888364012542188,
+          "mouth_signed_mm": -0.8000000000000019,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L11",
+      "name_ja": "三田線",
+      "core_sha256": "1f93e6f1bc98c7a6752de2322f78c6dc755528118e79b701ea1183fe4f32ab80",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 5,
+      "port_membership": [
+        {
+          "port_id": "L11_P01",
+          "attachment_signed_mm": -0.5865978864749404,
+          "mouth_signed_mm": -0.8000000000000034,
+          "passed": true
+        },
+        {
+          "port_id": "L11_P02",
+          "attachment_signed_mm": -0.5865978864749396,
+          "mouth_signed_mm": -0.8000000000000069,
+          "passed": true
+        },
+        {
+          "port_id": "L11_P03",
+          "attachment_signed_mm": -0.5847374178764417,
+          "mouth_signed_mm": -0.7999999999999997,
+          "passed": true
+        },
+        {
+          "port_id": "L11_P04",
+          "attachment_signed_mm": -0.5886589319210395,
+          "mouth_signed_mm": -0.8000000000000003,
+          "passed": true
+        },
+        {
+          "port_id": "L11_P05",
+          "attachment_signed_mm": -0.5895491946186218,
+          "mouth_signed_mm": -0.8000000000000003,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L12",
+      "name_ja": "新宿線",
+      "core_sha256": "02b67545f711e2e10468fed751f4de2d36cd3bb14a1532a00e33b322b61ab850",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 5,
+      "port_membership": [
+        {
+          "port_id": "L12_P01",
+          "attachment_signed_mm": -0.5867673881560487,
+          "mouth_signed_mm": -0.8000000000000008,
+          "passed": true
+        },
+        {
+          "port_id": "L12_P02",
+          "attachment_signed_mm": -0.5880378771974148,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L12_P03",
+          "attachment_signed_mm": -0.5865978864749439,
+          "mouth_signed_mm": -0.8000000000000012,
+          "passed": true
+        },
+        {
+          "port_id": "L12_P04",
+          "attachment_signed_mm": -0.591267042522031,
+          "mouth_signed_mm": -0.8000000000000039,
+          "passed": true
+        },
+        {
+          "port_id": "L12_P05",
+          "attachment_signed_mm": -0.5942906394019383,
+          "mouth_signed_mm": -0.7999999999999984,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L13",
+      "name_ja": "大江戸線",
+      "core_sha256": "69ab51e42f0e4fa6f376bd87140b9fe60e1e5e9a2126b622b930c568bf367ef8",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 5,
+      "port_membership": [
+        {
+          "port_id": "L13_P01",
+          "attachment_signed_mm": -0.5875429183661381,
+          "mouth_signed_mm": -0.8000000000000013,
+          "passed": true
+        },
+        {
+          "port_id": "L13_P02",
+          "attachment_signed_mm": -0.5851061467477022,
+          "mouth_signed_mm": -0.8000000000000013,
+          "passed": true
+        },
+        {
+          "port_id": "L13_P03",
+          "attachment_signed_mm": -0.5887110295550713,
+          "mouth_signed_mm": -0.7999999999999985,
+          "passed": true
+        },
+        {
+          "port_id": "L13_P04",
+          "attachment_signed_mm": -0.5905311846603277,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L13_P05",
+          "attachment_signed_mm": -0.5879567500279481,
+          "mouth_signed_mm": -0.8000000000000034,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "line_id": "L14",
+      "name_ja": "山手線",
+      "core_sha256": "67c48d68e108c9c1031b1f97b21d9265dba8253a4dab974388a8dc2655e1fda2",
+      "positive_fluid_components": 1,
+      "nonpositive_boundary_components": 0,
+      "ports": 6,
+      "port_membership": [
+        {
+          "port_id": "L14_P01",
+          "attachment_signed_mm": -0.586597886474943,
+          "mouth_signed_mm": -0.7999999999999995,
+          "passed": true
+        },
+        {
+          "port_id": "L14_P02",
+          "attachment_signed_mm": -0.5865978864749425,
+          "mouth_signed_mm": -0.8000000000000009,
+          "passed": true
+        },
+        {
+          "port_id": "L14_P03",
+          "attachment_signed_mm": -0.5867784721543833,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        },
+        {
+          "port_id": "L14_P04",
+          "attachment_signed_mm": -0.5901590957258251,
+          "mouth_signed_mm": -0.7999999999999962,
+          "passed": true
+        },
+        {
+          "port_id": "L14_P05",
+          "attachment_signed_mm": -0.587994269763479,
+          "mouth_signed_mm": -0.8000000000000005,
+          "passed": true
+        },
+        {
+          "port_id": "L14_P06",
+          "attachment_signed_mm": -0.5911174633898493,
+          "mouth_signed_mm": -0.8000000000000007,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "pairs": [
+    {
+      "line_a": "L01",
+      "line_b": "L02",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.7272959772150711,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L03",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6213979389054659,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L04",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L05",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.9322060870428045,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L06",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L07",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6324623692653355,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L08",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6205240579043259,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L09",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6265979000574599,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.5414777470675758,
+      "passed": true
+    },
+    {
+      "line_a": "L01",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L03",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.9038679761214905,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L04",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L05",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6290142842529025,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L06",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.0930259248167191,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L07",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L08",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6239874300379081,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L09",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.9709325562238196,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.5489137419124002,
+      "passed": true
+    },
+    {
+      "line_a": "L02",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.686601873986994,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L04",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6292580665255062,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L05",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6280931113874311,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L06",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6214735850796982,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L07",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L08",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.3236413731563748,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L09",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.622886417516219,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6208334713727943,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.677073555150722,
+      "passed": true
+    },
+    {
+      "line_a": "L03",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L05",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.034981670008823,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L06",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.301910026707927,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L07",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.3827350878394753,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L08",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L09",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.1146543342735424,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6220206116799333,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.0101640919215293,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.9187237659711618,
+      "passed": true
+    },
+    {
+      "line_a": "L04",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L06",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.8781768442420814,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L07",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.389350446825971,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L08",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.4187214859679202,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L09",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6205340528273492,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6417949041269241,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6204525161714672,
+      "passed": true
+    },
+    {
+      "line_a": "L05",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L06",
+      "line_b": "L07",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L06",
+      "line_b": "L08",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6171537932231903,
+      "passed": true
+    },
+    {
+      "line_a": "L06",
+      "line_b": "L09",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6189680562933532,
+      "passed": true
+    },
+    {
+      "line_a": "L06",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.8657680685962343,
+      "passed": true
+    },
+    {
+      "line_a": "L06",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.9924284669647142,
+      "passed": true
+    },
+    {
+      "line_a": "L06",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6284970448580367,
+      "passed": true
+    },
+    {
+      "line_a": "L06",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.5592047712595514,
+      "passed": true
+    },
+    {
+      "line_a": "L06",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L07",
+      "line_b": "L08",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6287076675235996,
+      "passed": true
+    },
+    {
+      "line_a": "L07",
+      "line_b": "L09",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L07",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L07",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6284709529126519,
+      "passed": true
+    },
+    {
+      "line_a": "L07",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6175135966595328,
+      "passed": true
+    },
+    {
+      "line_a": "L07",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.9450980513971123,
+      "passed": true
+    },
+    {
+      "line_a": "L07",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L08",
+      "line_b": "L09",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L08",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L08",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6207661023074245,
+      "passed": true
+    },
+    {
+      "line_a": "L08",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.0790045685110006,
+      "passed": true
+    },
+    {
+      "line_a": "L08",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6386799947316262,
+      "passed": true
+    },
+    {
+      "line_a": "L08",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L09",
+      "line_b": "L10",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L09",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L09",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.2404501120608398,
+      "passed": true
+    },
+    {
+      "line_a": "L09",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6244103559107113,
+      "passed": true
+    },
+    {
+      "line_a": "L09",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L10",
+      "line_b": "L11",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L10",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L10",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.8196260983321944,
+      "passed": true
+    },
+    {
+      "line_a": "L10",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.5297469857405324,
+      "passed": true
+    },
+    {
+      "line_a": "L11",
+      "line_b": "L12",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 1.5575037630795217,
+      "passed": true
+    },
+    {
+      "line_a": "L11",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6214022851339833,
+      "passed": true
+    },
+    {
+      "line_a": "L11",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L12",
+      "line_b": "L13",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 0.6298085843347591,
+      "passed": true
+    },
+    {
+      "line_a": "L12",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    },
+    {
+      "line_a": "L13",
+      "line_b": "L14",
+      "capped_search_distance_mm": 2.0,
+      "gap_mm": 2.0,
+      "passed": true
+    }
+  ],
+  "minimum_interline_lumen_gap_mm": 0.6171537932231903,
+  "checked_all_pairs": true,
+  "nominal_lumen_diameter_mm": 1.2,
+  "physical_flow_test_performed": false
+}

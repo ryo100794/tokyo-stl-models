@@ -1,0 +1,114 @@
+{
+  "source_file": "principal_before_seam.stl",
+  "source_sha256": "78737ff7b1e9c6ddf29c91f919c5998e905da39d4b6aefaa10d0456429b627b3",
+  "output_file": "subway_R14_hollow_candidate_print.stl",
+  "sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+  "diagnosed_face_ids": [
+    364376,
+    364377,
+    364378,
+    364386,
+    364387,
+    364392,
+    1377452,
+    1377603,
+    1377739,
+    1377744,
+    1377844,
+    1377943,
+    1377944,
+    1377958,
+    1377959,
+    1378054,
+    1378055,
+    1384286,
+    1384287,
+    1384288,
+    1384295,
+    1384296,
+    1384307,
+    1384308,
+    1384640,
+    1513787,
+    1513788,
+    1513790,
+    1513791,
+    1520358,
+    1520359,
+    1520360,
+    1520361
+  ],
+  "diagnosis_source": "float32_seam_pairs_R14.json",
+  "weld": {
+    "weld_tolerance_mm": 5e-05,
+    "near_vertex_pairs": 4,
+    "merged_vertex_count": 4,
+    "maximum_vertex_displacement_mm": 1.9073486328125e-06,
+    "collapsed_faces": 8,
+    "coincident_faces_removed": 0,
+    "hole_filling_performed": false,
+    "scope": "only vertices of diagnosed self-intersection faces",
+    "merged_pairs_before_mm": [
+      [
+        [
+          -37.76259231567383,
+          -28.37242317199707,
+          50.41748809814453
+        ],
+        [
+          -37.76259231567383,
+          -28.372421264648438,
+          50.41748809814453
+        ]
+      ],
+      [
+        [
+          0.8235516548156738,
+          -40.3739013671875,
+          51.20473861694336
+        ],
+        [
+          0.8235518932342529,
+          -40.3739013671875,
+          51.20473861694336
+        ]
+      ],
+      [
+        [
+          23.079376220703125,
+          -52.989952087402344,
+          61.24313735961914
+        ],
+        [
+          23.079378128051758,
+          -52.989952087402344,
+          61.24313735961914
+        ]
+      ],
+      [
+        [
+          28.72075653076172,
+          -0.08635715395212173,
+          64.42998504638672
+        ],
+        [
+          28.72075653076172,
+          -0.08635713905096054,
+          64.42998504638672
+        ]
+      ]
+    ]
+  },
+  "topology": {
+    "vertices": 837099,
+    "triangles": 1743478,
+    "watertight": true,
+    "winding_consistent": true,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_triangles": 0,
+    "volume_mm3": 27653.00067382027
+  },
+  "independent_validation_required": true,
+  "physical_tests_performed": false
+}

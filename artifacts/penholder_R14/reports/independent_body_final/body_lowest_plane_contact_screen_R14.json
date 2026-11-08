@@ -1,0 +1,22 @@
+{
+  "schema": "R14-final-saved-body-lowest-plane-contact-screen-v1",
+  "source": "/workspace/scratch/e1b7a5798e07/r14_current/models/subway_R14_hollow_print.stl",
+  "source_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+  "lowest_plane_contact_screen": {
+    "lowest_z_plane_mm": 0.0,
+    "coplanar_triangle_count": 11,
+    "coplanar_surface_area_mm2": 0.0005318485273164697,
+    "vertices_within_0_2_mm_of_lowest_z": 83,
+    "near_lowest_xy_extents_mm": [
+      0.026210784912109375,
+      0.026212692260742188
+    ],
+    "interpretation": "Geometric contact screen only; no supports, raft, exposure or adhesion qualification."
+  },
+  "method": "Read saved triangles at the exact minimum Z plane; separately select saved vertices within 0.2 mm above that plane. No remeshing or pose change.",
+  "scope_limitations": [
+    "This is geometric contact area, not cured resin adhesion, support adequacy or a slicer simulation.",
+    "The extremely small contact area does not provide a basis to approve unsupported printing in the saved pose.",
+    "Supports, raft, printer envelope, resin, peel force, washing and physical printing remain unqualified."
+  ]
+}

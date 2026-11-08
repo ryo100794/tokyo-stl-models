@@ -1,0 +1,120 @@
+{
+  "schema": "R14-standalone-decorative-marker-identification-v1",
+  "results": [
+    {
+      "line_id": "L11",
+      "line_name_ja": "三田線",
+      "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L11.stl",
+      "sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+      "saved_components": 2,
+      "decorative_component": {
+        "index": 1,
+        "faces": 336,
+        "vertices": 170,
+        "signed_volume_mm3": 6.681544746104572,
+        "bounds_mm": [
+          [
+            -13.411097526550293,
+            36.5134391784668,
+            61.84975051879883
+          ],
+          [
+            -11.436088562011719,
+            39.80319595336914,
+            63.68473815917969
+          ]
+        ]
+      },
+      "source_station_marker_id": "L11_S25",
+      "not_recovered_named_station_coordinate": true,
+      "source_mesh_index": 15,
+      "source_component_indices": [
+        73,
+        74,
+        75
+      ],
+      "marker_centerline_enu_mm": [
+        [
+          -12.511097709648311,
+          -38.903194945305586,
+          -8.37531965225935
+        ],
+        [
+          -12.336088228039443,
+          -37.41343878209591,
+          -8.410308335442096
+        ]
+      ],
+      "preserved_marker_radius_mm": 0.9,
+      "distance_from_marker_display_center_to_original_route_mm": 3.2413932828775947,
+      "nearest_original_trace": "L11_T01",
+      "max_saved_vertex_to_reconstructed_marker_surface_distance_mm": 2.2822207050096456e-06,
+      "max_reconstructed_marker_vertex_to_saved_surface_distance_mm": 2.21547426289306e-06,
+      "marker_volume_mm3": 6.6815431452843885,
+      "positive_overlap_with_inherited_base_union_mm3": 1.4738736749552699,
+      "interpretation_JA": "保存済み装飾マーカーを原座標で保持した結果。単体rail STLは流路を持つ主部と中実の表示マーカーを含む2部品であり、2つの流路ではない。wholeでは基準baseと正体積で重なる。名前付き駅座標や新しい顔料分岐を捏造していない。"
+    },
+    {
+      "line_id": "L13",
+      "line_name_ja": "大江戸線",
+      "file": "/workspace/scratch/e1b7a5798e07/r14_current/models/rail_R14_L13.stl",
+      "sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+      "saved_components": 2,
+      "decorative_component": {
+        "index": 1,
+        "faces": 468,
+        "vertices": 236,
+        "signed_volume_mm3": 7.351252650239424,
+        "bounds_mm": [
+          [
+            -27.1323299407959,
+            22.000125885009766,
+            54.974430084228516
+          ],
+          [
+            -24.26609230041504,
+            24.85517692565918,
+            57.462703704833984
+          ]
+        ]
+      },
+      "source_station_marker_id": "L13_S39",
+      "not_recovered_named_station_coordinate": true,
+      "source_mesh_index": 17,
+      "source_component_indices": [
+        119,
+        120,
+        121
+      ],
+      "marker_centerline_enu_mm": [
+        [
+          -25.16609150916338,
+          -23.955176817253232,
+          -2.1882747241761535
+        ],
+        [
+          -25.699210353195667,
+          -23.42765056528151,
+          -1.4999999912106432
+        ],
+        [
+          -26.23233012855053,
+          -22.90012501180172,
+          -1.7052328257705085
+        ]
+      ],
+      "preserved_marker_radius_mm": 0.9,
+      "distance_from_marker_display_center_to_original_route_mm": 3.9877079313716495,
+      "nearest_original_trace": "L13_T03",
+      "max_saved_vertex_to_reconstructed_marker_surface_distance_mm": 1.8180317011976608e-06,
+      "max_reconstructed_marker_vertex_to_saved_surface_distance_mm": 1.8988025308271933e-06,
+      "marker_volume_mm3": 7.35125570543846,
+      "positive_overlap_with_inherited_base_union_mm3": 1.6973787021522504,
+      "interpretation_JA": "保存済み装飾マーカーを原座標で保持した結果。単体rail STLは流路を持つ主部と中実の表示マーカーを含む2部品であり、2つの流路ではない。wholeでは基準baseと正体積で重なる。名前付き駅座標や新しい顔料分岐を捏造していない。"
+    }
+  ],
+  "scope_limitations": [
+    "Generated-marker surface comparison identifies geometry provenance; it is not a physical print or flow test.",
+    "The stated positive overlap concerns inherited base union in ENU coordinates, before final saved-body verification."
+  ]
+}

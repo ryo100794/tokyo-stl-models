@@ -1,0 +1,23 @@
+{
+  "scope": "Diagnostic optional full positive seed replay; distinct from validated pinned-checkpoint reproduction",
+  "delivered_body_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+  "diagnostic_candidate_sha256": "b7ca5c0b1b416cb0eb8f784400182f6cb4b258c866050cfa58c055c4c97804dc",
+  "delivered_body_modified": false,
+  "default_pinned_reproduction_exact_sha_match": true,
+  "optional_seed_replay_supported_for_print_output": false,
+  "diagnostic_topology": {
+    "vertices": 837098,
+    "triangles": 1743480,
+    "watertight": false,
+    "winding_consistent": true,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1,
+    "zero_area_triangles": 0,
+    "volume_mm3": 27653.002156028608
+  },
+  "candidate_rejected": true,
+  "simple_microscopic_vertex_weld_justified": false,
+  "normalization_to_pinned_checkpoint_justified": false,
+  "reason": "The seed replay has one four-face edge, and source-positive vertex counts differ; nearest-vertex deviations reach0.004614mm. Neither arbitrary face deletion nor silent snapping is justified.",
+  "action": "Current CLI records and retains diagnostic output, exits nonzero on failed topology, and keeps the supported pinned-checkpoint path."
+}

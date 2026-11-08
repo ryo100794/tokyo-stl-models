@@ -1,0 +1,103 @@
+{
+  "schema": "R14-exact-secondary-triangle-core-result-reuse-v1",
+  "previous_source_sha256": "109209cd570003f07a44c5fd59e1a5bf6afc361d877f3f90e9dd929cf4e8a64d",
+  "new_source_sha256": "d7699fd4e8736b107e01fb85a2c2c1bd8a2560a99de0a73bbf3d821823cf361a",
+  "previous_secondary_triangles": 14742,
+  "new_secondary_triangles": 14742,
+  "oriented_secondary_triangle_multisets_exactly_identical": true,
+  "previous_canonical_oriented_triangle_sha256": "fdfd935b7c576176b6e60b3c80f813bcea36b4532a8061de9c2b1c44be8ce28b",
+  "new_canonical_oriented_triangle_sha256": "fdfd935b7c576176b6e60b3c80f813bcea36b4532a8061de9c2b1c44be8ce28b",
+  "canonicalization": "Exact saved float32 coordinates; normalize signed zero; cyclically rotate each triangle only, preserving orientation; lexicographically sort triangle records.",
+  "core_checks": [
+    {
+      "line_id": "L01",
+      "previous_sha256": "bf587c7edb956883f5dcbd009482e07c3b713dee47c59b3de320f48ebd2d26cc",
+      "current_sha256": "bf587c7edb956883f5dcbd009482e07c3b713dee47c59b3de320f48ebd2d26cc",
+      "identical": true
+    },
+    {
+      "line_id": "L02",
+      "previous_sha256": "30e7882b49ef25591bf31d3ec465f924996ed1902fe2750819108f3eea4c6d3e",
+      "current_sha256": "30e7882b49ef25591bf31d3ec465f924996ed1902fe2750819108f3eea4c6d3e",
+      "identical": true
+    },
+    {
+      "line_id": "L03",
+      "previous_sha256": "dc12f72eea7e5a6b145e74ff1be32240ab724f5dee1d1a342239dfbc310d1ed4",
+      "current_sha256": "dc12f72eea7e5a6b145e74ff1be32240ab724f5dee1d1a342239dfbc310d1ed4",
+      "identical": true
+    },
+    {
+      "line_id": "L04",
+      "previous_sha256": "2c6ed13fb8ed510253eba57a25e8cdd071f5aaefcae42336362c301359ef81af",
+      "current_sha256": "2c6ed13fb8ed510253eba57a25e8cdd071f5aaefcae42336362c301359ef81af",
+      "identical": true
+    },
+    {
+      "line_id": "L05",
+      "previous_sha256": "209d417a35a6dd7b4dab65fb9dabc7f934e6e1c0f779259c5a548dfb94adbaf2",
+      "current_sha256": "209d417a35a6dd7b4dab65fb9dabc7f934e6e1c0f779259c5a548dfb94adbaf2",
+      "identical": true
+    },
+    {
+      "line_id": "L06",
+      "previous_sha256": "f6b363576beff2a9fe64dbf437b8e2925b25266d6eac12fbcabf1eccdad2c176",
+      "current_sha256": "f6b363576beff2a9fe64dbf437b8e2925b25266d6eac12fbcabf1eccdad2c176",
+      "identical": true
+    },
+    {
+      "line_id": "L07",
+      "previous_sha256": "962c9e1be24f876691e6b1c8ae5d92e6c93421c43d2e9df77e8ac35515fb72dc",
+      "current_sha256": "962c9e1be24f876691e6b1c8ae5d92e6c93421c43d2e9df77e8ac35515fb72dc",
+      "identical": true
+    },
+    {
+      "line_id": "L08",
+      "previous_sha256": "249e970a2123e29b6582336f9cf9445d0904634e143b49d5de36346482887d9e",
+      "current_sha256": "249e970a2123e29b6582336f9cf9445d0904634e143b49d5de36346482887d9e",
+      "identical": true
+    },
+    {
+      "line_id": "L09",
+      "previous_sha256": "75c09fd4fbf985320d3c6cc0c811e638f6d63ba87b33bd43c3e47e897cc409f5",
+      "current_sha256": "75c09fd4fbf985320d3c6cc0c811e638f6d63ba87b33bd43c3e47e897cc409f5",
+      "identical": true
+    },
+    {
+      "line_id": "L10",
+      "previous_sha256": "7a091de7fca769f4036513a2c1a4ae7e7136c4a91688fa3cd7bca3f8b6699633",
+      "current_sha256": "7a091de7fca769f4036513a2c1a4ae7e7136c4a91688fa3cd7bca3f8b6699633",
+      "identical": true
+    },
+    {
+      "line_id": "L11",
+      "previous_sha256": "1f93e6f1bc98c7a6752de2322f78c6dc755528118e79b701ea1183fe4f32ab80",
+      "current_sha256": "1f93e6f1bc98c7a6752de2322f78c6dc755528118e79b701ea1183fe4f32ab80",
+      "identical": true
+    },
+    {
+      "line_id": "L12",
+      "previous_sha256": "02b67545f711e2e10468fed751f4de2d36cd3bb14a1532a00e33b322b61ab850",
+      "current_sha256": "02b67545f711e2e10468fed751f4de2d36cd3bb14a1532a00e33b322b61ab850",
+      "identical": true
+    },
+    {
+      "line_id": "L13",
+      "previous_sha256": "69ab51e42f0e4fa6f376bd87140b9fe60e1e5e9a2126b622b930c568bf367ef8",
+      "current_sha256": "69ab51e42f0e4fa6f376bd87140b9fe60e1e5e9a2126b622b930c568bf367ef8",
+      "identical": true
+    },
+    {
+      "line_id": "L14",
+      "previous_sha256": "67c48d68e108c9c1031b1f97b21d9265dba8253a4dab974388a8dc2655e1fda2",
+      "current_sha256": "67c48d68e108c9c1031b1f97b21d9265dba8253a4dab974388a8dc2655e1fda2",
+      "identical": true
+    }
+  ],
+  "previous_core_separation_report": "/workspace/scratch/e1b7a5798e07/independent_validation/residual7_print/core_separation/secondary_core_separation.json",
+  "previous_core_report_sha256": "d160da128102e6892f6e62bcecb807abdd6658dcc362b9153c8b034917e11600",
+  "core_separation_reuse_gate_passed": true,
+  "reused_minimum_gap_mm": 0.5865965225779423,
+  "reused_component_count": 402,
+  "limitation": "Only the unchanged secondary volumes and unchanged final cutter separation are reused. Containment against the changed principal boundary requires a fresh nesting test; final saved principal topology/intersections/flow remain separate gates."
+}

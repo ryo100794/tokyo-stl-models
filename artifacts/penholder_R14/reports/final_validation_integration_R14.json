@@ -1,0 +1,238 @@
+{
+  "scope": "Final numerical validation integration, no mesh bytes modified by this integration",
+  "copied_or_verified_files": [
+    {
+      "path": "source/verify_port_walls_r14.py",
+      "sha256": "8d33baf2eed5ae2f7a1b07395795c54f679ced34d0e745801932458244a4a1f1",
+      "bytes": 14322,
+      "already_present_identically": false
+    },
+    {
+      "path": "source/verify_port_walls_r14_v1.py",
+      "sha256": "07409a6b8e6703da66e34dc7a4f5c6cf093d7e1015259956b0156bcfe119ca6e",
+      "bytes": 13268,
+      "already_present_identically": false
+    },
+    {
+      "path": "source/verify_coupon_saved_geometry_r14.py",
+      "sha256": "3e355952129140b5a55d9bd7f1a5a309fcfbea91c005c2edfb2842bc854a2b55",
+      "bytes": 11215,
+      "already_present_identically": false
+    },
+    {
+      "path": "source/run_final_part_exact_batch.py",
+      "sha256": "9057201440c139a9029e0ea58a02506ad25e70160bd5557a3222bd15675f3d92",
+      "bytes": 3332,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/final15_exact_intersection_summary_R14.json",
+      "sha256": "f54fae60ce449129bfb50f623727d385475f0219efcbea67c0fa49de93a46b59",
+      "bytes": 13108,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/flow_coupon_R14_exact_intersections.json",
+      "sha256": "984cd30f6456707c4f9fc579d49f0a6f5441f5fbcb51d2c4ab503db42241ef4b",
+      "bytes": 1896,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L01_exact_intersections.json",
+      "sha256": "b3371e80be6c125255af12d01c259f080bf99bcbbccc9edab846979c7f469e80",
+      "bytes": 1892,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L02_exact_intersections.json",
+      "sha256": "7052b9257cca3fe90cde9230c8aaef033601a33efb1cc4d37f3fbc66dbdb3713",
+      "bytes": 1894,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L03_exact_intersections.json",
+      "sha256": "d84675b3f7db877f7fbc6357f910d0790c154614599267063063c46a893869ea",
+      "bytes": 1894,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L04_exact_intersections.json",
+      "sha256": "835261c6b424e0a71dbaf23b6bd3f2751c7e4b9bd4a2a356d407af055949ef1f",
+      "bytes": 1894,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L05_exact_intersections.json",
+      "sha256": "227a55d38a4eb9cdafc031247ae8889572e0f1d1acf5379bccc1a664a2afec97",
+      "bytes": 1893,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L06_exact_intersections.json",
+      "sha256": "9ec9e2b1a0335682e6f9d8aaff289158bc0820fdee7235dff1de634172aae808",
+      "bytes": 1894,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L07_exact_intersections.json",
+      "sha256": "a51d403573225d475b73d92a1e150705501cb0fbacb76797c847efafc225fc62",
+      "bytes": 1892,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L08_exact_intersections.json",
+      "sha256": "ed5432fff38ef1b582521954a3e331b57d23f2559d1e3d7df92c478c2581f109",
+      "bytes": 1893,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L09_exact_intersections.json",
+      "sha256": "4b99a8445f53ecab360ec374b7cad0868074259f23f00a4b7f5fc559b746e697",
+      "bytes": 1892,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L10_exact_intersections.json",
+      "sha256": "583c463d1b42d194b9c9f1fafd5c794105a754c22b6dc4f3c7dae8f7cc94d91f",
+      "bytes": 1894,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L11_exact_intersections.json",
+      "sha256": "f1677ebd4d00f9b605751c278c7a6e3b1524e1ea7278d1a06f5f80dbfd2b9ddb",
+      "bytes": 1893,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L12_exact_intersections.json",
+      "sha256": "2f97a706c5c1b037674c21b521f8d2064546fcb64f362bb49c44f2222b4db956",
+      "bytes": 1894,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L13_exact_intersections.json",
+      "sha256": "b09a5ca14664bfa4f800733930ed4885383e65e403bc7bfea0f40ded051fbffa",
+      "bytes": 1893,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/final15_exact/rail_R14_L14_exact_intersections.json",
+      "sha256": "ea48435718cbe02a0c5662907369ab5e8f5bcaeecf1662311f7910003f7eb3a9",
+      "bytes": 1893,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/whole_port_wall_samples_R14.json",
+      "sha256": "c3e8ef912017c7b1803c5ad5d611d57102dd699783d796f5cb73eb9b020f2a16",
+      "bytes": 608928,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/flow_coupon_saved_geometry_R14.json",
+      "sha256": "55932a82df8c2f2503f81ea799aef8158ead43c330939872dba2ea893901eed9",
+      "bytes": 11901,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/individual_wall_samples_R14.json",
+      "sha256": "f087c9f5754449ec8faed618d0403fded2070dd5152781712cd92b44b2f4f384",
+      "bytes": 30168,
+      "already_present_identically": true
+    },
+    {
+      "path": "reports/individual_port_wall_samples_R14.json",
+      "sha256": "d59b00794327781a1aa739c3d72839f5b352708c50df1c4ee105e290e90eb447",
+      "bytes": 605724,
+      "already_present_identically": true
+    },
+    {
+      "path": "reports/pre_rounding_hull_wall_samples_R14.json",
+      "sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+      "bytes": 31964,
+      "already_present_identically": false
+    },
+    {
+      "path": "reports/residual_face_pair_diagnosis_R14.json",
+      "sha256": "9f50687d47f3b371ceb24edd3a5dcea7116fa21a37465859544ba4ee38eeaad0",
+      "bytes": 11825,
+      "already_present_identically": false
+    }
+  ],
+  "frozen_whole_stl_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+  "unchanged_coupon_stl_sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+  "whole_port_summary": {
+    "ports": 69,
+    "rays": 62928,
+    "normal_outer_wall_samples": 61313,
+    "normal_interline_wall_samples": 740,
+    "minimum_outer_normal_wall_mm": 0.5520720560688974,
+    "minimum_interline_normal_wall_mm": 0.6323620249089019,
+    "minimum_backward_overlap_source_bound_mm": 0.5228462450359771,
+    "all_ports_sampled_checks_clear": true,
+    "total_outer_wall_samples_below_0_5_mm": 0,
+    "total_interline_wall_samples_below_0_5_mm": 0,
+    "total_missing_boundaries": 0,
+    "total_unexpected_first_surfaces": 0,
+    "total_same_line_internal_exits": 851,
+    "planned_mouth_face_exits": 24
+  },
+  "individual_port_summary": {
+    "ports": 69,
+    "rays": 62928,
+    "normal_outer_wall_samples": 62057,
+    "normal_interline_wall_samples": 0,
+    "minimum_outer_normal_wall_mm": 0.5520720247996256,
+    "minimum_interline_normal_wall_mm": null,
+    "minimum_backward_overlap_source_bound_mm": 0.5228462450359771,
+    "all_ports_sampled_checks_clear": true,
+    "total_outer_wall_samples_below_0_5_mm": 0,
+    "total_interline_wall_samples_below_0_5_mm": 0,
+    "total_missing_boundaries": 0,
+    "total_unexpected_first_surfaces": 0,
+    "total_same_line_internal_exits": 851,
+    "planned_mouth_face_exits": 20
+  },
+  "individual_normal_wall_summary": {
+    "lines": 14,
+    "all_final_hashes_match_measurements": true,
+    "ordinary_radial_directions": 34976,
+    "near_port_directions_excluded": 10384,
+    "minimum_outer_normal_wall_sample_mm": 0.5862380641503964,
+    "minimum_outer_radial_wall_sample_mm": 0.5871483799440171,
+    "outer_normal_samples_below_0_5_mm": 0,
+    "outer_radial_samples_below_0_5_mm": 0,
+    "missing_boundary_directions": 0,
+    "ambiguous_intervals": 36,
+    "global_wall_proof": false,
+    "physical_print_or_flow_qualification": false
+  },
+  "coupon_summary": {
+    "channels_tested": 5,
+    "ports_tested": 10,
+    "longitudinal_rays": 4090,
+    "blocked_longitudinal_rays": 0,
+    "radial_directions": 19632,
+    "minimum_outer_normal_wall_sample_mm": 0.5948641270506015,
+    "mouth_disk_rays": 90,
+    "through_nozzle_rays": 90,
+    "all_10_sampled_open": true,
+    "all_channel_finite_checks_clear": true,
+    "all_crossing_barriers_meet_0_6_mm": true,
+    "physical_test_performed": false
+  },
+  "coupon_crossing_minimum_sampled_gap_mm": 0.7000000476837167,
+  "all15_exact_intersections_pass": true,
+  "metadata_provenance": {
+    "individual_port_coordinates_snapshot": "reports/input_metadata_snapshots/coordinate_systems_R14_used_by_port_samples.json",
+    "individual_port_coordinates_sha256": "18d907ed3da5e87a120c95bbe8ab3cdef93ebc7f56e7d9f79626354b31badaf0",
+    "whole_port_coordinates": "data/coordinate_systems_R14.json",
+    "whole_port_coordinates_sha256": "0627721891415beb96a420763f0c693dba1a7b0a0dc7b5a0ce73074cb7090222"
+  },
+  "limits": {
+    "wall_measurements_are_finite_samples": true,
+    "global_wall_or_leak_proof": false,
+    "physical_sla_print_performed": false,
+    "physical_flow_test_performed": false,
+    "same_line_free_end_short_chords_are_not_parallel_wall_thickness": "See residual_face_pair_diagnosis_R14.json"
+  }
+}

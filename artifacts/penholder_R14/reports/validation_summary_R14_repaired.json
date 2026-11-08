@@ -1,0 +1,1447 @@
+{
+  "schema": "R14-repaired-validation-summary-v1",
+  "created_utc": "2026-11-08T17:11:32.685967+00:00",
+  "title_ja": "修正後R14の保存済み形状と数値検証の総合記録",
+  "scope_ja": "最終本体1個、最終14路線部品、変更していない流動試験片1個のSTL、および本体3MFを対象とする。既存の確定検証記録をSHA256で対象ファイルに対応付けて集約した。R13、形状、生成ソース、既存検証記録を変更していない。",
+  "path_base": "R14 artifact root; all evidence and mesh paths below are relative to this root",
+  "qualification": {
+    "status": "numerical_geometry_checks_completed_with_explicit_limits",
+    "statement_ja": "保存された三角形メッシュの閉面性、面向き、多様体性、厳密な自己交差検査は対象16 STLで条件を満たした。流路と開口は指定したコアおよび有限の実メッシュ検査で確認した。壁厚は有限サンプルの暫定基準に対する結果であり、全表面の最小壁厚、実印刷、実通液の合格とは扱わない。",
+    "blanket_global_pass_issued": false,
+    "global_minimum_wall_thickness_proven": false,
+    "global_leak_tightness_proven": false,
+    "physical_sla_print_performed": false,
+    "physical_flow_test_performed": false
+  },
+  "criteria": {
+    "units": "mm unless explicitly stated otherwise; STL itself has no unit field",
+    "wall_screening_threshold_mm": 0.5,
+    "wall_threshold_status": "inherited_provisional_numerical_screening_criterion",
+    "wall_threshold_basis_ja": "既存R14検証で用いられた0.5 mmを継承した暫定的な数値基準である。特定の樹脂、SLA装置、露光、積層、支持材、洗浄条件に対して保証された製造限界ではない。",
+    "coupon_crossing_barrier_threshold_mm": 0.6,
+    "coupon_crossing_threshold_evidence": {
+      "path": "data/flow_coupon_R14_specification.json",
+      "sha256": "5cecc403fe6deb41745f9e9648621e9044ce4c2722c509b5c80f0de4714abd0c"
+    },
+    "interpretation_ja": "材料境界が閉面であることと、意図した流路が外部へ開口していることは別に検査する。閉面STLだけで流路連通や印刷合格とは判定しない。"
+  },
+  "frozen_primary_body": {
+    "file": "models/subway_R14_hollow_print.stl",
+    "sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+    "triangles": 1743478,
+    "evidence_source_filename_alias_ja": "一部の原票はsubway_R14_hollow_candidate_print.stlという実行時の名称を保持している。ここに記載した最終保存名への対応はファイル全体のSHA256一致で確認した。"
+  },
+  "sections": {
+    "saved_stl_topology": {
+      "status": "criteria_satisfied_for_all_16_saved_stls",
+      "evidence": [
+        {
+          "path": "reports/all_saved_mesh_topology_R14.json",
+          "sha256": "9cd2d2a209c158d6c862f7e0eb069530635a8d2fecc90e73068bdc0ee09e3dbf"
+        }
+      ],
+      "mesh_count": 16,
+      "all_mesh_hashes_match_current_saved_files": true,
+      "coordinate_weld": "exact saved-coordinate equality only; no tolerance merge or geometric modification",
+      "all_closed": true,
+      "all_face_winding_consistent": true,
+      "all_coordinates_finite": true,
+      "total_defect_counts": {
+        "boundary_edges": 0,
+        "edges_with_more_than_two_faces": 0,
+        "inconsistent_two_face_edge_orientation": 0,
+        "zero_area_triangles_exact": 0,
+        "triangles_area_below_1e_minus_12_mm2": 0,
+        "duplicate_faces_ignoring_orientation": 0,
+        "nonmanifold_vertex_count": 0,
+        "isolated_vertex_count": 0
+      },
+      "meshes": [
+        {
+          "file": "models/flow_coupon_R14.stl",
+          "sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+          "recorded_source_basename": "flow_coupon_R14.stl",
+          "bytes": 3962284,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 79244,
+          "vertices_after_exact_weld": 39610,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 5499.388243561461,
+          "dimensions_mm": [
+            54.0,
+            68.0,
+            7.699999809265137
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            5499.3882435614305
+          ]
+        },
+        {
+          "file": "models/rail_R14_L01.stl",
+          "sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+          "recorded_source_basename": "rail_R14_L01.stl",
+          "bytes": 1557884,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 31156,
+          "vertices_after_exact_weld": 15574,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 617.697548710332,
+          "dimensions_mm": [
+            78.66378974914551,
+            54.07379913330078,
+            25.191940307617188
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            617.6975487103305
+          ]
+        },
+        {
+          "file": "models/rail_R14_L02.stl",
+          "sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+          "recorded_source_basename": "rail_R14_L02.stl",
+          "bytes": 2313084,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 46260,
+          "vertices_after_exact_weld": 23122,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 1105.8882316474405,
+          "dimensions_mm": [
+            116.81384611129761,
+            58.34259605407715,
+            27.188411712646484
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            1105.8882316474314
+          ]
+        },
+        {
+          "file": "models/rail_R14_L03.stl",
+          "sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+          "recorded_source_basename": "rail_R14_L03.stl",
+          "bytes": 1944184,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 38882,
+          "vertices_after_exact_weld": 19435,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 845.3945186548002,
+          "dimensions_mm": [
+            85.75130844116211,
+            105.01412582397461,
+            24.311920166015625
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            845.3945186547976
+          ]
+        },
+        {
+          "file": "models/rail_R14_L04.stl",
+          "sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+          "recorded_source_basename": "rail_R14_L04.stl",
+          "bytes": 1705484,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 34108,
+          "vertices_after_exact_weld": 17048,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 883.2430045906372,
+          "dimensions_mm": [
+            173.21881866455078,
+            49.30454063415527,
+            37.72599220275879
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            883.2430045906464
+          ]
+        },
+        {
+          "file": "models/rail_R14_L05.stl",
+          "sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+          "recorded_source_basename": "rail_R14_L05.stl",
+          "bytes": 2102984,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 42058,
+          "vertices_after_exact_weld": 21025,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 1017.53290428737,
+          "dimensions_mm": [
+            121.03393936157227,
+            109.92430686950684,
+            38.4689826965332
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            1017.5329042873618
+          ]
+        },
+        {
+          "file": "models/rail_R14_L06.stl",
+          "sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+          "recorded_source_basename": "rail_R14_L06.stl",
+          "bytes": 2261784,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 45234,
+          "vertices_after_exact_weld": 22609,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 1107.6521292477032,
+          "dimensions_mm": [
+            158.893798828125,
+            131.45075607299805,
+            31.92034149169922
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            1107.6521292476928
+          ]
+        },
+        {
+          "file": "models/rail_R14_L07.stl",
+          "sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+          "recorded_source_basename": "rail_R14_L07.stl",
+          "bytes": 1931884,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 38636,
+          "vertices_after_exact_weld": 19312,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 828.9166325111952,
+          "dimensions_mm": [
+            92.72159957885742,
+            51.764404296875,
+            33.33584976196289
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            828.9166325112001
+          ]
+        },
+        {
+          "file": "models/rail_R14_L08.stl",
+          "sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+          "recorded_source_basename": "rail_R14_L08.stl",
+          "bytes": 2311284,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 46224,
+          "vertices_after_exact_weld": 23106,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 976.0845479122131,
+          "dimensions_mm": [
+            35.20707035064697,
+            144.96079635620117,
+            26.12551498413086
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            976.0845479122099
+          ]
+        },
+        {
+          "file": "models/rail_R14_L09.stl",
+          "sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+          "recorded_source_basename": "rail_R14_L09.stl",
+          "bytes": 1115584,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 22310,
+          "vertices_after_exact_weld": 11145,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 596.9229245220812,
+          "dimensions_mm": [
+            34.360843658447266,
+            84.6551284790039,
+            28.450092315673828
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            596.9229245220833
+          ]
+        },
+        {
+          "file": "models/rail_R14_L10.stl",
+          "sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+          "recorded_source_basename": "rail_R14_L10.stl",
+          "bytes": 1206984,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 24138,
+          "vertices_after_exact_weld": 12065,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 719.4636423704213,
+          "dimensions_mm": [
+            86.93901443481445,
+            121.35628890991211,
+            15.869422912597656
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            719.4636423704268
+          ]
+        },
+        {
+          "file": "models/rail_R14_L11.stl",
+          "sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+          "recorded_source_basename": "rail_R14_L11.stl",
+          "bytes": 1516984,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 30338,
+          "vertices_after_exact_weld": 15165,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 2,
+          "signed_volume_mm3": 883.9003019846878,
+          "dimensions_mm": [
+            95.09542533755302,
+            141.74554443359375,
+            23.948596954345703
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            877.2187572385735,
+            6.681544746104572
+          ]
+        },
+        {
+          "file": "models/rail_R14_L12.stl",
+          "sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+          "recorded_source_basename": "rail_R14_L12.stl",
+          "bytes": 1552584,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 31050,
+          "vertices_after_exact_weld": 15519,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 900.7711665797351,
+          "dimensions_mm": [
+            168.04747772216797,
+            31.638102531433105,
+            23.996532440185547
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            900.7711665797375
+          ]
+        },
+        {
+          "file": "models/rail_R14_L13.stl",
+          "sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+          "recorded_source_basename": "rail_R14_L13.stl",
+          "bytes": 3266484,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 65328,
+          "vertices_after_exact_weld": 32656,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 2,
+          "signed_volume_mm3": 1577.9646796901725,
+          "dimensions_mm": [
+            132.9681282043457,
+            99.65716934204102,
+            32.31795883178711
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            1570.6134270399466,
+            7.351252650239424
+          ]
+        },
+        {
+          "file": "models/rail_R14_L14.stl",
+          "sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+          "recorded_source_basename": "rail_R14_L14.stl",
+          "bytes": 3791284,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 75824,
+          "vertices_after_exact_weld": 37902,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 1238.3770181264304,
+          "dimensions_mm": [
+            63.466548919677734,
+            116.79755783081055,
+            24.314271926879883
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            1238.3770181264135
+          ]
+        },
+        {
+          "file": "models/subway_R14_hollow_print.stl",
+          "sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+          "recorded_source_basename": "subway_R14_hollow_candidate_print.stl",
+          "bytes": 87173984,
+          "current_saved_file_sha256_matches_evidence": true,
+          "faces": 1743478,
+          "vertices_after_exact_weld": 837099,
+          "boundary_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "inconsistent_two_face_edge_orientation": 0,
+          "zero_area_triangles_exact": 0,
+          "triangles_area_below_1e_minus_12_mm2": 0,
+          "duplicate_faces_ignoring_orientation": 0,
+          "finite_vertex_coordinates": true,
+          "trimesh_is_watertight": true,
+          "trimesh_is_winding_consistent": true,
+          "connected_surface_components": 1,
+          "signed_volume_mm3": 27653.000673820155,
+          "dimensions_mm": [
+            230.63545989990234,
+            199.68900299072266,
+            74.23472595214844
+          ],
+          "nonmanifold_vertex_count": 0,
+          "isolated_vertex_count": 0,
+          "surface_component_signed_volumes_mm3": [
+            27653.000673821163
+          ]
+        }
+      ],
+      "documented_surface_components": {
+        "whole_body_surface_components": 1,
+        "standalone_parts_with_multiple_surface_components": [
+          {
+            "file": "models/rail_R14_L11.stl",
+            "components": 2,
+            "signed_component_volumes_mm3": [
+              877.2187572385735,
+              6.681544746104572
+            ]
+          },
+          {
+            "file": "models/rail_R14_L13.stl",
+            "components": 2,
+            "signed_component_volumes_mm3": [
+              1570.6134270399466,
+              7.351252650239424
+            ]
+          }
+        ],
+        "interpretation_ja": "L11とL13の個別STLでは各2表面成分を保持している。表面成分数だけを流体コアの連通成分数や物理的な一体部品数と同一視しない。"
+      },
+      "limitations_ja": "この節は保存済み材料境界の位相と面向きの判定であり、流路、壁厚、製造適性は各節で別に扱う。"
+    },
+    "exact_saved_triangle_intersections": {
+      "status": "no_abnormal_intersections_or_exact_degenerate_faces_in_all_16_saved_stls",
+      "evidence": [
+        {
+          "path": "reports/whole_body_exact_intersections_R14.json",
+          "sha256": "951c7ac2750e63a4f2ef08c801c5b1e5565ddf20e0e44f80c8c64e726a053cd0"
+        },
+        {
+          "path": "reports/final15_exact/final15_exact_intersection_summary_R14.json",
+          "sha256": "f54fae60ce449129bfb50f623727d385475f0219efcbea67c0fa49de93a46b59"
+        }
+      ],
+      "method": {
+        "candidate_enumeration": "All triangles in the saved mesh; a closed AABB BVH self-traversal enumerates every overlapping triangle-box pair once. No MeshLab selection filter.",
+        "arithmetic": "All binary64 representations of saved coordinates decoded exactly to integers with a common power of two. GMP arbitrary-precision integer orientations and rational intersection comparisons, without geometric tolerance.",
+        "normal_adjacency": "Only an intersection wholly contained in the exact shared vertex or shared edge is normal. Other intersections remain failures, including those in a pair that shares one vertex."
+      },
+      "whole_body": {
+        "mesh_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+        "triangles": 1743478,
+        "aabb_candidate_pairs": 25382504,
+        "abnormal_pair_count": 0,
+        "exact_degenerate_face_count": 0,
+        "class_counts": {
+          "disjoint": 12445756,
+          "expected_shared_vertex_or_edge_contact": 12936748,
+          "other_point_contact": 0,
+          "noncoplanar_proper_crossing_segment": 0,
+          "coplanar_area_overlap": 0,
+          "other_segment_contact": 0,
+          "degenerate_triangle": 0
+        }
+      },
+      "individual_parts": [
+        {
+          "mesh": "models/flow_coupon_R14.stl",
+          "mesh_sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+          "evidence": {
+            "path": "reports/final15_exact/flow_coupon_R14_exact_intersections.json",
+            "sha256": "984cd30f6456707c4f9fc579d49f0a6f5441f5fbcb51d2c4ab503db42241ef4b"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 224803,
+            "expected_shared_vertex_or_edge_contact": 563786,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L01.stl",
+          "mesh_sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L01_exact_intersections.json",
+            "sha256": "b3371e80be6c125255af12d01c259f080bf99bcbbccc9edab846979c7f469e80"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 144711,
+            "expected_shared_vertex_or_edge_contact": 208916,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L02.stl",
+          "mesh_sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L02_exact_intersections.json",
+            "sha256": "7052b9257cca3fe90cde9230c8aaef033601a33efb1cc4d37f3fbc66dbdb3713"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 172049,
+            "expected_shared_vertex_or_edge_contact": 309057,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L03.stl",
+          "mesh_sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L03_exact_intersections.json",
+            "sha256": "d84675b3f7db877f7fbc6357f910d0790c154614599267063063c46a893869ea"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 175681,
+            "expected_shared_vertex_or_edge_contact": 261419,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L04.stl",
+          "mesh_sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L04_exact_intersections.json",
+            "sha256": "835261c6b424e0a71dbaf23b6bd3f2751c7e4b9bd4a2a356d407af055949ef1f"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 124074,
+            "expected_shared_vertex_or_edge_contact": 227019,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L05.stl",
+          "mesh_sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L05_exact_intersections.json",
+            "sha256": "227a55d38a4eb9cdafc031247ae8889572e0f1d1acf5379bccc1a664a2afec97"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 152021,
+            "expected_shared_vertex_or_edge_contact": 280744,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L06.stl",
+          "mesh_sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L06_exact_intersections.json",
+            "sha256": "9ec9e2b1a0335682e6f9d8aaff289158bc0820fdee7235dff1de634172aae808"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 268809,
+            "expected_shared_vertex_or_edge_contact": 302287,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L07.stl",
+          "mesh_sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L07_exact_intersections.json",
+            "sha256": "a51d403573225d475b73d92a1e150705501cb0fbacb76797c847efafc225fc62"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 88087,
+            "expected_shared_vertex_or_edge_contact": 256116,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L08.stl",
+          "mesh_sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L08_exact_intersections.json",
+            "sha256": "ed5432fff38ef1b582521954a3e331b57d23f2559d1e3d7df92c478c2581f109"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 166617,
+            "expected_shared_vertex_or_edge_contact": 309386,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L09.stl",
+          "mesh_sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L09_exact_intersections.json",
+            "sha256": "4b99a8445f53ecab360ec374b7cad0868074259f23f00a4b7f5fc559b746e697"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 188856,
+            "expected_shared_vertex_or_edge_contact": 148635,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L10.stl",
+          "mesh_sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L10_exact_intersections.json",
+            "sha256": "583c463d1b42d194b9c9f1fafd5c794105a754c22b6dc4f3c7dae8f7cc94d91f"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 225467,
+            "expected_shared_vertex_or_edge_contact": 161525,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L11.stl",
+          "mesh_sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L11_exact_intersections.json",
+            "sha256": "f1677ebd4d00f9b605751c278c7a6e3b1524e1ea7278d1a06f5f80dbfd2b9ddb"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 156595,
+            "expected_shared_vertex_or_edge_contact": 200687,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L12.stl",
+          "mesh_sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L12_exact_intersections.json",
+            "sha256": "2f97a706c5c1b037674c21b521f8d2064546fcb64f362bb49c44f2222b4db956"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 162833,
+            "expected_shared_vertex_or_edge_contact": 207218,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L13.stl",
+          "mesh_sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L13_exact_intersections.json",
+            "sha256": "b09a5ca14664bfa4f800733930ed4885383e65e403bc7bfea0f40ded051fbffa"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 300043,
+            "expected_shared_vertex_or_edge_contact": 436409,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        },
+        {
+          "mesh": "models/rail_R14_L14.stl",
+          "mesh_sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+          "evidence": {
+            "path": "reports/final15_exact/rail_R14_L14_exact_intersections.json",
+            "sha256": "ea48435718cbe02a0c5662907369ab5e8f5bcaeecf1662311f7910003f7eb3a9"
+          },
+          "abnormal_pair_count": 0,
+          "exact_degenerate_face_count": 0,
+          "class_counts": {
+            "disjoint": 181011,
+            "expected_shared_vertex_or_edge_contact": 510686,
+            "other_point_contact": 0,
+            "noncoplanar_proper_crossing_segment": 0,
+            "coplanar_area_overlap": 0,
+            "other_segment_contact": 0,
+            "degenerate_triangle": 0
+          },
+          "input_bytes_unchanged": true
+        }
+      ],
+      "all15_inputs_unchanged_during_validation": true,
+      "all15_validator_sources_unchanged": true,
+      "limitations": [
+        "edge or vertex manifoldness (reported separately)",
+        "wall thickness",
+        "fluid connectivity",
+        "support adequacy",
+        "SLA print success",
+        "physical flow or drainage"
+      ]
+    },
+    "intended_fluid_core_connectivity_and_separation": {
+      "status": "all_14_intended_cores_connected_and_all_91_line_pairs_separated",
+      "evidence": [
+        {
+          "path": "reports/lumen_connectivity_R14.json",
+          "sha256": "76cec9bd448c4a87083a71102da99e93e71cc2fda870020f339e95734af8c7b4"
+        },
+        {
+          "path": "data/body_core_geometry_R14.json",
+          "sha256": "8326d44e976192e397562dfd1cb9e3f59a737bb1a10f427fa9469a032faefdc6"
+        },
+        {
+          "path": "reports/reproduction_inputs_archive_receipt_R14.json",
+          "sha256": "dd063afba42899a1328881c24481737050b7149b311aafa1d4c3798449975dac"
+        }
+      ],
+      "lines": [
+        {
+          "line_id": "L01",
+          "name_ja": "銀座線",
+          "core": "reproduction/core_cache/L01_core.npz",
+          "core_sha256": "bf587c7edb956883f5dcbd009482e07c3b713dee47c59b3de320f48ebd2d26cc",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 4,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L02",
+          "name_ja": "丸ノ内線",
+          "core": "reproduction/core_cache/L02_core.npz",
+          "core_sha256": "30e7882b49ef25591bf31d3ec465f924996ed1902fe2750819108f3eea4c6d3e",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 6,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L03",
+          "name_ja": "日比谷線",
+          "core": "reproduction/core_cache/L03_core.npz",
+          "core_sha256": "dc12f72eea7e5a6b145e74ff1be32240ab724f5dee1d1a342239dfbc310d1ed4",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 5,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L04",
+          "name_ja": "東西線",
+          "core": "reproduction/core_cache/L04_core.npz",
+          "core_sha256": "2c6ed13fb8ed510253eba57a25e8cdd071f5aaefcae42336362c301359ef81af",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 5,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L05",
+          "name_ja": "千代田線",
+          "core": "reproduction/core_cache/L05_core.npz",
+          "core_sha256": "209d417a35a6dd7b4dab65fb9dabc7f934e6e1c0f779259c5a548dfb94adbaf2",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 4,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L06",
+          "name_ja": "有楽町線",
+          "core": "reproduction/core_cache/L06_core.npz",
+          "core_sha256": "f6b363576beff2a9fe64dbf437b8e2925b25266d6eac12fbcabf1eccdad2c176",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 6,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L07",
+          "name_ja": "半蔵門線",
+          "core": "reproduction/core_cache/L07_core.npz",
+          "core_sha256": "962c9e1be24f876691e6b1c8ae5d92e6c93421c43d2e9df77e8ac35515fb72dc",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 5,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L08",
+          "name_ja": "南北線",
+          "core": "reproduction/core_cache/L08_core.npz",
+          "core_sha256": "249e970a2123e29b6582336f9cf9445d0904634e143b49d5de36346482887d9e",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 5,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L09",
+          "name_ja": "副都心線",
+          "core": "reproduction/core_cache/L09_core.npz",
+          "core_sha256": "75c09fd4fbf985320d3c6cc0c811e638f6d63ba87b33bd43c3e47e897cc409f5",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 4,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L10",
+          "name_ja": "浅草線",
+          "core": "reproduction/core_cache/L10_core.npz",
+          "core_sha256": "7a091de7fca769f4036513a2c1a4ae7e7136c4a91688fa3cd7bca3f8b6699633",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 4,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L11",
+          "name_ja": "三田線",
+          "core": "reproduction/core_cache/L11_core.npz",
+          "core_sha256": "1f93e6f1bc98c7a6752de2322f78c6dc755528118e79b701ea1183fe4f32ab80",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 5,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L12",
+          "name_ja": "新宿線",
+          "core": "reproduction/core_cache/L12_core.npz",
+          "core_sha256": "02b67545f711e2e10468fed751f4de2d36cd3bb14a1532a00e33b322b61ab850",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 5,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L13",
+          "name_ja": "大江戸線",
+          "core": "reproduction/core_cache/L13_core.npz",
+          "core_sha256": "69ab51e42f0e4fa6f376bd87140b9fe60e1e5e9a2126b622b930c568bf367ef8",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 5,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        },
+        {
+          "line_id": "L14",
+          "name_ja": "山手線",
+          "core": "reproduction/core_cache/L14_core.npz",
+          "core_sha256": "67c48d68e108c9c1031b1f97b21d9265dba8253a4dab974388a8dc2655e1fda2",
+          "current_core_sha256_matches_evidence": true,
+          "positive_fluid_components": 1,
+          "nonpositive_boundary_components": 0,
+          "ports": 6,
+          "all_attachment_and_mouth_points_inside_own_core": true
+        }
+      ],
+      "all_current_core_files_match_report_hashes": true,
+      "nominal_route_lumen_diameter_mm": 1.2,
+      "total_ports": 69,
+      "all_attachment_and_mouth_memberships_satisfied": true,
+      "line_pairs_checked": 91,
+      "all_unordered_line_pairs_checked": true,
+      "minimum_interline_lumen_gap_mm": 0.6171537932231903,
+      "closest_pair": {
+        "line_a": "L06",
+        "line_b": "L08",
+        "capped_search_distance_mm": 2.0,
+        "gap_mm": 0.6171537932231903,
+        "passed": true
+      },
+      "distance_search_cap_mm": 2.0,
+      "pairs_returning_search_cap": 37,
+      "capped_distance_interpretation_ja": "2.0 mmで打ち切られた値は遠方の正確な最近接距離とは扱わない。最小値0.6171537932231903 mmは打切り値ではない。",
+      "limitations_ja": "この節のコアは設計した空洞を表す切削形状である。最終本体内での有限通過検査を次節に示すが、コア連結だけでは完成品の全域の漏れ止めや実通液を証明しない。"
+    },
+    "installed_channels_and_openings_in_saved_body": {
+      "status": "specified_finite_saved_mesh_passage_and_opening_checks_clear",
+      "evidence": [
+        {
+          "path": "reports/installed_channels_R14.json",
+          "sha256": "dd9127e4c9cce18bf6cdf8f02470f33d1195229a8d06825ce306d4aa36ea3d6b"
+        }
+      ],
+      "body_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+      "lines_checked": 14,
+      "route_rays": 51030,
+      "blocked_route_rays": 0,
+      "route_offset_radius_mm": [
+        0.55
+      ],
+      "ports_checked": 69,
+      "ports_with_all_requested_checks_clear": 69,
+      "internal_nozzle_rays": 621,
+      "blocked_internal_nozzle_rays": 0,
+      "outside_approach_rays": 621,
+      "blocked_outside_approach_rays": 0,
+      "oriented_aperture_emptiness_probes": 552,
+      "aperture_probes_found_empty": 552,
+      "generator_imported": false,
+      "saved_mesh_modified": false,
+      "method": "Saved whole-body triangle surface; original polyline segment and 8 offset rays; nozzle and outside approach rays; oriented aperture emptiness probes.",
+      "limitations": [
+        "Finite rays do not establish continuous global wall thickness.",
+        "Only the encoded straight outside approach for each nozzle is tested.",
+        "SLA printing, washing, drainage, pigment flow, strength and leakage are untested."
+      ]
+    },
+    "ordinary_line_wall_samples": {
+      "status": "finite_external_wall_samples_clear_at_provisional_threshold_with_36_ambiguous_intervals_retained",
+      "evidence": [
+        {
+          "path": "reports/individual_wall_samples_R14.json",
+          "sha256": "f087c9f5754449ec8faed618d0403fded2070dd5152781712cd92b44b2f4f384"
+        },
+        {
+          "path": "reports/pre_rounding_hull_wall_samples_R14.json",
+          "sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993"
+        },
+        {
+          "path": "reports/internal_cusp_repair_R14.json",
+          "sha256": "bc151cf0cb058ab6eec6aba0bcb32998b2b90633507f5a509fdcbf2926fdcef0"
+        }
+      ],
+      "threshold_mm": 0.5,
+      "threshold_status": "inherited_provisional",
+      "summary": {
+        "lines": 14,
+        "all_final_hashes_match_measurements": true,
+        "ordinary_radial_directions": 34976,
+        "near_port_directions_excluded": 10384,
+        "minimum_outer_normal_wall_sample_mm": 0.5862380641503964,
+        "minimum_outer_radial_wall_sample_mm": 0.5871483799440171,
+        "outer_normal_samples_below_0_5_mm": 0,
+        "outer_radial_samples_below_0_5_mm": 0,
+        "missing_boundary_directions": 0,
+        "ambiguous_intervals": 36,
+        "global_wall_proof": false,
+        "physical_print_or_flow_qualification": false
+      },
+      "ambiguous_intervals_by_line": [
+        {
+          "line_id": "L01",
+          "ambiguous_intervals": 6
+        },
+        {
+          "line_id": "L02",
+          "ambiguous_intervals": 2
+        },
+        {
+          "line_id": "L04",
+          "ambiguous_intervals": 1
+        },
+        {
+          "line_id": "L05",
+          "ambiguous_intervals": 7
+        },
+        {
+          "line_id": "L06",
+          "ambiguous_intervals": 1
+        },
+        {
+          "line_id": "L07",
+          "ambiguous_intervals": 4
+        },
+        {
+          "line_id": "L08",
+          "ambiguous_intervals": 7
+        },
+        {
+          "line_id": "L09",
+          "ambiguous_intervals": 1
+        },
+        {
+          "line_id": "L11",
+          "ambiguous_intervals": 1
+        },
+        {
+          "line_id": "L13",
+          "ambiguous_intervals": 6
+        }
+      ],
+      "measurement_reuse": "Reuse an existing actual saved-STL measurement only after exact SHA256 identity verification. Unchanged nine use the pre-rounding hull-capsule measurements; five modified lines use their accepted saved-STL measurements. No measurement from another geometric version is mixed in.",
+      "all14_current_saved_hashes_match_measurements": true,
+      "coverage_ja": "通常部分の34,976方向を測定した。ポート近傍として除外された10,384方向はこの数に含まれない。ポートは別の個別部品および最終本体の有限検査で扱う。",
+      "limitations_ja": "36件の区間分類が曖昧な例を残し、全表面の壁厚条件達成とはしていない。外壁測定と同一路線内部の隔壁や自由端を横切る短い弦を区別する。"
+    },
+    "individual_port_wall_samples": {
+      "status": "all_69_ports_sampled_external_walls_clear_at_provisional_threshold",
+      "evidence": [
+        {
+          "path": "reports/individual_port_wall_samples_R14.json",
+          "sha256": "d59b00794327781a1aa739c3d72839f5b352708c50df1c4ee105e290e90eb447"
+        },
+        {
+          "path": "reports/input_metadata_snapshots/coordinate_metadata_equivalence_R14.json",
+          "sha256": "49861277dea32abc59ccaccc7edc2ea2701799a80774f7230d817f9d5c32cfc0"
+        },
+        {
+          "path": "reports/input_metadata_snapshots/coordinate_systems_R14_used_by_port_samples.json",
+          "sha256": "18d907ed3da5e87a120c95bbe8ab3cdef93ebc7f56e7d9f79626354b31badaf0"
+        }
+      ],
+      "method": "19 axial sections per nozzle, 48 angular directions (both polygon vertices and facet mid-directions), then face-normal material probes from actual saved inner-surface intersections. Faces matching intended core within 0.008 mm are labeled fluid-facing; all measured distances come from saved STL triangles.",
+      "axial_sections_per_port": 19,
+      "angular_directions_per_section": 48,
+      "threshold_mm": 0.5,
+      "threshold_status": "inherited_provisional",
+      "summary": {
+        "ports": 69,
+        "rays": 62928,
+        "normal_outer_wall_samples": 62057,
+        "normal_interline_wall_samples": 0,
+        "minimum_outer_normal_wall_mm": 0.5520720247996256,
+        "minimum_interline_normal_wall_mm": null,
+        "minimum_backward_overlap_source_bound_mm": 0.5228462450359771,
+        "all_ports_sampled_checks_clear": true,
+        "total_outer_wall_samples_below_0_5_mm": 0,
+        "total_interline_wall_samples_below_0_5_mm": 0,
+        "total_missing_boundaries": 0,
+        "total_unexpected_first_surfaces": 0,
+        "total_same_line_internal_exits": 851,
+        "planned_mouth_face_exits": 20
+      },
+      "all14_current_saved_hashes_match_measurements": true,
+      "historical_coordinate_metadata_sha256": "18d907ed3da5e87a120c95bbe8ab3cdef93ebc7f56e7d9f79626354b31badaf0",
+      "historical_and_current_numeric_geometric_metadata_identical": true,
+      "limited_source_side_facet_bounds": {
+        "neck_parallel_facet_gap_mm": 0.5948669168242862,
+        "taper_parallel_facet_gap_mm": 0.5773950778232531,
+        "formula_neck": "(1.2-0.6) cos(pi/24)",
+        "formula_taper": "(1.2-0.6) cos(pi/24) / sqrt(1 + (0.25 cos(pi/24))^2)",
+        "scope": "Unmodified source 24-sided neck and taper side facets. Does not bound the intentional mouth edge, arbitrary material chords, other cutters or export perturbation. Attachment overlap is bounded separately from the actual outer-positive surface distance at the attachment."
+      },
+      "limitations_ja": "同一路線の内部空洞へ戻る851測定と意図した開口端面へ達する20測定は外壁厚の集合から区別した。有限の測定値と限定されたソース側面の構成式を、開口端や任意の材料弦を含む全表面の壁厚保証へ拡張しない。"
+    },
+    "whole_body_port_wall_samples": {
+      "status": "all_69_final_body_ports_sampled_external_and_interline_walls_clear_at_provisional_threshold",
+      "evidence": [
+        {
+          "path": "reports/whole_port_wall_samples_R14.json",
+          "sha256": "c3e8ef912017c7b1803c5ad5d611d57102dd699783d796f5cb73eb9b020f2a16"
+        },
+        {
+          "path": "data/coordinate_systems_R14.json",
+          "sha256": "0627721891415beb96a420763f0c693dba1a7b0a0dc7b5a0ce73074cb7090222"
+        }
+      ],
+      "body_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+      "body_hash_unchanged_during_validation": true,
+      "method": "19 axial sections per nozzle, 48 angular directions (both polygon vertices and facet mid-directions), then face-normal material probes from actual saved inner-surface intersections. Faces matching intended core within 0.008 mm are labeled fluid-facing; all measured distances come from saved STL triangles.",
+      "axial_sections_per_port": 19,
+      "angular_directions_per_section": 48,
+      "threshold_mm": 0.5,
+      "threshold_status": "inherited_provisional",
+      "summary": {
+        "ports": 69,
+        "rays": 62928,
+        "normal_outer_wall_samples": 61313,
+        "normal_interline_wall_samples": 740,
+        "minimum_outer_normal_wall_mm": 0.5520720560688974,
+        "minimum_interline_normal_wall_mm": 0.6323620249089019,
+        "minimum_backward_overlap_source_bound_mm": 0.5228462450359771,
+        "all_ports_sampled_checks_clear": true,
+        "total_outer_wall_samples_below_0_5_mm": 0,
+        "total_interline_wall_samples_below_0_5_mm": 0,
+        "total_missing_boundaries": 0,
+        "total_unexpected_first_surfaces": 0,
+        "total_same_line_internal_exits": 851,
+        "planned_mouth_face_exits": 24
+      },
+      "ray_restart_offset_mm": 0.0001,
+      "core_surface_label_tolerance_mm": 0.008,
+      "current_coordinate_metadata_sha256": "0627721891415beb96a420763f0c693dba1a7b0a0dc7b5a0ce73074cb7090222",
+      "limitations_ja": "最終本体の保存三角形で距離を測った有限検査である。同一路線内部へ戻る851測定と意図した開口端面へ達する24測定は外壁および路線間壁の集合から区別した。全域の最小壁厚や全域の密閉性を証明したものではない。"
+    },
+    "unchanged_flow_coupon": {
+      "status": "five_channels_ten_ports_and_sampled_crossing_barrier_clear",
+      "evidence": [
+        {
+          "path": "reports/flow_coupon_saved_geometry_R14.json",
+          "sha256": "55932a82df8c2f2503f81ea799aef8158ead43c330939872dba2ea893901eed9"
+        },
+        {
+          "path": "data/flow_coupon_R14_specification.json",
+          "sha256": "5cecc403fe6deb41745f9e9648621e9044ce4c2722c509b5c80f0de4714abd0c"
+        },
+        {
+          "path": "reports/final15_exact/flow_coupon_R14_exact_intersections.json",
+          "sha256": "984cd30f6456707c4f9fc579d49f0a6f5441f5fbcb51d2c4ab503db42241ef4b"
+        }
+      ],
+      "file": "models/flow_coupon_R14.stl",
+      "sha256": "5d9b7744d3521ef3022d52a7272ca712d1e07426295077a78aa090b1548c02e8",
+      "matches_recorded_original_stl": true,
+      "bytes_unchanged_during_validation": true,
+      "coordinate_scope": "Actual saved coupon STL in its own XYZ millimetres; railway transform not applied",
+      "summary": {
+        "channels_tested": 5,
+        "ports_tested": 10,
+        "longitudinal_rays": 4090,
+        "blocked_longitudinal_rays": 0,
+        "radial_directions": 19632,
+        "minimum_outer_normal_wall_sample_mm": 0.5948641270506015,
+        "mouth_disk_rays": 90,
+        "through_nozzle_rays": 90,
+        "all_10_sampled_open": true,
+        "all_channel_finite_checks_clear": true,
+        "all_crossing_barriers_meet_0_6_mm": true,
+        "physical_test_performed": false
+      },
+      "path_step_max_mm": 0.4,
+      "longitudinal_offsets": "center plus four offsets at 0.75 times the channel inner radius",
+      "radial_angles": 24,
+      "crossing_material_barrier_sample_count": 9,
+      "crossing_minimum_sampled_gap_mm": 0.7000000476837167,
+      "crossing_threshold_mm": 0.6,
+      "limitations_ja": "試験片の既存STLを変更せずに検査した。有限の経路、開口、外壁、交差部の測定であり、試験片を実際に造形した結果や顔料流動の結果ではない。"
+    },
+    "three_mf_geometry_equivalence": {
+      "status": "saved_3mf_preserves_final_stl_vertices_and_oriented_triangles",
+      "evidence": [
+        {
+          "path": "reports/format_3mf_equivalence_R14.json",
+          "sha256": "d6b02e6e4c3aad133964aa978c4bd434965edd62d8a521a6cc890b208d73670c"
+        }
+      ],
+      "file": "models/subway_R14_hollow_print.3mf",
+      "sha256": "cd50c52fff6f4d59e8a4de426a424d90ee29025c7bc8e486608369461ef81cfb",
+      "source_stl": "models/subway_R14_hollow_print.stl",
+      "source_stl_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+      "units": [
+        "millimeter"
+      ],
+      "triangle_count": 1743478,
+      "vertex_coordinates_exactly_preserved": true,
+      "oriented_triangle_set_exactly_preserved": true,
+      "source_transform_already_baked": true,
+      "file_conversion_only": true,
+      "limitation_ja": "3MFへの変換で幾何を保持したことの確認であり、スライサー設定、支持材、樹脂、露光条件の認定ではない。"
+    },
+    "same_line_junction_free_end_interpretation": {
+      "status": "local_face_pair_diagnosis_recorded_without_global_thickness_claim",
+      "evidence": [
+        {
+          "path": "reports/residual_face_pair_diagnosis_R14.json",
+          "sha256": "9f50687d47f3b371ceb24edd3a5dcea7116fa21a37465859544ba4ee38eeaad0"
+        },
+        {
+          "path": "reports/internal_cusp_repair_R14.json",
+          "sha256": "bc151cf0cb058ab6eec6aba0bcb32998b2b90633507f5a509fdcbf2926fdcef0"
+        }
+      ],
+      "interpretation_ja": "同一路線の合流部に対する局所丸め後にも、自由端を斜めに横切る0.5 mm未満の短い弦が残る。保存された対面の法線方向と局所断面を調べ、外壁に垂直な厚さや平行な薄壁とは区別した。この局所診断を全内部リブの最小厚保証として用いない。"
+    },
+    "physical_qualification": {
+      "status": "not_tested",
+      "evidence": [
+        {
+          "path": "reports/installed_channels_R14.json",
+          "sha256": "dd9127e4c9cce18bf6cdf8f02470f33d1195229a8d06825ce306d4aa36ea3d6b"
+        },
+        {
+          "path": "reports/flow_coupon_saved_geometry_R14.json",
+          "sha256": "55932a82df8c2f2503f81ea799aef8158ead43c330939872dba2ea893901eed9"
+        }
+      ],
+      "actual_sla_print_performed": false,
+      "actual_pigment_flow_test_performed": false,
+      "actual_leak_test_performed": false,
+      "not_qualified": [
+        "printer/resin/exposure/layer-height combination",
+        "support placement and removal in stored print orientation",
+        "resin washing, drainage and trapped-resin removal",
+        "dimensional accuracy and repeatability after curing",
+        "mechanical strength and handling",
+        "pigment wetting, pressure drop, transport, leakage and long-term blockage"
+      ],
+      "statement_ja": "実機作動、購入、実SLA印刷、実通液はこの作業で実施していない。上記の幾何検証を物理試験の合格として扱わない。"
+    }
+  },
+  "unverified_or_limited_items": [
+    {
+      "item": "global_wall_thickness",
+      "status": "not_proven",
+      "detail_ja": "0.5 mmは継承した暫定基準であり、全表面の連続的な最小厚は証明していない。"
+    },
+    {
+      "item": "ordinary_interval_classification",
+      "status": "36_ambiguous_intervals_retained",
+      "detail_ja": "通常部分の36区間は曖昧なまま原票に記録し、合格区間へ振り替えていない。"
+    },
+    {
+      "item": "whole_body_global_containment",
+      "status": "not_consolidated_here",
+      "detail_ja": "最終本体の追加独立検証はindependent_body_finalとして別途報告予定であり、この集約の合格根拠には含めていない。"
+    },
+    {
+      "item": "physical_process_and_flow",
+      "status": "not_tested",
+      "detail_ja": "SLA造形、洗浄、排液、支持材、強度、漏れ、顔料流動は実物で確認していない。"
+    },
+    {
+      "item": "Optional full positive seed replay",
+      "status": "diagnostic candidate rejected; supported checkpoint reproduction is unaffected",
+      "detail_ja": "12段の補修を材料形状から全て再計算する任意経路では4面が接続する辺が1件見つかった。配布モデルには採用せず、現行CLIは位相検査に失敗すると非ゼロ終了する。検証済み中間形状を使用する既定経路は配布STLと同一SHAを再生成する。",
+      "evidence": "reports/seed_replay_limitation_R14.json"
+    }
+  ],
+  "summary_construction": {
+    "new_geometric_tests_executed_for_this_summary": false,
+    "source_or_mesh_modified": false,
+    "other_evidence_reports_modified": false,
+    "all_16_saved_stl_sha256_identities_rechecked": true,
+    "all_14_current_core_sha256_identities_rechecked": true,
+    "all_15_exact_child_report_hashes_verified_against_batch_summary": true,
+    "current_3mf_sha256_identity_rechecked": true,
+    "evidence_hashes_unchanged_during_consolidation": true
+  }
+}

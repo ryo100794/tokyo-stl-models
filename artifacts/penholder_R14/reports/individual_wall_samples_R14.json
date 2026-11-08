@@ -1,0 +1,773 @@
+{
+  "scope": "Final fourteen serialized individual line STLs after the five accepted guarded cavity rounding changes",
+  "method": "Reuse an existing actual saved-STL measurement only after exact SHA256 identity verification. Unchanged nine use the pre-rounding hull-capsule measurements; five modified lines use their accepted saved-STL measurements. No measurement from another geometric version is mixed in.",
+  "validator_sha256": "febe5991e9973866e575b7bb0b5f04783a42b49d15835e02b0a0fe7b974bd44d",
+  "source_paths_sha256": "23cbeba28f3b165365d2fe2509153d5d7abc3bfb8e92d4b3a90172e962cf12da",
+  "source_ports_sha256": "d936b61c49fe48fcf88ca9349cf8e17dd2aaa8ffbd95a087d6fa96e2c503ec86",
+  "global_wall_thickness_proven": false,
+  "physical_tests_performed": false,
+  "near_port_coverage": "Port neighborhoods excluded here; final 69-nozzle sampling is supplied separately in port_wall_samples_R14.json.",
+  "lines": [
+    {
+      "line_id": "L01",
+      "file": "rail_R14_L01.stl",
+      "sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+      "ordinary_rays": 2032,
+      "near_port_rays_excluded": 952,
+      "beyond_3mm_bore_hits": 2,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 5,
+      "ambiguous_intervals": 6,
+      "containment_radial_intervals": 2021,
+      "minimum_containment_radial_mm": 0.5871888508857023,
+      "minimum_containment_normal_mm": 0.5865238529912733,
+      "minimum_septum_radial_mm": 0.9396892682357737,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 373,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.628756046295166,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+        "final_file_sha256": "7e8d4d364a03c3309b17d862eaa4a99b4db3dceba5722991a491c621130fb1d7",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L02",
+      "file": "rail_R14_L02.stl",
+      "sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+      "ordinary_rays": 2168,
+      "near_port_rays_excluded": 752,
+      "beyond_3mm_bore_hits": 0,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 3,
+      "ambiguous_intervals": 2,
+      "containment_radial_intervals": 2163,
+      "minimum_containment_radial_mm": 0.5871483799440171,
+      "minimum_containment_normal_mm": 0.5865978030806211,
+      "minimum_septum_radial_mm": 0.7280231188139139,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 365,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 1.0940091609954834,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+        "final_file_sha256": "5007dbbe3622c0f034d07c399b9ba125a355a4dd09fd9f1b979a4b670cc7b351",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L03",
+      "file": "rail_R14_L03.stl",
+      "sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+      "ordinary_rays": 1920,
+      "near_port_rays_excluded": 696,
+      "beyond_3mm_bore_hits": 0,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 3,
+      "ambiguous_intervals": 0,
+      "containment_radial_intervals": 1917,
+      "minimum_containment_radial_mm": 0.5875852237882402,
+      "minimum_containment_normal_mm": 0.5864384077500345,
+      "minimum_septum_radial_mm": 1.2218466881791388,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 327,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.6032364368438721,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+        "final_file_sha256": "72c039a4bbd233c5cc4be874c0fcec90b137b7ba2e667367969df2e1fac6c7ae",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L04",
+      "file": "rail_R14_L04.stl",
+      "sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+      "ordinary_rays": 2112,
+      "near_port_rays_excluded": 616,
+      "beyond_3mm_bore_hits": 0,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 0,
+      "ambiguous_intervals": 1,
+      "containment_radial_intervals": 2111,
+      "minimum_containment_radial_mm": 0.5877046849973785,
+      "minimum_containment_normal_mm": 0.5864353426982338,
+      "minimum_septum_radial_mm": null,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 341,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.6771283149719238,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+        "final_file_sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L05",
+      "file": "rail_R14_L05.stl",
+      "sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+      "ordinary_rays": 2472,
+      "near_port_rays_excluded": 448,
+      "beyond_3mm_bore_hits": 1,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 2,
+      "ambiguous_intervals": 7,
+      "containment_radial_intervals": 2463,
+      "minimum_containment_radial_mm": 0.5872354389492599,
+      "minimum_containment_normal_mm": 0.586596893141189,
+      "minimum_septum_radial_mm": 0.7501135520725133,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 365,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.8255939483642578,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+        "final_file_sha256": "44ecdfac1c651287d1e85f3b086cde64edf97bf3a5800096e22a96b9820f96e9",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L06",
+      "file": "rail_R14_L06.stl",
+      "sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+      "ordinary_rays": 2288,
+      "near_port_rays_excluded": 1008,
+      "beyond_3mm_bore_hits": 1,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 1,
+      "ambiguous_intervals": 1,
+      "containment_radial_intervals": 2286,
+      "minimum_containment_radial_mm": 0.5872796466367503,
+      "minimum_containment_normal_mm": 0.5862380641503964,
+      "minimum_septum_radial_mm": 0.8769539597271635,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 412,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.781519889831543,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+        "final_file_sha256": "4098336c91701deefe919914bada529850ae004f06a8bf1569203b86913a043d",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L07",
+      "file": "rail_R14_L07.stl",
+      "sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+      "ordinary_rays": 2536,
+      "near_port_rays_excluded": 1120,
+      "beyond_3mm_bore_hits": 1,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 15,
+      "ambiguous_intervals": 4,
+      "containment_radial_intervals": 2517,
+      "minimum_containment_radial_mm": 0.5874937294620309,
+      "minimum_containment_normal_mm": 0.5865982972059719,
+      "minimum_septum_radial_mm": 0.6976782430329245,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 457,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.8286092281341553,
+      "provenance": {
+        "measurement_source_report": "internal_cusp_repair_R14.json",
+        "source_report_sha256": "bc151cf0cb058ab6eec6aba0bcb32998b2b90633507f5a509fdcbf2926fdcef0",
+        "measured_mesh_sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+        "final_file_sha256": "4fc13006c67a6086c6042c8949b6f82f1564faf7cc4b1fd917d9e17d307aca8b",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L08",
+      "file": "rail_R14_L08.stl",
+      "sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+      "ordinary_rays": 3456,
+      "near_port_rays_excluded": 1080,
+      "beyond_3mm_bore_hits": 0,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 14,
+      "ambiguous_intervals": 7,
+      "containment_radial_intervals": 3435,
+      "minimum_containment_radial_mm": 0.5874086726615548,
+      "minimum_containment_normal_mm": 0.5865227120415797,
+      "minimum_septum_radial_mm": 0.8484208703581838,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 567,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 1.1859090328216553,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+        "final_file_sha256": "578e64b7dd62806b1417d5f98b992918a7308d4e6836bc4bd7a46ac15b638eae",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L09",
+      "file": "rail_R14_L09.stl",
+      "sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+      "ordinary_rays": 1064,
+      "near_port_rays_excluded": 464,
+      "beyond_3mm_bore_hits": 2,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 4,
+      "ambiguous_intervals": 1,
+      "containment_radial_intervals": 1059,
+      "minimum_containment_radial_mm": 0.5873499601204221,
+      "minimum_containment_normal_mm": 0.5865975424933582,
+      "minimum_septum_radial_mm": 0.34686345963199156,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": [
+          {
+            "trace_id": "L09_T02",
+            "segment": 101,
+            "angle_rad": 0.0,
+            "center_mm": [
+              -40.9510396254648,
+              22.42071143284972,
+              -12.674260601800468
+            ],
+            "direction": [
+              -0.0,
+              0.9355479786429993,
+              0.35319963145082434
+            ],
+            "thickness_mm": 0.3891504021020485,
+            "entry_mm": [
+              -40.9510396254648,
+              23.054737196412898,
+              -12.434895362247858
+            ],
+            "exit_mm": [
+              -40.9510396254648,
+              23.41880606848758,
+              -12.297447583646475
+            ],
+            "entry_face": 13833,
+            "exit_face": 14314,
+            "entry_kind": "inner",
+            "exit_kind": "inner",
+            "entry_axis_distance_mm": 0.6777052359012341,
+            "exit_axis_distance_mm": 0.596247041317465,
+            "entry_normal_dot_axis_radial": -0.7491328789829808,
+            "exit_normal_dot_axis_radial": -0.9932483540137631
+          },
+          {
+            "trace_id": "L09_T02",
+            "segment": 101,
+            "angle_rad": 5.497787143782138,
+            "center_mm": [
+              -40.9510396254648,
+              22.42071143284972,
+              -12.674260601800468
+            ],
+            "direction": [
+              0.6971500536735578,
+              0.6197683449438962,
+              0.3603734192035524
+            ],
+            "thickness_mm": 0.34686345963199156,
+            "entry_mm": [
+              -40.472486261936446,
+              22.846146709686384,
+              -12.426885003136556
+            ],
+            "exit_mm": [
+              -40.23067038243661,
+              23.061121701984018,
+              -12.301884632192204
+            ],
+            "entry_face": 14077,
+            "exit_face": 14325,
+            "entry_kind": "inner",
+            "exit_kind": "inner",
+            "entry_axis_distance_mm": 0.686442410793303,
+            "exit_axis_distance_mm": 0.597302143309243,
+            "entry_normal_dot_axis_radial": -0.6367378243942552,
+            "exit_normal_dot_axis_radial": -0.99254470457741
+          }
+        ]
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 191,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.2607576847076416,
+      "provenance": {
+        "measurement_source_report": "internal_cusp_repair_R14.json",
+        "source_report_sha256": "bc151cf0cb058ab6eec6aba0bcb32998b2b90633507f5a509fdcbf2926fdcef0",
+        "measured_mesh_sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+        "final_file_sha256": "80dbe5fb0b8e9a3b1b18e19297b27d93e4100f3bd662054f3d6690d69dd3eef6",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L10",
+      "file": "rail_R14_L10.stl",
+      "sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+      "ordinary_rays": 1000,
+      "near_port_rays_excluded": 304,
+      "beyond_3mm_bore_hits": 2,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 0,
+      "ambiguous_intervals": 0,
+      "containment_radial_intervals": 1000,
+      "minimum_containment_radial_mm": 0.5872269165318124,
+      "minimum_containment_normal_mm": 0.5865974035643773,
+      "minimum_septum_radial_mm": null,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 163,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.3432474136352539,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+        "final_file_sha256": "2beaebdce5dabbab04a1a3822a8092201a0aa9bfda00e372ccc5c537a1824cf7",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L11",
+      "file": "rail_R14_L11.stl",
+      "sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+      "ordinary_rays": 1344,
+      "near_port_rays_excluded": 296,
+      "beyond_3mm_bore_hits": 0,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 1,
+      "ambiguous_intervals": 1,
+      "containment_radial_intervals": 1342,
+      "minimum_containment_radial_mm": 0.5872910048857152,
+      "minimum_containment_normal_mm": 0.5865969749280775,
+      "minimum_septum_radial_mm": 2.446640660598537,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 205,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.5137121677398682,
+      "provenance": {
+        "measurement_source_report": "pre_rounding_hull_wall_samples_R14.json",
+        "source_report_sha256": "f848284867236f57c2851a21ab8a970102e8a3902d890a71187dc0065a706993",
+        "measured_mesh_sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+        "final_file_sha256": "567db43c70facf942874e6134ceb35dea939bc7883cbaae034ef2576cca9039b",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L12",
+      "file": "rail_R14_L12.stl",
+      "sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+      "ordinary_rays": 2528,
+      "near_port_rays_excluded": 728,
+      "beyond_3mm_bore_hits": 0,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 3,
+      "ambiguous_intervals": 0,
+      "containment_radial_intervals": 2525,
+      "minimum_containment_radial_mm": 0.5873406177535645,
+      "minimum_containment_normal_mm": 0.5865974418593338,
+      "minimum_septum_radial_mm": 0.6364261662988348,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": []
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 407,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 0.7233679294586182,
+      "provenance": {
+        "measurement_source_report": "internal_cusp_repair_R14.json",
+        "source_report_sha256": "bc151cf0cb058ab6eec6aba0bcb32998b2b90633507f5a509fdcbf2926fdcef0",
+        "measured_mesh_sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+        "final_file_sha256": "1e024192a5ad98eae9c18ab6ee95d0233e82001f9b48c39df103d30f8687d702",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L13",
+      "file": "rail_R14_L13.stl",
+      "sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+      "ordinary_rays": 5984,
+      "near_port_rays_excluded": 864,
+      "beyond_3mm_bore_hits": 5,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 17,
+      "ambiguous_intervals": 6,
+      "containment_radial_intervals": 5961,
+      "minimum_containment_radial_mm": 0.5873274580274386,
+      "minimum_containment_normal_mm": 0.5865966925107432,
+      "minimum_septum_radial_mm": 0.18448536737767715,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": [
+          {
+            "trace_id": "L13_T03",
+            "segment": 338,
+            "angle_rad": 3.141592653589793,
+            "center_mm": [
+              -49.618890043348074,
+              -2.097818989568623,
+              1.2006865999865113
+            ],
+            "direction": [
+              -1.2207314371810084e-16,
+              0.8976088242609416,
+              0.4407929203252814
+            ],
+            "thickness_mm": 0.4974060666360368,
+            "entry_mm": [
+              -49.618890043348074,
+              -1.515195622086562,
+              1.4867981539962662
+            ],
+            "exit_mm": [
+              -49.618890043348074,
+              -1.0687195474331295,
+              1.7060512266962764
+            ],
+            "entry_face": 4540,
+            "exit_face": 4794,
+            "entry_kind": "inner",
+            "exit_kind": "inner",
+            "entry_axis_distance_mm": 0.6490838233032875,
+            "exit_axis_distance_mm": 0.600262224790881,
+            "entry_normal_dot_axis_radial": -0.8958243842989635,
+            "exit_normal_dot_axis_radial": -0.9834572499189309
+          },
+          {
+            "trace_id": "L13_T03",
+            "segment": 344,
+            "angle_rad": 3.141592653589793,
+            "center_mm": [
+              -49.90448383614421,
+              -0.9915843715475604,
+              1.0173348747457567
+            ],
+            "direction": [
+              -1.2130168405441374e-16,
+              -0.7850112220289385,
+              0.6194815423308693
+            ],
+            "thickness_mm": 0.18448536737767715,
+            "entry_mm": [
+              -49.90448383614421,
+              -1.5871105220231847,
+              1.4872867019839733
+            ],
+            "exit_mm": [
+              -49.90448383614421,
+              -1.7319336057147927,
+              1.6015719819045737
+            ],
+            "entry_face": 4479,
+            "exit_face": 4625,
+            "entry_kind": "inner",
+            "exit_kind": "inner",
+            "entry_axis_distance_mm": 0.6514918501930667,
+            "exit_axis_distance_mm": 0.5898011884275652,
+            "entry_normal_dot_axis_radial": -0.8072061088567543,
+            "exit_normal_dot_axis_radial": -0.9977577927944493
+          }
+        ]
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 856,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 3.165475368499756,
+      "provenance": {
+        "measurement_source_report": "internal_cusp_repair_R14.json",
+        "source_report_sha256": "bc151cf0cb058ab6eec6aba0bcb32998b2b90633507f5a509fdcbf2926fdcef0",
+        "measured_mesh_sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+        "final_file_sha256": "aa0d2c4b02c94bb598f3dfc4248e30ccbf89009629814148d7c20c86a6251e40",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    },
+    {
+      "line_id": "L14",
+      "file": "rail_R14_L14.stl",
+      "sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+      "ordinary_rays": 4072,
+      "near_port_rays_excluded": 1056,
+      "beyond_3mm_bore_hits": 4,
+      "missing_boundary": 0,
+      "escape_through_intended_mouth": 0,
+      "same_line_septum_intervals": 8,
+      "ambiguous_intervals": 0,
+      "containment_radial_intervals": 4064,
+      "minimum_containment_radial_mm": 0.5873898448418584,
+      "minimum_containment_normal_mm": 0.5862595199183633,
+      "minimum_septum_radial_mm": 0.2421429822632326,
+      "radial_below_threshold_count": 0,
+      "normal_below_threshold_count": 0,
+      "examples": {
+        "radial_thin": [],
+        "normal_thin": [],
+        "missing": [],
+        "septum": [
+          {
+            "trace_id": "L14_T01",
+            "segment": 182,
+            "angle_rad": 2.356194490192345,
+            "center_mm": [
+              -38.88073132839054,
+              41.10462940298021,
+              14.560130483005196
+            ],
+            "direction": [
+              -0.43804091711697735,
+              -0.6578932515761172,
+              0.6126145806801544
+            ],
+            "thickness_mm": 0.2421429822632326,
+            "entry_mm": [
+              -40.10027322919371,
+              39.273000540924706,
+              16.265699805386333
+            ],
+            "exit_mm": [
+              -40.206341763217736,
+              39.11369630697721,
+              16.414040126930168
+            ],
+            "entry_face": 38059,
+            "exit_face": 38084,
+            "entry_kind": "inner",
+            "exit_kind": "inner",
+            "entry_axis_distance_mm": 0.5930964368427858,
+            "exit_axis_distance_mm": 0.5933881862040372,
+            "entry_normal_dot_axis_radial": -0.9987545665196086,
+            "exit_normal_dot_axis_radial": -0.9976951639004631
+          }
+        ]
+      },
+      "sampling": {
+        "angles": 8,
+        "source_segment_midpoints": 641,
+        "threshold_mm": 0.5,
+        "near_port_exclusion_mm": "length + 2.0",
+        "finite_sampling_only": true
+      },
+      "diagnostic_status": "sampled_checks_clear_with_limits",
+      "seconds": 2.2425713539123535,
+      "provenance": {
+        "measurement_source_report": "internal_cusp_repair_R14.json",
+        "source_report_sha256": "bc151cf0cb058ab6eec6aba0bcb32998b2b90633507f5a509fdcbf2926fdcef0",
+        "measured_mesh_sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+        "final_file_sha256": "8a097682decdb0239f470f9dd5be160e18f1424876c5a9ba10d0533a9acac826",
+        "exact_hash_identity_verified": true,
+        "finite_measurements_reused_after_identity_verification": true
+      }
+    }
+  ],
+  "summary": {
+    "lines": 14,
+    "all_final_hashes_match_measurements": true,
+    "ordinary_radial_directions": 34976,
+    "near_port_directions_excluded": 10384,
+    "minimum_outer_normal_wall_sample_mm": 0.5862380641503964,
+    "minimum_outer_radial_wall_sample_mm": 0.5871483799440171,
+    "outer_normal_samples_below_0_5_mm": 0,
+    "outer_radial_samples_below_0_5_mm": 0,
+    "missing_boundary_directions": 0,
+    "ambiguous_intervals": 36,
+    "global_wall_proof": false,
+    "physical_print_or_flow_qualification": false
+  }
+}

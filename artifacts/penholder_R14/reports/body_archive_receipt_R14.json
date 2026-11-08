@@ -1,0 +1,24 @@
+{
+  "schema": "R14-exact-archive-receipt-v1",
+  "role": "Final R14 body STL and equivalent 3MF; numerical geometry checked; physical tests unperformed",
+  "archive_path": "/workspace/scratch/e1b7a5798e07/r14_current/archives/body_R14_exact.zip",
+  "archive_bytes": 63296598,
+  "archive_sha256": "14e8c21d246e57f0f9bb381573d2bd60422f32659f6501905411a34979d9f403",
+  "member_count": 2,
+  "uncompressed_payload_bytes": 115280595,
+  "all_member_sha256_verified_from_archive": true,
+  "below_github_regular_file_limit_100_MiB": true,
+  "files": [
+    {
+      "path": "models/subway_R14_hollow_print.3mf",
+      "bytes": 28106611,
+      "sha256": "cd50c52fff6f4d59e8a4de426a424d90ee29025c7bc8e486608369461ef81cfb"
+    },
+    {
+      "path": "models/subway_R14_hollow_print.stl",
+      "bytes": 87173984,
+      "sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47"
+    }
+  ],
+  "external_service_upload_performed": false
+}

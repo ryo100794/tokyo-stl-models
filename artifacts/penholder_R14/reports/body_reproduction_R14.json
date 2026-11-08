@@ -1,0 +1,29 @@
+{
+  "recipe_sha256": "8e7b8d418ce2f87fd7cc88d1b758fbffe9e0892fac811a3193285bc700e93cb3",
+  "source_script_sha256": "af9d2374811214ad0733c2021af6e4fddf5b3ea78ebe7157ce6934100b119a1d",
+  "core_geometry_manifest_sha256": "8326d44e976192e397562dfd1cb9e3f59a737bb1a10f427fa9469a032faefdc6",
+  "all_core_file_sha256": "f0141afa1c6642fcc832a295ff4e0b93162a4680aa04a86199a6c4b404fcea77",
+  "positive_rebuilt_from_seeds": false,
+  "all_final_cores_recut": true,
+  "raw_sha256": "d7699fd4e8736b107e01fb85a2c2c1bd8a2560a99de0a73bbf3d821823cf361a",
+  "principal_before_seam_sha256": "78737ff7b1e9c6ddf29c91f919c5998e905da39d4b6aefaa10d0456429b627b3",
+  "candidate_sha256": "8f0484bf167c83327a2a3b7a7606c7da04b81e7e337642dd2bb626a15deb2b47",
+  "candidate_file": "subway_R14_hollow_candidate_print.stl",
+  "basic_serialized_topology_passed": true,
+  "candidate_status": "requires independent acceptance",
+  "supported_reproduction_mode": "SHA-pinned positive checkpoint plus final lumen recut and saved-mesh corrections",
+  "diagnostic_only": true,
+  "independent_acceptance_required": true,
+  "required_checks": [
+    "topology and vertex links",
+    "all-triangle exact self intersections",
+    "removed-surface containment and intended-core separation",
+    "installed channels and 69 openings",
+    "wall regions",
+    "stored normals and orientation"
+  ],
+  "physical_tests_performed": false,
+  "seconds": 46.141244411468506,
+  "delivered_file": "models/subway_R14_hollow_print.stl",
+  "delivered_stl_exactly_reproduced": true
+}

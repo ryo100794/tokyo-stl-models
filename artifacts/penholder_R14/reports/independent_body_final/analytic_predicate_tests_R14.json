@@ -1,0 +1,8 @@
+{
+  "cases": 15,
+  "orientation_permutations": 36,
+  "total_checks": 540,
+  "passed": 540,
+  "failures": [],
+  "engine_stdout": "triangles=1080 pairs=540 common_power_of_two=-80 counts=72,144,36,108,108,36,36,"
+}
