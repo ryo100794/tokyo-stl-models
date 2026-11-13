@@ -1,0 +1,58 @@
+{
+  "schema": "R14_L04_recovery_checkpoint_v1",
+  "baseline_commit": "72fcdebe1b66dcb774f1e91091100a8430e467f6",
+  "branch": "recovery/r14-20261109",
+  "scope": "Additive L04 wall diagnostic only; existing geometry and R13 unchanged",
+  "previous_diagnostic_zip_recovered": false,
+  "previous_diagnostic_intermediates_recovered": false,
+  "search_scope": "Local /mnt/data and accessible Drive names L04_wall or L04_diagnostic; specified R14 reports folder",
+  "concurrency_checks": {
+    "open_pull_requests": 0,
+    "github_actions_runs": 0,
+    "local_matching_processes_before_run": 0,
+    "old_chat_live_state": "unavailable: Browser originating context required",
+    "new_competing_assignment_found_in_available_chat_history": false
+  },
+  "inputs": [
+    {
+      "file": "generation_source_R14_repaired.zip",
+      "bytes": 119651,
+      "sha256": "92c5c7f0e4157897d6834af815f6d53d7ca6d434b3ebe21ed8b351a436293890"
+    },
+    {
+      "file": "validation_and_previews_R14_exact.zip",
+      "bytes": 2439616,
+      "sha256": "5859134e7be48a17fb5e00db8bf881c348fafb2002695c5655a13c1cc36bf0e8"
+    },
+    {
+      "file": "rail_R14_L04.stl",
+      "bytes": 1705484,
+      "sha256": "f95aa2d7399d52e91e71e8fa6381ddf98d4bd26721bfe5af4062182d40180089"
+    },
+    {
+      "file": "rail_paths_R14.json",
+      "bytes": 5701303,
+      "sha256": "23cbeba28f3b165365d2fe2509153d5d7abc3bfb8e92d4b3a90172e962cf12da"
+    },
+    {
+      "file": "ports_R14.json",
+      "bytes": 74179,
+      "sha256": "d936b61c49fe48fcf88ca9349cf8e17dd2aaa8ffbd95a087d6fa96e2c503ec86"
+    }
+  ],
+  "source_archive_manifest_matches": 48,
+  "validation_archive_manifest_matches": 143,
+  "legacy_total_ambiguous_intervals": 36,
+  "legacy_L04_ambiguous_intervals": 1,
+  "localization_completed": true,
+  "localization_trace": "L04_T01",
+  "localization_segment_zero_based": 283,
+  "localization_angle_index_zero_based": 6,
+  "global_wall_thickness_proven": false,
+  "physical_tests_performed": false,
+  "technical_limits": [
+    "Old chat live state unavailable",
+    "Direct sandbox DNS lookup for api.github.com failed; connected GitHub read tools work"
+  ],
+  "approval_pending_observed": false
+}
